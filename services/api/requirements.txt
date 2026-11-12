@@ -21,7 +21,7 @@ certifi==2026.10.23
     #   httpx
 click==8.5.0
     # via uvicorn
-fastapi==0.141.1
+fastapi==0.162.2
     # via -r requirements.in
 h11==0.16.0
     # via
@@ -30,13 +30,13 @@ h11==0.16.0
     #   uvicorn
 httpcore==1.0.9
     # via httpx
-httpcore2==2.12.0
+httpcore2==2.16.0
     # via httpx2
 httptools==0.8.0
     # via uvicorn
 httpx==0.28.1
     # via -r requirements.in
-httpx2==2.12.0
+httpx2==2.16.0
     # via openai
 idna==3.19
     # via
@@ -45,8 +45,10 @@ idna==3.19
     #   httpx2
 jiter==0.17.0
     # via openai
-openai==3.13.0
+openai==3.48.0
     # via -r requirements.in
+opentelemetry-api==1.45.2
+    # via fastapi
 pydantic==2.13.5
     # via
     #   fastapi
@@ -54,9 +56,9 @@ pydantic==2.13.5
     #   pydantic-settings
 pydantic-core==2.46.5
     # via pydantic
-pydantic-settings==2.15.0
+pydantic-settings==2.16.2
     # via -r requirements.in
-pypdf==6.21.4
+pypdf==7.0.0
     # via -r requirements.in
 python-dotenv==1.2.3
     # via
@@ -78,8 +80,10 @@ typing-extensions==4.16.0
     #   fastapi
     #   httpx2
     #   openai
+    #   opentelemetry-api
     #   pydantic
     #   pydantic-core
+    #   pydantic-settings
     #   starlette
     #   typing-inspection
 typing-inspection==0.4.4
@@ -87,7 +91,7 @@ typing-inspection==0.4.4
     #   fastapi
     #   pydantic
     #   pydantic-settings
-uvicorn==0.52.4
+uvicorn==0.54.0
     # via -r requirements.in
 uvloop==0.22.1
     # via uvicorn

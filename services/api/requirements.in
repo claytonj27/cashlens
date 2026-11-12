@@ -5,4 +5,4 @@ uvicorn[standard]
 pydantic-settings
 httpx
 openai
-pypdf>=6.21.4,<7
+pypdf>=7.0.0,<8
