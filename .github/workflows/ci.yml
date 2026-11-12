@@ -43,7 +43,7 @@ jobs:
         working-directory: services/api
     steps:
       - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
+      - uses: actions/setup-python@v7
         with:
           python-version-file: services/api/.python-version
           cache: pip
