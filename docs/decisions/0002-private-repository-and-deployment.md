@@ -74,8 +74,8 @@ is a public snapshot of it: rebuilt from the private `main` as a single commit w
 with the discovery engagement's content removed (the authored question bank, its fixtures and
 metadata, the design documents' customer references, and the scripts that create or invite a
 named stakeholder) and the feature's customer-specific identifiers renamed to generic ones. The
-snapshot is produced by a script kept outside the repository, and before each publication the
-tree and the full private history are scanned for secrets, personal addresses, project
+snapshot is produced by `scripts/build_public_snapshot.py`, which excludes itself from the
+export, and before each publication the tree and the full private history are scanned for secrets, personal addresses, project
 identifiers and deployment URLs. The snapshot is not deployed and does not run against the
 private database without the corresponding renames.
 
