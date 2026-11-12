@@ -1,0 +1,8 @@
+# Runtime dependencies (unpinned intent). Lock with:
+#   .venv/bin/pip-compile --strip-extras --output-file requirements.txt requirements.in
+fastapi
+uvicorn[standard]
+pydantic-settings
+httpx
+openai
+pypdf>=6.21.4,<7

@@ -1,0 +1,15 @@
+flowchart TD
+    A["Open demo"] --> B["Create or resume visitor session"]
+    B --> C["Select fictional business"]
+    C --> D["Load isolated workspace and assigned layout"]
+    D --> E["Weekly overview"]
+    E --> F["Open insight evidence"]
+    E --> G["Ask CFO or explore scenario"]
+    F --> H{"Classification unclear?"}
+    H -->|Yes| I["Owner clarifies transaction"]
+    I --> J["Save override and recalculate"]
+    J --> E
+    H -->|No| E
+    G --> K["Validate and calculate scenario"]
+    K --> L["Show result, assumptions and sources"]
+    L --> E

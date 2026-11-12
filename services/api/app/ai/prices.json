@@ -1,0 +1,43 @@
+{
+  "recorded_on": "2026-09-14",
+  "source": "OpenAI models: https://developers.openai.com/api/docs/pricing and the per-model page https://developers.openai.com/api/docs/models/gpt-5.2. OpenRouter models: the provider's own https://openrouter.ai/api/v1/models and the per-model .../endpoints listing, read programmatically on the date above.",
+  "note": "Standard (non-cached, non-batch) rates. Cached input is cheaper and is NOT relied on: a reservation prices every input token at the full rate, so a cache miss can never cost more than was held. Prices are re-read and this date updated before any further paid run.",
+  "units": "United States dollars per million tokens",
+  "models": {
+    "gpt-5.2": {
+      "input_usd_per_million": 1.75,
+      "output_usd_per_million": 14.0,
+      "cached_input_usd_per_million": 0.175,
+      "note": "Reasoning model. Reasoning tokens are billed as output and counted inside max_completion_tokens, so the output allowance must leave room for them."
+    },
+    "gpt-5.2-2025-12-11": {
+      "input_usd_per_million": 1.75,
+      "output_usd_per_million": 14.0,
+      "cached_input_usd_per_million": 0.175,
+      "note": "The pinned snapshot of gpt-5.2, used so a recorded result names an exact model rather than a moving alias."
+    },
+    "gpt-5.1": {
+      "input_usd_per_million": 1.25,
+      "output_usd_per_million": 10.0,
+      "cached_input_usd_per_million": 0.125
+    },
+    "gpt-5": {
+      "input_usd_per_million": 1.25,
+      "output_usd_per_million": 10.0,
+      "cached_input_usd_per_million": 0.125
+    },
+    "qwen/qwen3.8-max-0902": {
+      "input_usd_per_million": 2.0,
+      "output_usd_per_million": 6.0,
+      "route": "openrouter",
+      "note": "Reached through OpenRouter, which is a router: one slug can be served by several upstream providers at different prices. On the date above this slug listed exactly ONE serving endpoint (Alibaba) at these rates, so there is no spread to reserve against. These same two numbers are sent as the routing max_price ceiling on every call, so an upstream priced above them cannot serve the request: OpenRouter answers 404 and nothing is billed. If further endpoints appear later at higher rates, the ceiling refuses them rather than silently costing more than was held.",
+      "verified": {
+        "endpoints_listed": 1,
+        "upstream": "Alibaba",
+        "context_length": 1000000,
+        "max_completion_tokens": 131072,
+        "structured_outputs": true
+      }
+    }
+  }
+}

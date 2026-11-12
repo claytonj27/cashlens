@@ -1,0 +1,22 @@
+[
+  {
+    "note": "PHASE 2 TEST DATA. Disposable. One template, one section, five synthetic questions, no real the customer information. Replaced by the real banks in phase 4.",
+    "slug": "phase2-discovery-test",
+    "title": "Discovery (phase 2 test)",
+    "subtitle": "A five-question walkthrough of the portal on made-up material.",
+    "estimated_minutes": 10,
+    "sections": [
+      "phase2-core-test"
+    ]
+  },
+  {
+    "note": "PHASE 3.5 TEST DATA. SYNTHETIC. Disposable. One template, one section, six made-up transaction cases to prove the calibration model. Replaced by the real calibration bank in phase 4.",
+    "slug": "phase35-calibration-test",
+    "title": "Transaction calibration (phase 3.5 test)",
+    "subtitle": "Six made-up bank rows, read one at a time.",
+    "estimated_minutes": 6,
+    "sections": [
+      "phase35-calibration-proof"
+    ]
+  }
+]

@@ -1,0 +1,14 @@
+flowchart TD
+    A["Choose data source"] --> B["Explore fictional businesses"]
+    A --> C["Sign in and create private business"]
+    C --> D["Upload CSV or text PDF"]
+    D --> E["Validate and extract draft rows"]
+    E --> F{"Supported and complete?"}
+    F -->|No| G["Explain issue or request correction"]
+    G --> D
+    F -->|Yes| H["Review rows, dates and balances"]
+    H --> I["Confirm import"]
+    I --> J["Normalize and save atomically"]
+    B --> K["Shared analysis pipeline"]
+    J --> K
+    K --> L["Metrics, AI brief and scenarios"]

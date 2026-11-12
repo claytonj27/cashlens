@@ -1,0 +1,8 @@
+# Development dependencies. Runtime pins come from requirements.txt as constraints. Lock with:
+#   .venv/bin/pip-compile --strip-extras --output-file requirements-dev.txt requirements-dev.in
+-c requirements.txt
+-r requirements.in
+pytest
+httpx2
+ruff
+pip-tools

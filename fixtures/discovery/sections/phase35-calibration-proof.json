@@ -1,0 +1,222 @@
+{
+  "note": "PHASE 3.5 TEST DATA. SYNTHETIC. Disposable. Six made-up bank rows across five case families, one family carrying a controlled variant, to prove the transaction calibration model. Every merchant relationship, counterparty name, amount and date is invented; no real applicant, statement row or the customer information. RETIRED: the real calibration library is loaded; these cases stay in the database, retired, so their history remains readable.",
+  "slug": "phase35-calibration-proof",
+  "title": "Reading individual transactions",
+  "description": "Six made-up bank rows. For each, say what it is and how much it would matter when deciding whether to lend.",
+  "is_core": false,
+  "retired": true,
+  "estimated_minutes": 6,
+  "calibration_reason_codes": [
+    {
+      "value": "merchant_ambiguous",
+      "label": "The merchant could be either"
+    },
+    {
+      "value": "amount_atypical",
+      "label": "The amount is unusual for this"
+    },
+    {
+      "value": "timing_atypical",
+      "label": "The timing points one way"
+    },
+    {
+      "value": "counterparty_personal",
+      "label": "The counterparty looks personal"
+    },
+    {
+      "value": "recurrence_regular",
+      "label": "It recurs too regularly to be incidental"
+    },
+    {
+      "value": "vertical_decides",
+      "label": "The business type settles it"
+    },
+    {
+      "value": "need_more_context",
+      "label": "I would need to see more"
+    }
+  ],
+  "questions": [
+    {
+      "question_key": "calib.uber.restaurant.baseline",
+      "question_text": "What is this transaction, and how much does it matter?",
+      "helper_text": "A synthetic row. Classify it, say how sure you are, and how much weight it would carry.",
+      "question_type": "transaction_calibration",
+      "required_core": true,
+      "priority": 70,
+      "sensitivity": "low",
+      "order": 0,
+      "transaction_case": {
+        "case_family": "uber-restaurant",
+        "variant": "baseline",
+        "synthetic": true,
+        "business_vertical": "restaurant",
+        "business_description": "A twelve-table neighbourhood restaurant, open six days a week.",
+        "account_type": "checking",
+        "direction": "outflow",
+        "amount_minor": -1840,
+        "descriptor": "UBER *TRIP 8N2K4",
+        "merchant": "Uber",
+        "payment_rail": "card",
+        "posted_date": "2026-03-14",
+        "day_of_week": 6,
+        "time_of_day": "22:41",
+        "frequency_30d": 11,
+        "frequency_90d": 29,
+        "average_amount_minor": -1680,
+        "amount_min_minor": -2400,
+        "amount_max_minor": -900,
+        "recurrence_pattern": "irregular"
+      }
+    },
+    {
+      "question_key": "calib.safeway.restaurant",
+      "question_text": "What is this transaction, and how much does it matter?",
+      "helper_text": "A synthetic row. Classify it, say how sure you are, and how much weight it would carry.",
+      "question_type": "transaction_calibration",
+      "required_core": true,
+      "priority": 70,
+      "sensitivity": "low",
+      "order": 1,
+      "transaction_case": {
+        "case_family": "safeway-restaurant",
+        "variant": "baseline",
+        "synthetic": true,
+        "business_vertical": "restaurant",
+        "business_description": "A twelve-table neighbourhood restaurant, open six days a week.",
+        "account_type": "checking",
+        "direction": "outflow",
+        "amount_minor": -18450,
+        "descriptor": "SAFEWAY #1472 OAKLAND CA",
+        "merchant": "Safeway",
+        "payment_rail": "card",
+        "posted_date": "2026-03-17",
+        "day_of_week": 2,
+        "time_of_day": "10:12",
+        "frequency_30d": 4,
+        "frequency_90d": 13,
+        "average_amount_minor": -16200,
+        "amount_min_minor": -23100,
+        "amount_max_minor": -9800,
+        "recurrence_pattern": "weekly"
+      }
+    },
+    {
+      "question_key": "calib.zelle.restaurant.recurring",
+      "question_text": "What is this transaction, and how much does it matter?",
+      "helper_text": "A synthetic row. Classify it, say how sure you are, and how much weight it would carry.",
+      "question_type": "transaction_calibration",
+      "required_core": true,
+      "priority": 80,
+      "sensitivity": "low",
+      "order": 2,
+      "transaction_case": {
+        "case_family": "zelle-restaurant",
+        "variant": "baseline",
+        "synthetic": true,
+        "business_vertical": "restaurant",
+        "business_description": "A twelve-table neighbourhood restaurant, open six days a week.",
+        "account_type": "checking",
+        "direction": "outflow",
+        "amount_minor": -95000,
+        "descriptor": "ZELLE PAYMENT TO DELACROIX M",
+        "counterparty": "M. Delacroix (invented name)",
+        "payment_rail": "zelle",
+        "posted_date": "2026-03-15",
+        "day_of_week": 0,
+        "frequency_30d": 2,
+        "frequency_90d": 6,
+        "average_amount_minor": -95000,
+        "amount_min_minor": -95000,
+        "amount_max_minor": -95000,
+        "recurrence_pattern": "semimonthly",
+        "context": {
+          "pattern": "The same amount on the 1st and the 15th for three months. The surname does not match the applicant's."
+        }
+      }
+    },
+    {
+      "question_key": "calib.reversal.matched",
+      "question_text": "What is this transaction, and how much does it matter?",
+      "helper_text": "A synthetic row. Classify it, say how sure you are, and how much weight it would carry.",
+      "question_type": "transaction_calibration",
+      "required_core": true,
+      "priority": 60,
+      "sensitivity": "low",
+      "order": 3,
+      "transaction_case": {
+        "case_family": "reversal-matched",
+        "variant": "baseline",
+        "synthetic": true,
+        "business_vertical": "restaurant",
+        "business_description": "A twelve-table neighbourhood restaurant, open six days a week.",
+        "account_type": "checking",
+        "direction": "inflow",
+        "amount_minor": 12999,
+        "descriptor": "SQUARE INC 2039 CREDIT",
+        "merchant": "Square",
+        "payment_rail": "ach",
+        "posted_date": "2026-03-12",
+        "day_of_week": 4,
+        "frequency_30d": 1,
+        "frequency_90d": 2,
+        "recurrence_pattern": "none",
+        "related_transactions": [
+          {
+            "descriptor": "SQUARE INC 2039",
+            "amount_minor": -12999,
+            "posted_date": "2026-03-10",
+            "note": "same amount, two days earlier, no REVERSAL wording"
+          }
+        ]
+      }
+    },
+    {
+      "question_key": "calib.ach.unknown.high",
+      "question_text": "What is this transaction, and how much does it matter?",
+      "helper_text": "A synthetic row. Classify it, say how sure you are, and how much weight it would carry.",
+      "question_type": "transaction_calibration",
+      "required_core": true,
+      "priority": 80,
+      "sensitivity": "low",
+      "order": 4,
+      "transaction_case": {
+        "case_family": "ach-unknown",
+        "variant": "baseline",
+        "synthetic": true,
+        "business_vertical": "restaurant",
+        "business_description": "A twelve-table neighbourhood restaurant, open six days a week.",
+        "account_type": "checking",
+        "direction": "outflow",
+        "amount_minor": -1500000,
+        "descriptor": "ACH DEBIT 8823 HLDGS LLC",
+        "counterparty": "8823 Hldgs LLC (invented name)",
+        "payment_rail": "ach",
+        "posted_date": "2026-03-19",
+        "day_of_week": 4,
+        "frequency_30d": 1,
+        "frequency_90d": 1,
+        "recurrence_pattern": "none"
+      }
+    },
+    {
+      "question_key": "calib.uber.restaurant.tuesday",
+      "question_text": "What is this transaction, and how much does it matter?",
+      "helper_text": "A synthetic row. Classify it, say how sure you are, and how much weight it would carry.",
+      "question_type": "transaction_calibration",
+      "required_core": false,
+      "priority": 70,
+      "sensitivity": "low",
+      "order": 5,
+      "transaction_case": {
+        "case_family": "uber-restaurant",
+        "variant": "tuesday-morning",
+        "changed_feature": "day_of_week",
+        "synthetic": true,
+        "day_of_week": 2,
+        "time_of_day": "09:15",
+        "posted_date": "2026-03-17"
+      }
+    }
+  ]
+}

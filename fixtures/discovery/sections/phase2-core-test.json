@@ -1,0 +1,109 @@
+{
+  "note": "PHASE 2 TEST DATA. Disposable. Five synthetic questions covering short_text, boolean, single_select, currency and scenario_decision. Contains no real the customer business information. Every figure in the scenario is made up. RETIRED: the real bank is loaded; these questions stay in the database, retired, so their history remains readable.",
+  "slug": "phase2-core-test",
+  "title": "Core test section",
+  "description": "Five made-up questions that exercise one input of each kind the portal will use.",
+  "is_core": false,
+  "retired": true,
+  "estimated_minutes": 10,
+  "questions": [
+    {
+      "question_key": "phase2.test.short_text",
+      "question_text": "In a sentence, what does the test business do?",
+      "helper_text": "Anything at all. This is a test question on a test template.",
+      "question_type": "short_text",
+      "required_core": true,
+      "priority": 50,
+      "sensitivity": "low",
+      "order": 0
+    },
+    {
+      "question_key": "phase2.test.boolean",
+      "question_text": "Does the test business take card payments?",
+      "question_type": "boolean",
+      "required_core": true,
+      "priority": 50,
+      "sensitivity": "low",
+      "order": 1
+    },
+    {
+      "question_key": "phase2.test.single_select",
+      "question_text": "How often does the test business review its cash position?",
+      "helper_text": "Pick the closest.",
+      "question_type": "single_select",
+      "required_core": true,
+      "priority": 50,
+      "sensitivity": "low",
+      "order": 2,
+      "options": [
+        {
+          "value": "daily",
+          "label": "Daily"
+        },
+        {
+          "value": "weekly",
+          "label": "Weekly"
+        },
+        {
+          "value": "monthly",
+          "label": "Monthly"
+        },
+        {
+          "value": "rarely",
+          "label": "Rarely"
+        }
+      ]
+    },
+    {
+      "question_key": "phase2.test.currency",
+      "question_text": "Roughly what is the test business's monthly rent?",
+      "helper_text": "Optional. A made-up figure is fine; this question exists to exercise a currency input and the skip control.",
+      "question_type": "currency",
+      "required_core": false,
+      "priority": 30,
+      "sensitivity": "high",
+      "order": 3
+    },
+    {
+      "question_key": "phase2.test.scenario",
+      "question_text": "Would you approve, deny, or manually review this applicant?",
+      "helper_text": "A synthetic case. Nothing about it describes a real applicant.",
+      "question_type": "scenario_decision",
+      "required_core": true,
+      "priority": 60,
+      "sensitivity": "low",
+      "order": 4,
+      "options": [
+        {
+          "value": "revenue_stable",
+          "label": "Revenue stable over the period"
+        },
+        {
+          "value": "nsf_recent",
+          "label": "Recent NSF event"
+        },
+        {
+          "value": "debt_load",
+          "label": "Existing debt load"
+        },
+        {
+          "value": "thin_history",
+          "label": "Short operating history"
+        },
+        {
+          "value": "other",
+          "label": "Other (say what in the notes)"
+        }
+      ],
+      "scenario_brief": {
+        "synthetic": true,
+        "applicant": "Synthetic restaurant applicant",
+        "monthly_revenue_minor": 7000000,
+        "revenue_pattern": "Stable for six months",
+        "nsf_events_last_90_days": 1,
+        "existing_debt_payment_monthly_minor": 200000,
+        "notes": "Made-up case for the phase 2 test template. No real applicant, no real financial data."
+      }
+    }
+  ]
+}

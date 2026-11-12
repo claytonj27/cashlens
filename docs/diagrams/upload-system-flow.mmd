@@ -1,0 +1,15 @@
+flowchart TD
+    U["Authenticated owner"] --> S["Private Storage upload"]
+    S --> J["Persisted import job"]
+    J --> V["Validate bytes and limits"]
+    V --> C["CSV mapping"]
+    V --> P["PDF text extraction"]
+    P --> M["Bounded AI extraction if needed"]
+    C --> R["Staging and reconciliation"]
+    P --> R
+    M --> R
+    R --> A["Owner review and confirmation"]
+    A --> N["Canonical transaction ingestion"]
+    N --> F["Existing calculations and AI"]
+    D["Synthetic provider"] --> N
+    Q["Future bank connector"] -.-> N

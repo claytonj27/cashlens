@@ -1,0 +1,11 @@
+erDiagram
+    AUTH_USERS ||--o{ BUSINESS_MEMBERSHIPS : holds
+    BUSINESSES ||--o{ BUSINESS_MEMBERSHIPS : authorizes
+    BUSINESSES ||--o{ DOCUMENT_IMPORTS : receives
+    DOCUMENT_IMPORTS ||--o{ IMPORT_JOBS : processes
+    DOCUMENT_IMPORTS ||--o{ IMPORT_ROWS : stages
+    BUSINESSES ||--o{ ACCOUNTS : owns
+    ACCOUNTS ||--o{ TRANSACTIONS : contains
+    IMPORT_ROWS o|--o{ TRANSACTION_SOURCES : supplies
+    TRANSACTIONS ||--o{ TRANSACTION_SOURCES : traces
+    DOCUMENT_IMPORTS o|--o{ AI_RUNS : contextualizes

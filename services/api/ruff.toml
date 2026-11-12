@@ -1,0 +1,14 @@
+# Ruff configuration for the CashLens API. Kept out of pyproject.toml on purpose:
+# Vercel treats a pyproject.toml as the dependency source and requires a
+# [project] table, whereas this service installs from the locked requirements.txt.
+target-version = "py312"
+line-length = 100
+src = ["."]
+extend-exclude = [".venv"]
+
+[lint]
+select = ["E", "F", "I", "B", "UP", "N", "W", "SIM"]
+
+[lint.per-file-ignores]
+# SQL statement strings are kept on one line for readability.
+"app/synthetic/seed.py" = ["E501"]

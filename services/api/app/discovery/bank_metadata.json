@@ -1,0 +1,123 @@
+{
+ "note": "SYNTHETIC analysis metadata for the test bank only. The real bank's metadata is not part of this snapshot.",
+ "items": {
+  "sf.scale.active-definition": {
+   "kind": "question",
+   "level": "core",
+   "ask_stage": "interview_now",
+   "system_use": [
+    "BUSINESS_FACT"
+   ],
+   "semantic_class": "UNRESOLVED_DISAGREEMENT",
+   "why": "Synthetic: a definition two respondents may count differently.",
+   "tells": "Synthetic: whether the two respondents use the same denominator."
+  },
+  "sf.scale.applications-month": {
+   "kind": "question",
+   "level": "core",
+   "ask_stage": "interview_now",
+   "system_use": [
+    "BUSINESS_FACT"
+   ],
+   "semantic_class": "FACT",
+   "why": "Synthetic: the top of the funnel.",
+   "tells": "Synthetic: whether review is a real constraint."
+  },
+  "sf.scale.approval-rate": {
+   "kind": "question",
+   "level": "core",
+   "ask_stage": "interview_now",
+   "system_use": [
+    "BUSINESS_FACT"
+   ],
+   "semantic_class": "FACT",
+   "why": "Synthetic: the approval share.",
+   "tells": "Synthetic: how selective the process is."
+  },
+  "sf.cust.segments": {
+   "kind": "question",
+   "level": "core",
+   "ask_stage": "interview_now",
+   "system_use": [
+    "BUSINESS_FACT"
+   ],
+   "semantic_class": "FACT",
+   "why": "Synthetic: which segments are served.",
+   "tells": "Synthetic: concentration by vertical."
+  },
+  "en.own.keep": {
+   "kind": "question",
+   "level": "core",
+   "ask_stage": "interview_now",
+   "system_use": [
+    "ROLE_REQUIREMENT"
+   ],
+   "semantic_class": "PREFERENCE",
+   "why": "Synthetic: which areas the engineer wants to keep.",
+   "tells": "Synthetic: the boundary of the core they hold."
+  },
+  "tc-01": {
+   "kind": "case",
+   "title": "Large ACH credit from an unrecognised originator",
+   "level": "recommended",
+   "tests": "Synthetic: an unexplained out-of-pattern inflow.",
+   "teaches": "Synthetic.",
+   "family": "cf-01-ach-inflow",
+   "variant": "baseline",
+   "controlled": false,
+   "vertical": "Trucking"
+  },
+  "tc-02": {
+   "kind": "case",
+   "title": "The same credit, arriving every week",
+   "level": "deep_dive",
+   "tests": "Synthetic: the effect of recurrence alone.",
+   "teaches": "Synthetic.",
+   "family": "cf-01-ach-inflow",
+   "variant": "weekly-repeat",
+   "controlled": true,
+   "changed_feature": "frequency_30d",
+   "baseline": "tc-01",
+   "vertical": "Trucking"
+  },
+  "tc-06": {
+   "kind": "case",
+   "title": "Advance against an invoice batch",
+   "level": "core",
+   "tests": "Synthetic: receivables financing.",
+   "teaches": "Synthetic.",
+   "family": "cf-05-factoring-advance",
+   "variant": "baseline",
+   "controlled": false,
+   "vertical": "Staffing agency",
+   "reveal_fact": "Synthetic: a second credit follows each advance."
+  },
+  "tc-06.reveal": {
+   "kind": "case",
+   "title": "Advance against an invoice batch",
+   "level": "core",
+   "tests": "Synthetic: receivables financing.",
+   "teaches": "Synthetic.",
+   "family": "cf-05-factoring-advance",
+   "variant": "baseline",
+   "controlled": false,
+   "vertical": "Staffing agency",
+   "reveal_fact": "Synthetic: a second credit follows each advance.",
+   "stage": "reveal",
+   "reveal_of": "tc-06"
+  },
+  "bs-01": {
+   "kind": "scenario",
+   "title": "Growing every month, and four funders in the account",
+   "level": "recommended",
+   "ask_stage": "interview_now",
+   "system_use": [
+    "UNDERWRITING_POLICY",
+    "THRESHOLD"
+   ],
+   "semantic_class": "POLICY",
+   "tests": "Synthetic: stacked short-term debt.",
+   "teaches": "Synthetic."
+  }
+ }
+}

@@ -1,0 +1,1420 @@
+{
+  "business": "juniper-kitchen",
+  "cases": {
+    "ambiguous_deposit": "tx-f37d66667c865d88",
+    "duplicate_delivery": "tx-2a9a8ada32fa5717",
+    "financing_inflow": "tx-99c93936bb5f59ba",
+    "modified_by_provider": "tx-2a8da3fe525b55e1",
+    "pending_to_posted": {
+      "pending": "tx-63cdb4419fab53ce",
+      "posted": "tx-655712af81055b28"
+    },
+    "remaining_pending": "tx-02de26f1915851a6",
+    "removed_by_provider": "tx-779dba1930e35124",
+    "stale_snapshot_account": "acct-juniper-sav",
+    "transfer_pair": [
+      "tx-75ee7b47ff525927",
+      "tx-fae87c7e1cc0555e"
+    ],
+    "unresolvable": [
+      "tx-faee9a49dfc65658",
+      "tx-df7793c97660519d"
+    ]
+  },
+  "expected": {
+    "closing_balances_minor": {
+      "acct-juniper-chk:available": 2647659,
+      "acct-juniper-chk:current": 2656159,
+      "acct-juniper-sav:current": 1400000
+    },
+    "monthly_totals_minor_by_category": {
+      "2026-03": {
+        "insurance": -41000,
+        "operating_receipts": 4258689,
+        "payroll": -1765570,
+        "rent": -420000,
+        "subscriptions": -16500,
+        "supplier_payments": -1885811,
+        "utilities": -67334
+      },
+      "2026-04": {
+        "financing": 2500000,
+        "insurance": -41000,
+        "operating_receipts": 4318209,
+        "payroll": -1603675,
+        "rent": -420000,
+        "subscriptions": -16500,
+        "supplier_payments": -2008078,
+        "taxes": -890000,
+        "utilities": -69731
+      },
+      "2026-05": {
+        "financing_repayment": -73100,
+        "insurance": -41000,
+        "internal_transfer": 0,
+        "operating_receipts": 4707427,
+        "payroll": -2483177,
+        "rent": -420000,
+        "subscriptions": -16500,
+        "supplier_payments": -1793068,
+        "unresolvable": -64000,
+        "utilities": -68848
+      },
+      "2026-06": {
+        "ambiguous": 350000,
+        "financing_repayment": -73100,
+        "insurance": -41000,
+        "operating_receipts": 4264761,
+        "payroll": -1674771,
+        "rent": -420000,
+        "repairs": -640000,
+        "subscriptions": -16500,
+        "supplier_payments": -1953592,
+        "utilities": -69387
+      },
+      "2026-07": {
+        "financing_repayment": -73100,
+        "insurance": -41000,
+        "operating_receipts": 4402804,
+        "payroll": -1786952,
+        "rent": -420000,
+        "subscriptions": -16500,
+        "supplier_payments": -1885054,
+        "taxes": -890000,
+        "unresolvable": 27500,
+        "utilities": -60740
+      },
+      "2026-08": {
+        "financing_repayment": -73100,
+        "insurance": -41000,
+        "interest": 1250,
+        "operating_receipts": 4696158,
+        "payroll": -1719115,
+        "rent": -420000,
+        "subscriptions": -16500,
+        "supplier_payments": -1905724,
+        "utilities": -61862
+      }
+    },
+    "posted_transaction_count": 320
+  },
+  "generator_version": "1",
+  "labels": {
+    "tx-0150e2ad48ed5551": {
+      "category": "supplier_payments",
+      "flags": []
+    },
+    "tx-02de26f1915851a6": {
+      "category": "supplier_payments",
+      "flags": [
+        "remaining_pending"
+      ]
+    },
+    "tx-032d36410b505ead": {
+      "category": "operating_receipts",
+      "flags": []
+    },
+    "tx-03af5c05196a50b7": {
+      "category": "supplier_payments",
+      "flags": []
+    },
+    "tx-04bd562b49865b50": {
+      "category": "operating_receipts",
+      "flags": []
+    },
+    "tx-04c6eccdafef56c7": {
+      "category": "operating_receipts",
+      "flags": []
+    },
+    "tx-04d09b94e5ff58d9": {
+      "category": "operating_receipts",
+      "flags": []
+    },
+    "tx-056965b03fc25d73": {
+      "category": "operating_receipts",
+      "flags": []
+    },
+    "tx-06389fa6c6bf5fa3": {
+      "category": "operating_receipts",
+      "flags": []
+    },
+    "tx-07493ca0c4065b58": {
+      "category": "supplier_payments",
+      "flags": []
+    },
+    "tx-0a9dec4f093f5e4c": {
+      "category": "supplier_payments",
+      "flags": []
+    },
+    "tx-0ab73958540153f8": {
+      "category": "operating_receipts",
+      "flags": []
+    },
+    "tx-0b3feb4a2bfa5a94": {
+      "category": "operating_receipts",
+      "flags": []
+    },
+    "tx-0d784939d28b5a4d": {
+      "category": "supplier_payments",
+      "flags": []
+    },
+    "tx-0de5aeac8a785575": {
+      "category": "utilities",
+      "flags": []
+    },
+    "tx-0e22947e9a825fc2": {
+      "category": "operating_receipts",
+      "flags": []
+    },
+    "tx-0f0d65aa906a50ea": {
+      "category": "operating_receipts",
+      "flags": []
+    },
+    "tx-0fb8c10e2d7850ac": {
+      "category": "operating_receipts",
+      "flags": []
+    },
+    "tx-103e21c6a9415b9f": {
+      "category": "utilities",
+      "flags": []
+    },
+    "tx-12736c359902550e": {
+      "category": "operating_receipts",
+      "flags": []
+    },
+    "tx-13eb65c431975d9e": {
+      "category": "operating_receipts",
+      "flags": []
+    },
+    "tx-14102577ecdc5a8a": {
+      "category": "operating_receipts",
+      "flags": []
+    },
+    "tx-1472e9b8f7e15b0c": {
+      "category": "supplier_payments",
+      "flags": []
+    },
+    "tx-171245d9b0625507": {
+      "category": "supplier_payments",
+      "flags": []
+    },
+    "tx-171876c6d7c75480": {
+      "category": "operating_receipts",
+      "flags": []
+    },
+    "tx-18c8fd5a56535402": {
+      "category": "rent",
+      "flags": []
+    },
+    "tx-194fa473733d5d3d": {
+      "category": "supplier_payments",
+      "flags": []
+    },
+    "tx-197a15f3e63656f7": {
+      "category": "supplier_payments",
+      "flags": []
+    },
+    "tx-19b5e4c2461f5c5a": {
+      "category": "operating_receipts",
+      "flags": []
+    },
+    "tx-19bd529604cc5405": {
+      "category": "operating_receipts",
+      "flags": []
+    },
+    "tx-1a3d31ae066a533b": {
+      "category": "operating_receipts",
+      "flags": []
+    },
+    "tx-1ad9e578a5805a77": {
+      "category": "supplier_payments",
+      "flags": []
+    },
+    "tx-1ae5830e78ae5e64": {
+      "category": "operating_receipts",
+      "flags": []
+    },
+    "tx-1c21cacddab55a98": {
+      "category": "supplier_payments",
+      "flags": []
+    },
+    "tx-1c272f867627596e": {
+      "category": "payroll",
+      "flags": []
+    },
+    "tx-1cb3ed63cf3a56e9": {
+      "category": "supplier_payments",
+      "flags": []
+    },
+    "tx-1ce15cfc245251e2": {
+      "category": "supplier_payments",
+      "flags": []
+    },
+    "tx-1ef213f5bc3555a2": {
+      "category": "supplier_payments",
+      "flags": []
+    },
+    "tx-1f16fdd90dfa5c8c": {
+      "category": "insurance",
+      "flags": []
+    },
+    "tx-1f488b7715515574": {
+      "category": "operating_receipts",
+      "flags": []
+    },
+    "tx-20688b03b8765c01": {
+      "category": "taxes",
+      "flags": []
+    },
+    "tx-20c46e70440e56a6": {
+      "category": "supplier_payments",
+      "flags": []
+    },
+    "tx-20e14f93fc515478": {
+      "category": "payroll",
+      "flags": []
+    },
+    "tx-21077ac6d74c5727": {
+      "category": "operating_receipts",
+      "flags": []
+    },
+    "tx-213231d410195702": {
+      "category": "supplier_payments",
+      "flags": []
+    },
+    "tx-214fb00f0d775da7": {
+      "category": "operating_receipts",
+      "flags": []
+    },
+    "tx-2315724443be5bf5": {
+      "category": "operating_receipts",
+      "flags": []
+    },
+    "tx-233cfdfb567c5f14": {
+      "category": "operating_receipts",
+      "flags": []
+    },
+    "tx-242dc85e7ca356cf": {
+      "category": "subscriptions",
+      "flags": []
+    },
+    "tx-26d5518b3c54565f": {
+      "category": "operating_receipts",
+      "flags": []
+    },
+    "tx-27544e9cbd095a23": {
+      "category": "operating_receipts",
+      "flags": []
+    },
+    "tx-2780cea04c3a53ae": {
+      "category": "operating_receipts",
+      "flags": []
+    },
+    "tx-27ce5197f6a25988": {
+      "category": "operating_receipts",
+      "flags": []
+    },
+    "tx-27d4e094efea58c3": {
+      "category": "supplier_payments",
+      "flags": []
+    },
+    "tx-28487e660cf85159": {
+      "category": "operating_receipts",
+      "flags": []
+    },
+    "tx-2a8da3fe525b55e1": {
+      "category": "operating_receipts",
+      "flags": []
+    },
+    "tx-2a9a8ada32fa5717": {
+      "category": "operating_receipts",
+      "flags": []
+    },
+    "tx-2bc21ec8b2f55be3": {
+      "category": "insurance",
+      "flags": []
+    },
+    "tx-2c0a51977356585e": {
+      "category": "operating_receipts",
+      "flags": []
+    },
+    "tx-2d1fb1acadae5640": {
+      "category": "supplier_payments",
+      "flags": []
+    },
+    "tx-2d8955ee94545f2f": {
+      "category": "supplier_payments",
+      "flags": []
+    },
+    "tx-2dd40b456ac15a24": {
+      "category": "operating_receipts",
+      "flags": []
+    },
+    "tx-2eb1decfd03153a3": {
+      "category": "supplier_payments",
+      "flags": []
+    },
+    "tx-30036202e2515fd9": {
+      "category": "supplier_payments",
+      "flags": []
+    },
+    "tx-31f548e017915268": {
+      "category": "interest",
+      "flags": [
+        "after_stale_snapshot"
+      ]
+    },
+    "tx-33bb3a4d1e2e5e70": {
+      "category": "rent",
+      "flags": []
+    },
+    "tx-34129991b71d50f0": {
+      "category": "supplier_payments",
+      "flags": []
+    },
+    "tx-34428b47c97c5657": {
+      "category": "operating_receipts",
+      "flags": []
+    },
+    "tx-349a631338a650d2": {
+      "category": "supplier_payments",
+      "flags": []
+    },
+    "tx-34be28351907546c": {
+      "category": "rent",
+      "flags": []
+    },
+    "tx-355cc60fb52e516d": {
+      "category": "supplier_payments",
+      "flags": []
+    },
+    "tx-36218f85352c57e5": {
+      "category": "supplier_payments",
+      "flags": []
+    },
+    "tx-3655c0da5bfe503e": {
+      "category": "supplier_payments",
+      "flags": []
+    },
+    "tx-3731465004d95c8f": {
+      "category": "operating_receipts",
+      "flags": []
+    },
+    "tx-37b26311c6e457ac": {
+      "category": "supplier_payments",
+      "flags": []
+    },
+    "tx-37f75ae855cd57fb": {
+      "category": "operating_receipts",
+      "flags": []
+    },
+    "tx-388cb52685635a54": {
+      "category": "operating_receipts",
+      "flags": []
+    },
+    "tx-3a698e2d5aa75106": {
+      "category": "financing_repayment",
+      "flags": []
+    },
+    "tx-3c81fb78c84b5aea": {
+      "category": "utilities",
+      "flags": []
+    },
+    "tx-3d3f6469992b54c3": {
+      "category": "supplier_payments",
+      "flags": []
+    },
+    "tx-3dbbea6c40335700": {
+      "category": "utilities",
+      "flags": []
+    },
+    "tx-3f8944573cfc5eb4": {
+      "category": "subscriptions",
+      "flags": []
+    },
+    "tx-3f948b7e812f5a63": {
+      "category": "operating_receipts",
+      "flags": []
+    },
+    "tx-40640d8952bd5539": {
+      "category": "operating_receipts",
+      "flags": []
+    },
+    "tx-409ef2d5a12f53c0": {
+      "category": "operating_receipts",
+      "flags": []
+    },
+    "tx-4120821b478954b2": {
+      "category": "operating_receipts",
+      "flags": []
+    },
+    "tx-4219e6910544521c": {
+      "category": "operating_receipts",
+      "flags": []
+    },
+    "tx-4293df00f47153c0": {
+      "category": "operating_receipts",
+      "flags": []
+    },
+    "tx-42b57c7c58f954e6": {
+      "category": "operating_receipts",
+      "flags": []
+    },
+    "tx-450cc7f1aad85f0f": {
+      "category": "supplier_payments",
+      "flags": []
+    },
+    "tx-456750bea8f355fb": {
+      "category": "operating_receipts",
+      "flags": []
+    },
+    "tx-45690014e70c51b3": {
+      "category": "payroll",
+      "flags": []
+    },
+    "tx-4599222dc56d5b1f": {
+      "category": "insurance",
+      "flags": []
+    },
+    "tx-4705867ba36c57c3": {
+      "category": "operating_receipts",
+      "flags": []
+    },
+    "tx-48fa17dce7e3573a": {
+      "category": "operating_receipts",
+      "flags": []
+    },
+    "tx-4a3adf71e40654c8": {
+      "category": "operating_receipts",
+      "flags": []
+    },
+    "tx-4aa77f364e545a73": {
+      "category": "supplier_payments",
+      "flags": []
+    },
+    "tx-4acabd9a08a05d3a": {
+      "category": "supplier_payments",
+      "flags": []
+    },
+    "tx-4b5cf696ea045382": {
+      "category": "operating_receipts",
+      "flags": []
+    },
+    "tx-4b7998f25c1d5507": {
+      "category": "operating_receipts",
+      "flags": []
+    },
+    "tx-4ba121f463df5d80": {
+      "category": "supplier_payments",
+      "flags": []
+    },
+    "tx-4c7bb2c5d5f156b4": {
+      "category": "operating_receipts",
+      "flags": []
+    },
+    "tx-4cc75a86cd165ae8": {
+      "category": "supplier_payments",
+      "flags": []
+    },
+    "tx-4ccaf2576724543a": {
+      "category": "operating_receipts",
+      "flags": []
+    },
+    "tx-4d32591a56d453ba": {
+      "category": "supplier_payments",
+      "flags": []
+    },
+    "tx-4d47aad531c050db": {
+      "category": "operating_receipts",
+      "flags": []
+    },
+    "tx-4e56b257631b52b4": {
+      "category": "supplier_payments",
+      "flags": []
+    },
+    "tx-4ed6cf180b68531b": {
+      "category": "supplier_payments",
+      "flags": []
+    },
+    "tx-4f5a89a1e01c53f6": {
+      "category": "operating_receipts",
+      "flags": []
+    },
+    "tx-502017c71277504c": {
+      "category": "operating_receipts",
+      "flags": []
+    },
+    "tx-50637c18cd205d87": {
+      "category": "payroll",
+      "flags": []
+    },
+    "tx-53273b61432d5a85": {
+      "category": "operating_receipts",
+      "flags": []
+    },
+    "tx-53c8a87504085fed": {
+      "category": "rent",
+      "flags": []
+    },
+    "tx-546f5be71b9d5de8": {
+      "category": "operating_receipts",
+      "flags": []
+    },
+    "tx-554437a35bb4540f": {
+      "category": "supplier_payments",
+      "flags": []
+    },
+    "tx-5715e34ba34e524f": {
+      "category": "utilities",
+      "flags": []
+    },
+    "tx-580d449dee93517c": {
+      "category": "operating_receipts",
+      "flags": []
+    },
+    "tx-588766ddcc2c5acb": {
+      "category": "operating_receipts",
+      "flags": []
+    },
+    "tx-5889a9c418d956a3": {
+      "category": "operating_receipts",
+      "flags": []
+    },
+    "tx-59ebe4625434501e": {
+      "category": "operating_receipts",
+      "flags": []
+    },
+    "tx-5a59e1e417a45888": {
+      "category": "operating_receipts",
+      "flags": []
+    },
+    "tx-5ab96a37a42c5f5a": {
+      "category": "utilities",
+      "flags": []
+    },
+    "tx-5c54f6a088db555c": {
+      "category": "operating_receipts",
+      "flags": []
+    },
+    "tx-5cb65e6aeae755a0": {
+      "category": "operating_receipts",
+      "flags": []
+    },
+    "tx-5ff514e6a5ce5b05": {
+      "category": "operating_receipts",
+      "flags": []
+    },
+    "tx-600f3ed5acef58e3": {
+      "category": "operating_receipts",
+      "flags": []
+    },
+    "tx-60aba19c153a5fdc": {
+      "category": "operating_receipts",
+      "flags": []
+    },
+    "tx-630c0481d40650a9": {
+      "category": "financing_repayment",
+      "flags": []
+    },
+    "tx-6336cf1ef7f954e0": {
+      "category": "operating_receipts",
+      "flags": []
+    },
+    "tx-6390582f6ce25c66": {
+      "category": "supplier_payments",
+      "flags": []
+    },
+    "tx-63cdb4419fab53ce": {
+      "category": "supplier_payments",
+      "flags": [
+        "pending_to_posted_pending"
+      ]
+    },
+    "tx-64a2443fcc61526f": {
+      "category": "payroll",
+      "flags": []
+    },
+    "tx-655712af81055b28": {
+      "category": "supplier_payments",
+      "flags": [
+        "pending_to_posted_posted"
+      ]
+    },
+    "tx-663b83fea6075609": {
+      "category": "operating_receipts",
+      "flags": []
+    },
+    "tx-66a6e164dae25e01": {
+      "category": "supplier_payments",
+      "flags": []
+    },
+    "tx-66f701ad3d195e78": {
+      "category": "supplier_payments",
+      "flags": []
+    },
+    "tx-684971c5ac4558e2": {
+      "category": "operating_receipts",
+      "flags": []
+    },
+    "tx-695fb93785885fe8": {
+      "category": "supplier_payments",
+      "flags": []
+    },
+    "tx-69fbeedceac25a03": {
+      "category": "utilities",
+      "flags": []
+    },
+    "tx-6a9dfae6417459bc": {
+      "category": "supplier_payments",
+      "flags": []
+    },
+    "tx-6b3c9a3f2b0d51fb": {
+      "category": "operating_receipts",
+      "flags": []
+    },
+    "tx-6c0a9a81ff595408": {
+      "category": "supplier_payments",
+      "flags": []
+    },
+    "tx-6ca5f8cbebb3516e": {
+      "category": "utilities",
+      "flags": []
+    },
+    "tx-6d9dbc9e609d59be": {
+      "category": "supplier_payments",
+      "flags": []
+    },
+    "tx-6dd91ead809e5a84": {
+      "category": "subscriptions",
+      "flags": []
+    },
+    "tx-6fba4a7f010d5989": {
+      "category": "operating_receipts",
+      "flags": []
+    },
+    "tx-6fc88de3a8a45533": {
+      "category": "operating_receipts",
+      "flags": []
+    },
+    "tx-70fd41b907425ab1": {
+      "category": "operating_receipts",
+      "flags": []
+    },
+    "tx-71e5f21fd07b5c4f": {
+      "category": "operating_receipts",
+      "flags": []
+    },
+    "tx-729a293d833a5843": {
+      "category": "operating_receipts",
+      "flags": []
+    },
+    "tx-73d55990e7155607": {
+      "category": "utilities",
+      "flags": []
+    },
+    "tx-75ee7b47ff525927": {
+      "category": "internal_transfer",
+      "flags": [
+        "transfer_pair"
+      ]
+    },
+    "tx-76a25cdd875753ea": {
+      "category": "supplier_payments",
+      "flags": []
+    },
+    "tx-76b04bde586b55de": {
+      "category": "supplier_payments",
+      "flags": []
+    },
+    "tx-76c35a3884d05bfc": {
+      "category": "supplier_payments",
+      "flags": []
+    },
+    "tx-779dba1930e35124": {
+      "category": "operating_receipts",
+      "flags": [
+        "removed_by_provider"
+      ]
+    },
+    "tx-7861d56d2b4f5faa": {
+      "category": "rent",
+      "flags": []
+    },
+    "tx-78d38b0fe5de566a": {
+      "category": "insurance",
+      "flags": []
+    },
+    "tx-78fe269137165fd2": {
+      "category": "supplier_payments",
+      "flags": []
+    },
+    "tx-7915c01bf5395f4f": {
+      "category": "supplier_payments",
+      "flags": []
+    },
+    "tx-792abc2d914458f8": {
+      "category": "operating_receipts",
+      "flags": []
+    },
+    "tx-7ab82c5298025530": {
+      "category": "supplier_payments",
+      "flags": []
+    },
+    "tx-7bc13b4a339b5e37": {
+      "category": "operating_receipts",
+      "flags": []
+    },
+    "tx-7ccc4561793d5076": {
+      "category": "operating_receipts",
+      "flags": []
+    },
+    "tx-7e9d5f97235c5c06": {
+      "category": "supplier_payments",
+      "flags": []
+    },
+    "tx-7efb9a3eaa485baf": {
+      "category": "supplier_payments",
+      "flags": []
+    },
+    "tx-809af55a4dad5071": {
+      "category": "operating_receipts",
+      "flags": []
+    },
+    "tx-810b1b3e30d4528f": {
+      "category": "payroll",
+      "flags": []
+    },
+    "tx-817a53117edf5249": {
+      "category": "operating_receipts",
+      "flags": []
+    },
+    "tx-82d5b18c27b154ab": {
+      "category": "supplier_payments",
+      "flags": []
+    },
+    "tx-8422c11e42ec5e24": {
+      "category": "operating_receipts",
+      "flags": []
+    },
+    "tx-84a53f65f79955e6": {
+      "category": "operating_receipts",
+      "flags": []
+    },
+    "tx-84c7232fd7135e5b": {
+      "category": "operating_receipts",
+      "flags": []
+    },
+    "tx-857d83b7c72e55ae": {
+      "category": "supplier_payments",
+      "flags": []
+    },
+    "tx-86a3da75765952ac": {
+      "category": "supplier_payments",
+      "flags": []
+    },
+    "tx-87784eb20f5f58c6": {
+      "category": "supplier_payments",
+      "flags": []
+    },
+    "tx-8803274147f250f7": {
+      "category": "operating_receipts",
+      "flags": []
+    },
+    "tx-88daaa9ee312573a": {
+      "category": "operating_receipts",
+      "flags": []
+    },
+    "tx-8992819b0ad75f64": {
+      "category": "operating_receipts",
+      "flags": []
+    },
+    "tx-8aae565153205235": {
+      "category": "supplier_payments",
+      "flags": []
+    },
+    "tx-8ac5250d6bd35fbf": {
+      "category": "operating_receipts",
+      "flags": []
+    },
+    "tx-8b6f8f7e908654af": {
+      "category": "operating_receipts",
+      "flags": []
+    },
+    "tx-8c7e230645ab5b6c": {
+      "category": "operating_receipts",
+      "flags": []
+    },
+    "tx-8e514f0f41475f22": {
+      "category": "supplier_payments",
+      "flags": []
+    },
+    "tx-8fd82cba551d5893": {
+      "category": "operating_receipts",
+      "flags": []
+    },
+    "tx-90943cdab9f55dad": {
+      "category": "supplier_payments",
+      "flags": []
+    },
+    "tx-90d7b45183085298": {
+      "category": "operating_receipts",
+      "flags": []
+    },
+    "tx-90ec348173845ac6": {
+      "category": "financing_repayment",
+      "flags": []
+    },
+    "tx-9121169ecc93553b": {
+      "category": "operating_receipts",
+      "flags": []
+    },
+    "tx-918aaed5bc5854dc": {
+      "category": "operating_receipts",
+      "flags": []
+    },
+    "tx-93f7a7eefcb755c3": {
+      "category": "supplier_payments",
+      "flags": []
+    },
+    "tx-9597b182478655a8": {
+      "category": "operating_receipts",
+      "flags": []
+    },
+    "tx-95a20ea3cabd583d": {
+      "category": "operating_receipts",
+      "flags": []
+    },
+    "tx-97a6895f64505cce": {
+      "category": "operating_receipts",
+      "flags": []
+    },
+    "tx-97c5dc109e125f2c": {
+      "category": "operating_receipts",
+      "flags": []
+    },
+    "tx-9840bea0af53502e": {
+      "category": "operating_receipts",
+      "flags": []
+    },
+    "tx-9929133a55f45b87": {
+      "category": "operating_receipts",
+      "flags": []
+    },
+    "tx-99291bfdc1b950e7": {
+      "category": "operating_receipts",
+      "flags": []
+    },
+    "tx-992eeff453c65bd5": {
+      "category": "operating_receipts",
+      "flags": []
+    },
+    "tx-99c93936bb5f59ba": {
+      "category": "financing",
+      "flags": [
+        "financing_inflow"
+      ]
+    },
+    "tx-9a3cbe9d42dc5903": {
+      "category": "operating_receipts",
+      "flags": []
+    },
+    "tx-9a3f3093a9f35afc": {
+      "category": "supplier_payments",
+      "flags": []
+    },
+    "tx-9a8ebdd3542c5030": {
+      "category": "operating_receipts",
+      "flags": []
+    },
+    "tx-9bbc7bf9549c58dc": {
+      "category": "operating_receipts",
+      "flags": []
+    },
+    "tx-9cdde64753ff5b23": {
+      "category": "supplier_payments",
+      "flags": []
+    },
+    "tx-9d1811c6ee955be3": {
+      "category": "supplier_payments",
+      "flags": []
+    },
+    "tx-9d479d7fe97658a3": {
+      "category": "supplier_payments",
+      "flags": []
+    },
+    "tx-9d83df38328b580b": {
+      "category": "payroll",
+      "flags": []
+    },
+    "tx-9d8fb8d21a51557c": {
+      "category": "operating_receipts",
+      "flags": []
+    },
+    "tx-9e8c99d808ed57f8": {
+      "category": "operating_receipts",
+      "flags": []
+    },
+    "tx-9feb48db83f65129": {
+      "category": "supplier_payments",
+      "flags": []
+    },
+    "tx-a014a12bd8bf51d0": {
+      "category": "supplier_payments",
+      "flags": []
+    },
+    "tx-a084b9a9cba85119": {
+      "category": "operating_receipts",
+      "flags": []
+    },
+    "tx-a27d66e5db7850de": {
+      "category": "supplier_payments",
+      "flags": []
+    },
+    "tx-a342df4ec84954fd": {
+      "category": "operating_receipts",
+      "flags": []
+    },
+    "tx-a3ced62b90e35fce": {
+      "category": "operating_receipts",
+      "flags": []
+    },
+    "tx-a3e278c3c13b54c6": {
+      "category": "operating_receipts",
+      "flags": []
+    },
+    "tx-a429e0ad402d5ddd": {
+      "category": "supplier_payments",
+      "flags": []
+    },
+    "tx-a439baca62ec5932": {
+      "category": "operating_receipts",
+      "flags": []
+    },
+    "tx-a561026fc5945cec": {
+      "category": "insurance",
+      "flags": []
+    },
+    "tx-a5a93fa670ef5aeb": {
+      "category": "taxes",
+      "flags": []
+    },
+    "tx-a747685792c451ea": {
+      "category": "operating_receipts",
+      "flags": []
+    },
+    "tx-a7adcb8ee0d55896": {
+      "category": "insurance",
+      "flags": []
+    },
+    "tx-a8ad2bb626d554c4": {
+      "category": "operating_receipts",
+      "flags": []
+    },
+    "tx-a94af0ff698b522a": {
+      "category": "operating_receipts",
+      "flags": []
+    },
+    "tx-ab3b76196ea25a2e": {
+      "category": "operating_receipts",
+      "flags": []
+    },
+    "tx-ab99746f6c455a94": {
+      "category": "operating_receipts",
+      "flags": []
+    },
+    "tx-abee74cc0eab5208": {
+      "category": "supplier_payments",
+      "flags": []
+    },
+    "tx-ac40c199342e5fff": {
+      "category": "operating_receipts",
+      "flags": []
+    },
+    "tx-ad58ee1a3f48593b": {
+      "category": "supplier_payments",
+      "flags": []
+    },
+    "tx-aed24df868a7505c": {
+      "category": "operating_receipts",
+      "flags": []
+    },
+    "tx-af08089011555792": {
+      "category": "operating_receipts",
+      "flags": []
+    },
+    "tx-af667a0a13795601": {
+      "category": "supplier_payments",
+      "flags": []
+    },
+    "tx-af9aed24f3aa5590": {
+      "category": "supplier_payments",
+      "flags": []
+    },
+    "tx-b0abc7195b435988": {
+      "category": "operating_receipts",
+      "flags": []
+    },
+    "tx-b0d788537e925b6a": {
+      "category": "operating_receipts",
+      "flags": []
+    },
+    "tx-b172dc2592da574d": {
+      "category": "utilities",
+      "flags": []
+    },
+    "tx-b1a7cb4ea7ec5c39": {
+      "category": "repairs",
+      "flags": [
+        "one_time_repair"
+      ]
+    },
+    "tx-b35acb89a0895832": {
+      "category": "financing_repayment",
+      "flags": []
+    },
+    "tx-b42f28565e195fb1": {
+      "category": "supplier_payments",
+      "flags": []
+    },
+    "tx-b436e531856c5b21": {
+      "category": "operating_receipts",
+      "flags": []
+    },
+    "tx-b6b649e0da225366": {
+      "category": "supplier_payments",
+      "flags": []
+    },
+    "tx-b7c300ce9ba05715": {
+      "category": "operating_receipts",
+      "flags": []
+    },
+    "tx-b7d2da3d3d4f5617": {
+      "category": "operating_receipts",
+      "flags": []
+    },
+    "tx-b82b1d60cfaa526f": {
+      "category": "supplier_payments",
+      "flags": []
+    },
+    "tx-b9765744111d51cf": {
+      "category": "supplier_payments",
+      "flags": []
+    },
+    "tx-bc9d6d2c65185448": {
+      "category": "supplier_payments",
+      "flags": []
+    },
+    "tx-bd31c85fed6c5109": {
+      "category": "operating_receipts",
+      "flags": []
+    },
+    "tx-bdd2b645a4d650e4": {
+      "category": "operating_receipts",
+      "flags": []
+    },
+    "tx-c0d29c002b875565": {
+      "category": "supplier_payments",
+      "flags": []
+    },
+    "tx-c12f3c70ab095331": {
+      "category": "operating_receipts",
+      "flags": []
+    },
+    "tx-c164caba8de75d61": {
+      "category": "supplier_payments",
+      "flags": []
+    },
+    "tx-c21dcd39f950575f": {
+      "category": "operating_receipts",
+      "flags": []
+    },
+    "tx-c3a83c7cf74e5a9b": {
+      "category": "supplier_payments",
+      "flags": []
+    },
+    "tx-c41ef0f5ba575389": {
+      "category": "supplier_payments",
+      "flags": []
+    },
+    "tx-c54680c5b79a51b4": {
+      "category": "utilities",
+      "flags": []
+    },
+    "tx-c750c67b5000531e": {
+      "category": "operating_receipts",
+      "flags": []
+    },
+    "tx-c77ec887cdc95885": {
+      "category": "supplier_payments",
+      "flags": []
+    },
+    "tx-c8bf3f32b2415adf": {
+      "category": "operating_receipts",
+      "flags": []
+    },
+    "tx-c9191c0bb2b35342": {
+      "category": "supplier_payments",
+      "flags": []
+    },
+    "tx-c93593aeea0a59dc": {
+      "category": "supplier_payments",
+      "flags": []
+    },
+    "tx-ca2891fb26685eb4": {
+      "category": "subscriptions",
+      "flags": []
+    },
+    "tx-cb2fe210e2775ce4": {
+      "category": "operating_receipts",
+      "flags": []
+    },
+    "tx-cbd4a3f4b53b50d5": {
+      "category": "operating_receipts",
+      "flags": []
+    },
+    "tx-cc1499e7c8c050f5": {
+      "category": "operating_receipts",
+      "flags": []
+    },
+    "tx-cc3dbdc2b32f59b8": {
+      "category": "supplier_payments",
+      "flags": []
+    },
+    "tx-cc4ee3afcdf35c48": {
+      "category": "operating_receipts",
+      "flags": []
+    },
+    "tx-cd451a11ea125dbc": {
+      "category": "supplier_payments",
+      "flags": []
+    },
+    "tx-cd82b892759c510f": {
+      "category": "operating_receipts",
+      "flags": []
+    },
+    "tx-ce72d01284e5561e": {
+      "category": "supplier_payments",
+      "flags": []
+    },
+    "tx-ce817fd058f4525f": {
+      "category": "supplier_payments",
+      "flags": []
+    },
+    "tx-cecb0e52a7755266": {
+      "category": "operating_receipts",
+      "flags": []
+    },
+    "tx-d0ddb47626355940": {
+      "category": "operating_receipts",
+      "flags": []
+    },
+    "tx-d19c0782e0ca5ab0": {
+      "category": "operating_receipts",
+      "flags": []
+    },
+    "tx-d29ff86df9455877": {
+      "category": "supplier_payments",
+      "flags": []
+    },
+    "tx-d6e81299aec95a2f": {
+      "category": "subscriptions",
+      "flags": []
+    },
+    "tx-d7375ec3354e5417": {
+      "category": "supplier_payments",
+      "flags": []
+    },
+    "tx-d787e22499fb535a": {
+      "category": "operating_receipts",
+      "flags": []
+    },
+    "tx-d7b4f43b86d353f6": {
+      "category": "operating_receipts",
+      "flags": []
+    },
+    "tx-d9918f41d9af5104": {
+      "category": "operating_receipts",
+      "flags": []
+    },
+    "tx-da14bfbda747520d": {
+      "category": "payroll",
+      "flags": []
+    },
+    "tx-da56a0f251865933": {
+      "category": "supplier_payments",
+      "flags": []
+    },
+    "tx-db5f4ea136665a20": {
+      "category": "supplier_payments",
+      "flags": []
+    },
+    "tx-dcefdfa1ebbd5a91": {
+      "category": "supplier_payments",
+      "flags": []
+    },
+    "tx-deb08bf4a2975755": {
+      "category": "operating_receipts",
+      "flags": []
+    },
+    "tx-df7793c97660519d": {
+      "category": "unresolvable",
+      "flags": [
+        "unresolvable"
+      ]
+    },
+    "tx-e19d274c8d8e5f8a": {
+      "category": "supplier_payments",
+      "flags": []
+    },
+    "tx-e209f238edfd5a44": {
+      "category": "supplier_payments",
+      "flags": []
+    },
+    "tx-e3254d837dd4512c": {
+      "category": "supplier_payments",
+      "flags": []
+    },
+    "tx-e36c1a7472775fd6": {
+      "category": "operating_receipts",
+      "flags": []
+    },
+    "tx-e3a9c48dc2db5fde": {
+      "category": "operating_receipts",
+      "flags": []
+    },
+    "tx-e46c26c0438f54da": {
+      "category": "operating_receipts",
+      "flags": []
+    },
+    "tx-e5b95ba2eaeb52d6": {
+      "category": "supplier_payments",
+      "flags": []
+    },
+    "tx-e5f70ee674a55199": {
+      "category": "supplier_payments",
+      "flags": []
+    },
+    "tx-e6042ae820c958da": {
+      "category": "operating_receipts",
+      "flags": []
+    },
+    "tx-e6c4c45df1ae57d5": {
+      "category": "payroll",
+      "flags": []
+    },
+    "tx-e890727be94b5d67": {
+      "category": "operating_receipts",
+      "flags": []
+    },
+    "tx-e8ee1f5128075a62": {
+      "category": "subscriptions",
+      "flags": []
+    },
+    "tx-eab8ad2aad055a19": {
+      "category": "operating_receipts",
+      "flags": []
+    },
+    "tx-ecff0abc7c665fae": {
+      "category": "supplier_payments",
+      "flags": []
+    },
+    "tx-eda79d865a685f27": {
+      "category": "supplier_payments",
+      "flags": []
+    },
+    "tx-ee0137a778ae5880": {
+      "category": "operating_receipts",
+      "flags": []
+    },
+    "tx-ee11d3ef768c5cf1": {
+      "category": "operating_receipts",
+      "flags": []
+    },
+    "tx-ef73d947788a5e3d": {
+      "category": "payroll",
+      "flags": []
+    },
+    "tx-efa3c79433f75432": {
+      "category": "operating_receipts",
+      "flags": []
+    },
+    "tx-f04fba54ad8555b7": {
+      "category": "supplier_payments",
+      "flags": []
+    },
+    "tx-f1c765355eeb511a": {
+      "category": "rent",
+      "flags": []
+    },
+    "tx-f37d66667c865d88": {
+      "category": "ambiguous",
+      "flags": [
+        "ambiguous_deposit"
+      ]
+    },
+    "tx-f420d1e9d27f5500": {
+      "category": "utilities",
+      "flags": []
+    },
+    "tx-f4d2712c5f0f51b2": {
+      "category": "supplier_payments",
+      "flags": []
+    },
+    "tx-f521ccf611d95b89": {
+      "category": "operating_receipts",
+      "flags": []
+    },
+    "tx-f52c08645ffc56c5": {
+      "category": "operating_receipts",
+      "flags": []
+    },
+    "tx-f8f27e957ebe5c45": {
+      "category": "operating_receipts",
+      "flags": []
+    },
+    "tx-f954baec954a55f2": {
+      "category": "payroll",
+      "flags": []
+    },
+    "tx-fa6960a3344655ef": {
+      "category": "operating_receipts",
+      "flags": []
+    },
+    "tx-fae87c7e1cc0555e": {
+      "category": "internal_transfer",
+      "flags": [
+        "transfer_pair"
+      ]
+    },
+    "tx-faee9a49dfc65658": {
+      "category": "unresolvable",
+      "flags": [
+        "unresolvable"
+      ]
+    },
+    "tx-fb260f6fcea45da0": {
+      "category": "payroll",
+      "flags": []
+    },
+    "tx-fb2b0c926dea53b0": {
+      "category": "supplier_payments",
+      "flags": []
+    },
+    "tx-fc7ac05e140a571d": {
+      "category": "payroll",
+      "flags": []
+    },
+    "tx-fd95facaf8015696": {
+      "category": "supplier_payments",
+      "flags": []
+    },
+    "tx-fe5d4170e2695fb5": {
+      "category": "operating_receipts",
+      "flags": []
+    },
+    "tx-ff758875ae665cea": {
+      "category": "supplier_payments",
+      "flags": []
+    }
+  }
+}

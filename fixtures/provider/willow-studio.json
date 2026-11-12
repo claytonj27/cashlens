@@ -1,0 +1,1471 @@
+{
+  "accounts": [
+    {
+      "external_account_id": "acct-willow-chk",
+      "mask": "7310",
+      "name": "Business checking",
+      "opening_balance_minor": 942000,
+      "opening_date": "2026-03-01",
+      "type": "checking"
+    },
+    {
+      "external_account_id": "acct-willow-sav",
+      "mask": "7355",
+      "name": "Savings",
+      "opening_balance_minor": 500000,
+      "opening_date": "2026-03-01",
+      "type": "savings"
+    }
+  ],
+  "assumptions": [
+    {
+      "amount_minor": 290000,
+      "due_date": "2026-09-20",
+      "kind": "equipment_purchase",
+      "origin": "owner_entered"
+    },
+    {
+      "amount_minor": 165000,
+      "due_date": "2026-09-01",
+      "kind": "rent",
+      "origin": "owner_entered"
+    }
+  ],
+  "balances": [
+    {
+      "account_id": "acct-willow-chk",
+      "amount_minor": 3048287,
+      "as_of": "2026-08-31T23:59:59Z",
+      "kind": "current"
+    },
+    {
+      "account_id": "acct-willow-chk",
+      "amount_minor": 3044012,
+      "as_of": "2026-08-31T23:59:59Z",
+      "kind": "available"
+    },
+    {
+      "account_id": "acct-willow-sav",
+      "amount_minor": 600000,
+      "as_of": "2026-08-12T23:59:59Z",
+      "kind": "current"
+    }
+  ],
+  "business": {
+    "industry": "photography studio",
+    "name": "Willow Studio",
+    "slug": "willow-studio"
+  },
+  "demo_date": "2026-08-31",
+  "generator_version": "1",
+  "history_start": "2026-03-01",
+  "item": {
+    "external_item_id": "item-willow-studio-001"
+  },
+  "pages": [
+    {
+      "added": [
+        {
+          "account_id": "acct-willow-chk",
+          "amount": "1650.00",
+          "date": "2026-03-01",
+          "iso_currency_code": "USD",
+          "name": "MAPLE COMMONS STUDIO RENT",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-8ca8cff0f3655733"
+        },
+        {
+          "account_id": "acct-willow-chk",
+          "amount": "-1022.66",
+          "date": "2026-03-03",
+          "iso_currency_code": "USD",
+          "name": "STRIPE PAYOUT",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-6ba517eaaf065a6e"
+        },
+        {
+          "account_id": "acct-willow-chk",
+          "amount": "59.99",
+          "date": "2026-03-04",
+          "iso_currency_code": "USD",
+          "name": "ADOBE CREATIVE CLOUD",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-8253a3176ca55ecc"
+        },
+        {
+          "account_id": "acct-willow-chk",
+          "amount": "390.17",
+          "date": "2026-03-05",
+          "iso_currency_code": "USD",
+          "name": "VENMO PAYMENT ASSISTANT",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-d5b6e77d31d15c4c"
+        },
+        {
+          "account_id": "acct-willow-chk",
+          "amount": "36.00",
+          "date": "2026-03-06",
+          "iso_currency_code": "USD",
+          "name": "SQUARESPACE INC",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-5205afa6c2b15165"
+        },
+        {
+          "account_id": "acct-willow-chk",
+          "amount": "-1135.59",
+          "date": "2026-03-07",
+          "iso_currency_code": "USD",
+          "name": "STRIPE PAYOUT",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-8a69c90a9801522c"
+        },
+        {
+          "account_id": "acct-willow-chk",
+          "amount": "15.99",
+          "date": "2026-03-09",
+          "iso_currency_code": "USD",
+          "name": "ZOOM VIDEO COMM",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-3e351f2994895ee7"
+        },
+        {
+          "account_id": "acct-willow-chk",
+          "amount": "-457.38",
+          "date": "2026-03-10",
+          "iso_currency_code": "USD",
+          "name": "STRIPE PAYOUT",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-0c1028266d305500"
+        },
+        {
+          "account_id": "acct-willow-chk",
+          "amount": "14.40",
+          "date": "2026-03-11",
+          "iso_currency_code": "USD",
+          "name": "GOOGLE WORKSPACE",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-21e036768c825d9f"
+        },
+        {
+          "account_id": "acct-willow-chk",
+          "amount": "-719.34",
+          "date": "2026-03-12",
+          "iso_currency_code": "USD",
+          "name": "STRIPE PAYOUT",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-2b53509ce53d52f5"
+        },
+        {
+          "account_id": "acct-willow-chk",
+          "amount": "-536.95",
+          "date": "2026-03-13",
+          "iso_currency_code": "USD",
+          "name": "STRIPE PAYOUT",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-ad7dbc754c205028"
+        },
+        {
+          "account_id": "acct-willow-chk",
+          "amount": "-1381.63",
+          "date": "2026-03-14",
+          "iso_currency_code": "USD",
+          "name": "STRIPE PAYOUT",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-7353f094c582519f"
+        },
+        {
+          "account_id": "acct-willow-chk",
+          "amount": "89.00",
+          "date": "2026-03-14",
+          "iso_currency_code": "USD",
+          "name": "HISCOX BUSINESS INSURANCE",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-da587cfcb0e95ff9"
+        },
+        {
+          "account_id": "acct-willow-chk",
+          "amount": "-1414.05",
+          "date": "2026-03-16",
+          "iso_currency_code": "USD",
+          "name": "STRIPE PAYOUT",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-539b318f413c55b0"
+        },
+        {
+          "account_id": "acct-willow-chk",
+          "amount": "-1315.57",
+          "date": "2026-03-18",
+          "iso_currency_code": "USD",
+          "name": "STRIPE PAYOUT",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-e0f63807cee55369"
+        },
+        {
+          "account_id": "acct-willow-chk",
+          "amount": "387.98",
+          "date": "2026-03-20",
+          "iso_currency_code": "USD",
+          "name": "VENMO PAYMENT ASSISTANT",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-46b195e6893e5c54"
+        },
+        {
+          "account_id": "acct-willow-chk",
+          "amount": "-1240.19",
+          "date": "2026-03-23",
+          "iso_currency_code": "USD",
+          "name": "STRIPE PAYOUT",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-bfd6f0bb230e5877"
+        },
+        {
+          "account_id": "acct-willow-chk",
+          "amount": "2500.00",
+          "date": "2026-03-25",
+          "iso_currency_code": "USD",
+          "name": "TRANSFER TO PERSONAL SAVINGS",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-1edf6dff228354f2"
+        },
+        {
+          "account_id": "acct-willow-chk",
+          "amount": "-603.35",
+          "date": "2026-03-27",
+          "iso_currency_code": "USD",
+          "name": "STRIPE PAYOUT",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-b9981b1a16885d38"
+        },
+        {
+          "account_id": "acct-willow-chk",
+          "amount": "-1118.03",
+          "date": "2026-03-28",
+          "iso_currency_code": "USD",
+          "name": "STRIPE PAYOUT",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-8f344f2186ca58d3"
+        },
+        {
+          "account_id": "acct-willow-chk",
+          "amount": "210.00",
+          "date": "2026-03-30",
+          "iso_currency_code": "USD",
+          "name": "CHECK 211",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-10999c8a55865567"
+        },
+        {
+          "account_id": "acct-willow-chk",
+          "amount": "-501.95",
+          "date": "2026-03-30",
+          "iso_currency_code": "USD",
+          "name": "STRIPE PAYOUT",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-d75c938281ae5343"
+        },
+        {
+          "account_id": "acct-willow-chk",
+          "amount": "-877.89",
+          "date": "2026-03-31",
+          "iso_currency_code": "USD",
+          "name": "STRIPE PAYOUT",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-93d123753ae8548e"
+        }
+      ],
+      "cursor": "cursor-willow-studio-0",
+      "has_more": true,
+      "modified": [],
+      "next_cursor": "cursor-willow-studio-1",
+      "removed": []
+    },
+    {
+      "added": [
+        {
+          "account_id": "acct-willow-chk",
+          "amount": "1650.00",
+          "date": "2026-04-01",
+          "iso_currency_code": "USD",
+          "name": "MAPLE COMMONS STUDIO RENT",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-a2bef9c5147b5963"
+        },
+        {
+          "account_id": "acct-willow-chk",
+          "amount": "-426.04",
+          "date": "2026-04-01",
+          "iso_currency_code": "USD",
+          "name": "STRIPE PAYOUT",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-f0f1701cea005405"
+        },
+        {
+          "account_id": "acct-willow-chk",
+          "amount": "-1320.63",
+          "date": "2026-04-02",
+          "iso_currency_code": "USD",
+          "name": "STRIPE PAYOUT",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-6a2d225355395695"
+        },
+        {
+          "account_id": "acct-willow-chk",
+          "amount": "-1171.71",
+          "date": "2026-04-03",
+          "iso_currency_code": "USD",
+          "name": "STRIPE PAYOUT",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-3196dc0d1f6257b3"
+        },
+        {
+          "account_id": "acct-willow-chk",
+          "amount": "-902.36",
+          "date": "2026-04-04",
+          "iso_currency_code": "USD",
+          "name": "STRIPE PAYOUT",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-0b6043d997115823"
+        },
+        {
+          "account_id": "acct-willow-chk",
+          "amount": "59.99",
+          "date": "2026-04-04",
+          "iso_currency_code": "USD",
+          "name": "ADOBE CREATIVE CLOUD",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-a20b692edb045ec8"
+        },
+        {
+          "account_id": "acct-willow-chk",
+          "amount": "476.61",
+          "date": "2026-04-05",
+          "iso_currency_code": "USD",
+          "name": "VENMO PAYMENT ASSISTANT",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-fa508a7dbd525a26"
+        },
+        {
+          "account_id": "acct-willow-chk",
+          "amount": "36.00",
+          "date": "2026-04-06",
+          "iso_currency_code": "USD",
+          "name": "SQUARESPACE INC",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-30a6186ce8865225"
+        },
+        {
+          "account_id": "acct-willow-chk",
+          "amount": "15.99",
+          "date": "2026-04-09",
+          "iso_currency_code": "USD",
+          "name": "ZOOM VIDEO COMM",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-d5e59f65c41a5150"
+        },
+        {
+          "account_id": "acct-willow-chk",
+          "amount": "-962.33",
+          "date": "2026-04-11",
+          "iso_currency_code": "USD",
+          "name": "STRIPE PAYOUT",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-65d86432272c522c"
+        },
+        {
+          "account_id": "acct-willow-chk",
+          "amount": "14.40",
+          "date": "2026-04-11",
+          "iso_currency_code": "USD",
+          "name": "GOOGLE WORKSPACE",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-b4e6d4cb1c875e9b"
+        },
+        {
+          "account_id": "acct-willow-chk",
+          "amount": "89.00",
+          "date": "2026-04-14",
+          "iso_currency_code": "USD",
+          "name": "HISCOX BUSINESS INSURANCE",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-0190776b355d5ceb"
+        },
+        {
+          "account_id": "acct-willow-chk",
+          "amount": "-967.10",
+          "date": "2026-04-15",
+          "iso_currency_code": "USD",
+          "name": "STRIPE PAYOUT",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-6d6a0da2b9ab5fdc"
+        },
+        {
+          "account_id": "acct-willow-chk",
+          "amount": "403.63",
+          "date": "2026-04-20",
+          "iso_currency_code": "USD",
+          "name": "VENMO PAYMENT ASSISTANT",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-aa40e845c8c557b8"
+        },
+        {
+          "account_id": "acct-willow-chk",
+          "amount": "-471.40",
+          "date": "2026-04-24",
+          "iso_currency_code": "USD",
+          "name": "STRIPE PAYOUT",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-ba84a7be489a533b"
+        },
+        {
+          "account_id": "acct-willow-chk",
+          "amount": "2500.00",
+          "date": "2026-04-25",
+          "iso_currency_code": "USD",
+          "name": "TRANSFER TO PERSONAL SAVINGS",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-21d6d745f3eb5c63"
+        },
+        {
+          "account_id": "acct-willow-chk",
+          "amount": "-1200.00",
+          "date": "2026-04-27",
+          "iso_currency_code": "USD",
+          "name": "ZELLE PAYMENT FROM MARTIN R",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-468dd1948b48533f"
+        },
+        {
+          "account_id": "acct-willow-chk",
+          "amount": "-782.11",
+          "date": "2026-04-27",
+          "iso_currency_code": "USD",
+          "name": "STRIPE PAYOUT",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-dfea61c16f72586a"
+        }
+      ],
+      "cursor": "cursor-willow-studio-1",
+      "has_more": true,
+      "modified": [],
+      "next_cursor": "cursor-willow-studio-2",
+      "removed": []
+    },
+    {
+      "added": [
+        {
+          "account_id": "acct-willow-chk",
+          "amount": "1650.00",
+          "date": "2026-05-01",
+          "iso_currency_code": "USD",
+          "name": "MAPLE COMMONS STUDIO RENT",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-cb1bdfd52bf95046"
+        },
+        {
+          "account_id": "acct-willow-chk",
+          "amount": "-482.71",
+          "date": "2026-05-01",
+          "iso_currency_code": "USD",
+          "name": "STRIPE PAYOUT",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-ececb7369038548d"
+        },
+        {
+          "account_id": "acct-willow-chk",
+          "amount": "-996.03",
+          "date": "2026-05-02",
+          "iso_currency_code": "USD",
+          "name": "STRIPE PAYOUT",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-e45934daf1b9525a"
+        },
+        {
+          "account_id": "acct-willow-chk",
+          "amount": "59.99",
+          "date": "2026-05-04",
+          "iso_currency_code": "USD",
+          "name": "ADOBE CREATIVE CLOUD",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-721a9ff38d585b91"
+        },
+        {
+          "account_id": "acct-willow-chk",
+          "amount": "-758.13",
+          "date": "2026-05-05",
+          "iso_currency_code": "USD",
+          "name": "STRIPE PAYOUT",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-a4a484606ca95202"
+        },
+        {
+          "account_id": "acct-willow-chk",
+          "amount": "-6000.00",
+          "date": "2026-05-05",
+          "iso_currency_code": "USD",
+          "name": "PAYPAL WORKING CAPITAL ADVANCE",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-ceab876d90fd5e7b"
+        },
+        {
+          "account_id": "acct-willow-chk",
+          "amount": "366.46",
+          "date": "2026-05-05",
+          "iso_currency_code": "USD",
+          "name": "VENMO PAYMENT ASSISTANT",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-e836ada11e1558c0"
+        },
+        {
+          "account_id": "acct-willow-chk",
+          "amount": "36.00",
+          "date": "2026-05-06",
+          "iso_currency_code": "USD",
+          "name": "SQUARESPACE INC",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-8fae0c0a755b5a6b"
+        },
+        {
+          "account_id": "acct-willow-chk",
+          "amount": "-249.35",
+          "date": "2026-05-07",
+          "iso_currency_code": "USD",
+          "name": "STRIPE PAYOUT",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-2e434c97eed15e38"
+        },
+        {
+          "account_id": "acct-willow-chk",
+          "amount": "15.99",
+          "date": "2026-05-09",
+          "iso_currency_code": "USD",
+          "name": "ZOOM VIDEO COMM",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-e226f2e10cea5fae"
+        },
+        {
+          "account_id": "acct-willow-chk",
+          "amount": "14.40",
+          "date": "2026-05-11",
+          "iso_currency_code": "USD",
+          "name": "GOOGLE WORKSPACE",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-49ac2d68d191533f"
+        },
+        {
+          "account_id": "acct-willow-chk",
+          "amount": "-275.40",
+          "date": "2026-05-11",
+          "iso_currency_code": "USD",
+          "name": "STRIPE PAYOUT",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-ad63a9fd2e1155fb"
+        },
+        {
+          "account_id": "acct-willow-chk",
+          "amount": "-629.11",
+          "date": "2026-05-12",
+          "iso_currency_code": "USD",
+          "name": "STRIPE PAYOUT",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-423563e27b8657ff"
+        },
+        {
+          "account_id": "acct-willow-chk",
+          "amount": "89.00",
+          "date": "2026-05-14",
+          "iso_currency_code": "USD",
+          "name": "HISCOX BUSINESS INSURANCE",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-9c02e48daa6b518b"
+        },
+        {
+          "account_id": "acct-willow-chk",
+          "amount": "-509.56",
+          "date": "2026-05-19",
+          "iso_currency_code": "USD",
+          "name": "STRIPE PAYOUT",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-ccf8a270df085f64"
+        },
+        {
+          "account_id": "acct-willow-chk",
+          "amount": "-1072.12",
+          "date": "2026-05-20",
+          "iso_currency_code": "USD",
+          "name": "STRIPE PAYOUT",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-323f762a20a95cfc"
+        },
+        {
+          "account_id": "acct-willow-chk",
+          "amount": "366.39",
+          "date": "2026-05-20",
+          "iso_currency_code": "USD",
+          "name": "VENMO PAYMENT ASSISTANT",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-451110d070cb5d82"
+        },
+        {
+          "account_id": "acct-willow-chk",
+          "amount": "-729.85",
+          "date": "2026-05-22",
+          "iso_currency_code": "USD",
+          "name": "STRIPE PAYOUT",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-85c47bd4c2c85d70"
+        },
+        {
+          "account_id": "acct-willow-chk",
+          "amount": "-702.31",
+          "date": "2026-05-25",
+          "iso_currency_code": "USD",
+          "name": "STRIPE PAYOUT",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-5c6eb46c8dbf5d11"
+        },
+        {
+          "account_id": "acct-willow-chk",
+          "amount": "2500.00",
+          "date": "2026-05-25",
+          "iso_currency_code": "USD",
+          "name": "TRANSFER TO PERSONAL SAVINGS",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-e1cea2b9d6e15f58"
+        },
+        {
+          "account_id": "acct-willow-chk",
+          "amount": "-260.89",
+          "date": "2026-05-26",
+          "iso_currency_code": "USD",
+          "name": "STRIPE PAYOUT",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-59034eaec1d65916"
+        }
+      ],
+      "cursor": "cursor-willow-studio-2",
+      "has_more": true,
+      "modified": [],
+      "next_cursor": "cursor-willow-studio-3",
+      "removed": []
+    },
+    {
+      "added": [
+        {
+          "account_id": "acct-willow-chk",
+          "amount": "-260.89",
+          "date": "2026-05-26",
+          "iso_currency_code": "USD",
+          "name": "STRIPE PAYOUT",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-59034eaec1d65916"
+        },
+        {
+          "account_id": "acct-willow-chk",
+          "amount": "-426.81",
+          "date": "2026-06-01",
+          "iso_currency_code": "USD",
+          "name": "STRIPE PAYOUT",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-5e7b63bc606a53f2"
+        },
+        {
+          "account_id": "acct-willow-chk",
+          "amount": "1650.00",
+          "date": "2026-06-01",
+          "iso_currency_code": "USD",
+          "name": "MAPLE COMMONS STUDIO RENT",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-dfa5e0bbfce75aab"
+        },
+        {
+          "account_id": "acct-willow-sav",
+          "amount": "-1000.00",
+          "date": "2026-06-02",
+          "iso_currency_code": "USD",
+          "name": "ONLINE TRANSFER FROM CHECKING ...7310",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-568005e50a8b5015"
+        },
+        {
+          "account_id": "acct-willow-chk",
+          "amount": "1000.00",
+          "date": "2026-06-02",
+          "iso_currency_code": "USD",
+          "name": "ONLINE TRANSFER TO SAVINGS ...7355",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-d96fcdcd77fd50e8"
+        },
+        {
+          "account_id": "acct-willow-chk",
+          "amount": "-1128.83",
+          "date": "2026-06-03",
+          "iso_currency_code": "USD",
+          "name": "STRIPE PAYOUT",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-c761a6d21ac75ef1"
+        },
+        {
+          "account_id": "acct-willow-chk",
+          "amount": "-1229.68",
+          "date": "2026-06-04",
+          "iso_currency_code": "USD",
+          "name": "STRIPE PAYOUT",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-2d3e816ed6a852a7"
+        },
+        {
+          "account_id": "acct-willow-chk",
+          "amount": "59.99",
+          "date": "2026-06-04",
+          "iso_currency_code": "USD",
+          "name": "ADOBE CREATIVE CLOUD",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-c610e4024ab45df2"
+        },
+        {
+          "account_id": "acct-willow-chk",
+          "amount": "370.76",
+          "date": "2026-06-05",
+          "iso_currency_code": "USD",
+          "name": "VENMO PAYMENT ASSISTANT",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-76ccdd44f2cf560e"
+        },
+        {
+          "account_id": "acct-willow-chk",
+          "amount": "36.00",
+          "date": "2026-06-06",
+          "iso_currency_code": "USD",
+          "name": "SQUARESPACE INC",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-583afd91edfe59b3"
+        },
+        {
+          "account_id": "acct-willow-chk",
+          "amount": "15.99",
+          "date": "2026-06-09",
+          "iso_currency_code": "USD",
+          "name": "ZOOM VIDEO COMM",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-03fa7366dc6259d6"
+        },
+        {
+          "account_id": "acct-willow-chk",
+          "amount": "-375.58",
+          "date": "2026-06-10",
+          "iso_currency_code": "USD",
+          "name": "STRIPE PAYOUT",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-a91e5936c1175ed9"
+        },
+        {
+          "account_id": "acct-willow-chk",
+          "amount": "14.40",
+          "date": "2026-06-11",
+          "iso_currency_code": "USD",
+          "name": "GOOGLE WORKSPACE",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-edc9cc1bc58d5d67"
+        },
+        {
+          "account_id": "acct-willow-chk",
+          "amount": "-1333.38",
+          "date": "2026-06-12",
+          "iso_currency_code": "USD",
+          "name": "STRIPE PAYOUT",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-9c9054d90a9b5210"
+        },
+        {
+          "account_id": "acct-willow-chk",
+          "amount": "89.00",
+          "date": "2026-06-14",
+          "iso_currency_code": "USD",
+          "name": "HISCOX BUSINESS INSURANCE",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-75c665a882c95f1c"
+        },
+        {
+          "account_id": "acct-willow-chk",
+          "amount": "-1137.25",
+          "date": "2026-06-15",
+          "iso_currency_code": "USD",
+          "name": "STRIPE PAYOUT",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-7df9b55cd6be5856"
+        },
+        {
+          "account_id": "acct-willow-chk",
+          "amount": "-998.50",
+          "date": "2026-06-16",
+          "iso_currency_code": "USD",
+          "name": "STRIPE PAYOUT",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-12420bf8d0915829"
+        },
+        {
+          "account_id": "acct-willow-chk",
+          "amount": "-883.83",
+          "date": "2026-06-17",
+          "iso_currency_code": "USD",
+          "name": "STRIPE PAYOUT",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-118498de8af558e8"
+        },
+        {
+          "account_id": "acct-willow-chk",
+          "amount": "520.00",
+          "date": "2026-06-19",
+          "iso_currency_code": "USD",
+          "name": "PAYPAL WORKING CAPITAL REPAYMENT",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-d2ed6f0d82125750"
+        },
+        {
+          "account_id": "acct-willow-chk",
+          "amount": "427.05",
+          "date": "2026-06-20",
+          "iso_currency_code": "USD",
+          "name": "VENMO PAYMENT ASSISTANT",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-1d247e26237b5fa1"
+        },
+        {
+          "account_id": "acct-willow-chk",
+          "amount": "-627.16",
+          "date": "2026-06-22",
+          "iso_currency_code": "USD",
+          "name": "STRIPE PAYOUT",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-459d59f659d256d5"
+        },
+        {
+          "account_id": "acct-willow-chk",
+          "amount": "-1384.00",
+          "date": "2026-06-24",
+          "iso_currency_code": "USD",
+          "name": "STRIPE PAYOUT",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-71e1175ed1c35a24"
+        },
+        {
+          "account_id": "acct-willow-chk",
+          "amount": "-450.00",
+          "date": "2026-06-24",
+          "iso_currency_code": "USD",
+          "name": "ACH CREDIT 3391",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-7aa114470b3b5f82"
+        },
+        {
+          "account_id": "acct-willow-chk",
+          "amount": "2500.00",
+          "date": "2026-06-25",
+          "iso_currency_code": "USD",
+          "name": "TRANSFER TO PERSONAL SAVINGS",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-0c96bcc8a6785858"
+        },
+        {
+          "account_id": "acct-willow-chk",
+          "amount": "-398.74",
+          "date": "2026-06-26",
+          "iso_currency_code": "USD",
+          "name": "STRIPE PAYOUT",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-bca3305c0d53545c"
+        }
+      ],
+      "cursor": "cursor-willow-studio-3",
+      "has_more": true,
+      "modified": [],
+      "next_cursor": "cursor-willow-studio-4",
+      "removed": []
+    },
+    {
+      "added": [
+        {
+          "account_id": "acct-willow-chk",
+          "amount": "-308.79",
+          "date": "2026-07-01",
+          "iso_currency_code": "USD",
+          "name": "STRIPE PAYOUT",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-785f41fd50695a80"
+        },
+        {
+          "account_id": "acct-willow-chk",
+          "amount": "1650.00",
+          "date": "2026-07-01",
+          "iso_currency_code": "USD",
+          "name": "MAPLE COMMONS STUDIO RENT",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-b3d82272c55c5d60"
+        },
+        {
+          "account_id": "acct-willow-chk",
+          "amount": "-555.27",
+          "date": "2026-07-02",
+          "iso_currency_code": "USD",
+          "name": "STRIPE PAYOUT",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-64671aeb2faf50d2"
+        },
+        {
+          "account_id": "acct-willow-chk",
+          "amount": "59.99",
+          "date": "2026-07-04",
+          "iso_currency_code": "USD",
+          "name": "ADOBE CREATIVE CLOUD",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-34f1900fe8145b91"
+        },
+        {
+          "account_id": "acct-willow-chk",
+          "amount": "418.94",
+          "date": "2026-07-05",
+          "iso_currency_code": "USD",
+          "name": "VENMO PAYMENT ASSISTANT",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-012569ba661a55da"
+        },
+        {
+          "account_id": "acct-willow-chk",
+          "amount": "36.00",
+          "date": "2026-07-06",
+          "iso_currency_code": "USD",
+          "name": "SQUARESPACE INC",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-f5a63fb085035fdb"
+        },
+        {
+          "account_id": "acct-willow-chk",
+          "amount": "-210.13",
+          "date": "2026-07-08",
+          "iso_currency_code": "USD",
+          "name": "STRIPE PAYOUT",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-a23fcf0eaf2c55e8"
+        },
+        {
+          "account_id": "acct-willow-chk",
+          "amount": "15.99",
+          "date": "2026-07-09",
+          "iso_currency_code": "USD",
+          "name": "ZOOM VIDEO COMM",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-9a5fa727537352fe"
+        },
+        {
+          "account_id": "acct-willow-chk",
+          "amount": "3845.00",
+          "date": "2026-07-09",
+          "iso_currency_code": "USD",
+          "name": "B AND H PHOTO VIDEO",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-f3f9e0e320fb5d33"
+        },
+        {
+          "account_id": "acct-willow-chk",
+          "amount": "-360.25",
+          "date": "2026-07-11",
+          "iso_currency_code": "USD",
+          "name": "STRIPE PAYOUT",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-722de1ac685e53e4"
+        },
+        {
+          "account_id": "acct-willow-chk",
+          "amount": "14.40",
+          "date": "2026-07-11",
+          "iso_currency_code": "USD",
+          "name": "GOOGLE WORKSPACE",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-c414dc9e13645ddf"
+        },
+        {
+          "account_id": "acct-willow-chk",
+          "amount": "-1074.84",
+          "date": "2026-07-13",
+          "iso_currency_code": "USD",
+          "name": "STRIPE PAYOUT",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-631c763776175377"
+        },
+        {
+          "account_id": "acct-willow-chk",
+          "amount": "89.00",
+          "date": "2026-07-14",
+          "iso_currency_code": "USD",
+          "name": "HISCOX BUSINESS INSURANCE",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-fc86f252359b58a2"
+        },
+        {
+          "account_id": "acct-willow-chk",
+          "amount": "-968.72",
+          "date": "2026-07-15",
+          "iso_currency_code": "USD",
+          "name": "STRIPE PAYOUT",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-f317490359235d4e"
+        },
+        {
+          "account_id": "acct-willow-chk",
+          "amount": "-524.21",
+          "date": "2026-07-17",
+          "iso_currency_code": "USD",
+          "name": "STRIPE PAYOUT",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-f7e1e44a2ee9578f"
+        },
+        {
+          "account_id": "acct-willow-chk",
+          "amount": "520.00",
+          "date": "2026-07-19",
+          "iso_currency_code": "USD",
+          "name": "PAYPAL WORKING CAPITAL REPAYMENT",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-bcd32d94eced53f6"
+        },
+        {
+          "account_id": "acct-willow-chk",
+          "amount": "368.51",
+          "date": "2026-07-20",
+          "iso_currency_code": "USD",
+          "name": "VENMO PAYMENT ASSISTANT",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-702351f0d66d50c3"
+        },
+        {
+          "account_id": "acct-willow-chk",
+          "amount": "-791.02",
+          "date": "2026-07-22",
+          "iso_currency_code": "USD",
+          "name": "STRIPE PAYOUT",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-419fadf0c34e5049"
+        },
+        {
+          "account_id": "acct-willow-chk",
+          "amount": "2500.00",
+          "date": "2026-07-25",
+          "iso_currency_code": "USD",
+          "name": "TRANSFER TO PERSONAL SAVINGS",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-1b01fa87800a5e97"
+        },
+        {
+          "account_id": "acct-willow-chk",
+          "amount": "-1268.91",
+          "date": "2026-07-28",
+          "iso_currency_code": "USD",
+          "name": "STRIPE PAYOUT",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-88a4bd12bf705324"
+        },
+        {
+          "account_id": "acct-willow-chk",
+          "amount": "-182.26",
+          "date": "2026-07-29",
+          "iso_currency_code": "USD",
+          "name": "STRIPE PAYOUT",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-d5c117b571c853ca"
+        },
+        {
+          "account_id": "acct-willow-chk",
+          "amount": "-1441.32",
+          "date": "2026-07-31",
+          "iso_currency_code": "USD",
+          "name": "STRIPE PAYOUT",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-480c9d03ab3d5f5f"
+        }
+      ],
+      "cursor": "cursor-willow-studio-4",
+      "has_more": true,
+      "modified": [],
+      "next_cursor": "cursor-willow-studio-5",
+      "removed": []
+    },
+    {
+      "added": [
+        {
+          "account_id": "acct-willow-chk",
+          "amount": "1650.00",
+          "date": "2026-08-01",
+          "iso_currency_code": "USD",
+          "name": "MAPLE COMMONS STUDIO RENT",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-9b7abdedfaac536f"
+        },
+        {
+          "account_id": "acct-willow-chk",
+          "amount": "-1174.02",
+          "date": "2026-08-03",
+          "iso_currency_code": "USD",
+          "name": "STRIPE PAYOUT",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-bb8f7cdb8aef5447"
+        },
+        {
+          "account_id": "acct-willow-chk",
+          "amount": "59.99",
+          "date": "2026-08-04",
+          "iso_currency_code": "USD",
+          "name": "ADOBE CREATIVE CLOUD",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-ac32ca9d42fa5489"
+        },
+        {
+          "account_id": "acct-willow-chk",
+          "amount": "455.92",
+          "date": "2026-08-05",
+          "iso_currency_code": "USD",
+          "name": "VENMO PAYMENT ASSISTANT",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-79cfc038a4535217"
+        },
+        {
+          "account_id": "acct-willow-chk",
+          "amount": "36.00",
+          "date": "2026-08-06",
+          "iso_currency_code": "USD",
+          "name": "SQUARESPACE INC",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-0d1355bc08545294"
+        },
+        {
+          "account_id": "acct-willow-chk",
+          "amount": "15.99",
+          "date": "2026-08-09",
+          "iso_currency_code": "USD",
+          "name": "ZOOM VIDEO COMM",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-4a6e40c6e59a517f"
+        },
+        {
+          "account_id": "acct-willow-chk",
+          "amount": "14.40",
+          "date": "2026-08-11",
+          "iso_currency_code": "USD",
+          "name": "GOOGLE WORKSPACE",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-215a4d4f86b65d15"
+        },
+        {
+          "account_id": "acct-willow-chk",
+          "amount": "-1344.72",
+          "date": "2026-08-11",
+          "iso_currency_code": "USD",
+          "name": "STRIPE PAYOUT",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-8d1a061728335898"
+        },
+        {
+          "account_id": "acct-willow-chk",
+          "amount": "89.00",
+          "date": "2026-08-14",
+          "iso_currency_code": "USD",
+          "name": "HISCOX BUSINESS INSURANCE",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-20545d41f07853ba"
+        },
+        {
+          "account_id": "acct-willow-chk",
+          "amount": "-1167.42",
+          "date": "2026-08-17",
+          "iso_currency_code": "USD",
+          "name": "STRIPE PAYOUT",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-4ddafbe2fa9e5a54"
+        },
+        {
+          "account_id": "acct-willow-chk",
+          "amount": "520.00",
+          "date": "2026-08-19",
+          "iso_currency_code": "USD",
+          "name": "PAYPAL WORKING CAPITAL REPAYMENT",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-13cb6935021d5f14"
+        },
+        {
+          "account_id": "acct-willow-chk",
+          "amount": "378.03",
+          "date": "2026-08-20",
+          "iso_currency_code": "USD",
+          "name": "VENMO PAYMENT ASSISTANT",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-498d7bb91ddf56f4"
+        },
+        {
+          "account_id": "acct-willow-chk",
+          "amount": "-303.09",
+          "date": "2026-08-21",
+          "iso_currency_code": "USD",
+          "name": "STRIPE PAYOUT",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-c74f2bcc80505843"
+        },
+        {
+          "account_id": "acct-willow-chk",
+          "amount": "-1202.17",
+          "date": "2026-08-24",
+          "iso_currency_code": "USD",
+          "name": "STRIPE PAYOUT",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-9849dff2476a5f95"
+        },
+        {
+          "account_id": "acct-willow-chk",
+          "amount": "2500.00",
+          "date": "2026-08-25",
+          "iso_currency_code": "USD",
+          "name": "TRANSFER TO PERSONAL SAVINGS",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-8524ae65973f52bc"
+        },
+        {
+          "account_id": "acct-willow-chk",
+          "amount": "-1080.45",
+          "date": "2026-08-26",
+          "iso_currency_code": "USD",
+          "name": "STRIPE PAYOUT",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-bdfdd63f937e5547"
+        },
+        {
+          "account_id": "acct-willow-chk",
+          "amount": "-612.00",
+          "date": "2026-08-27",
+          "iso_currency_code": "USD",
+          "name": "STRIPE PAYOUT",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-53d8ffca3861526d"
+        },
+        {
+          "account_id": "acct-willow-chk",
+          "amount": "-313.30",
+          "date": "2026-08-27",
+          "iso_currency_code": "USD",
+          "name": "STRIPE PAYOUT",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-b1a61af9f9b25150"
+        },
+        {
+          "account_id": "acct-willow-chk",
+          "amount": "59.99",
+          "date": "2026-08-29",
+          "iso_currency_code": "USD",
+          "name": "ADOBE CREATIVE CLOUD",
+          "pending": true,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-49ccf0c87a0a5799"
+        },
+        {
+          "account_id": "acct-willow-chk",
+          "amount": "-905.22",
+          "date": "2026-08-31",
+          "iso_currency_code": "USD",
+          "name": "STRIPE PAYOUT",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-1d0f176e3f7c552a"
+        },
+        {
+          "account_id": "acct-willow-chk",
+          "amount": "42.75",
+          "date": "2026-08-31",
+          "iso_currency_code": "USD",
+          "name": "CARD AUTHORIZATION AMAZON",
+          "pending": true,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-af490574ec065056"
+        },
+        {
+          "account_id": "acct-willow-sav",
+          "amount": "-5.20",
+          "date": "2026-08-31",
+          "iso_currency_code": "USD",
+          "name": "INTEREST PAYMENT",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-e2252af2d41450ee"
+        }
+      ],
+      "cursor": "cursor-willow-studio-5",
+      "has_more": true,
+      "modified": [],
+      "next_cursor": "cursor-willow-studio-6",
+      "removed": []
+    },
+    {
+      "added": [
+        {
+          "account_id": "acct-willow-chk",
+          "amount": "62.99",
+          "date": "2026-08-30",
+          "iso_currency_code": "USD",
+          "name": "ADOBE CREATIVE CLOUD",
+          "pending": false,
+          "pending_transaction_id": "tx-49ccf0c87a0a5799",
+          "transaction_id": "tx-0947da43fba356c6"
+        }
+      ],
+      "cursor": "cursor-willow-studio-6",
+      "has_more": false,
+      "modified": [
+        {
+          "account_id": "acct-willow-chk",
+          "amount": "-308.79",
+          "date": "2026-07-01",
+          "iso_currency_code": "USD",
+          "name": "STRIPE PAYOUT - MERCHANT VERIFIED",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-785f41fd50695a80"
+        }
+      ],
+      "next_cursor": "cursor-willow-studio-7",
+      "removed": [
+        {
+          "transaction_id": "tx-53d8ffca3861526d"
+        },
+        {
+          "transaction_id": "tx-49ccf0c87a0a5799"
+        }
+      ]
+    }
+  ],
+  "provider": "synthetic",
+  "seed": 20260903,
+  "sign_convention": "positive amount = money leaving the account (Plaid style)"
+}

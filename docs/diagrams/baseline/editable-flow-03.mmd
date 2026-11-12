@@ -1,0 +1,16 @@
+flowchart TD
+    A["Synthetic sync update"] --> B["Stage all pages"]
+    B --> C["Validate IDs, dates and amounts"]
+    C --> D["Atomic update and cursor commit"]
+    D --> E["Normalize posted transactions"]
+    E --> F{"Clear category?"}
+    F -->|Yes| G["Deterministic rules"]
+    F -->|No| H["LLM classification with context"]
+    H --> I["Validate category and evidence"]
+    G --> J["Versioned classifications"]
+    I --> J
+    J --> K["Calculate financial snapshot"]
+    K --> L["Detect measurable changes"]
+    L --> M["AI explanation and context questions"]
+    M --> N["Validate claims and references"]
+    N --> O["Publish weekly brief"]

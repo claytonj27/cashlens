@@ -1,0 +1,2261 @@
+{
+  "accounts": [
+    {
+      "external_account_id": "acct-northline-chk",
+      "mask": "9902",
+      "name": "Operating checking",
+      "opening_balance_minor": 4280000,
+      "opening_date": "2026-03-01",
+      "type": "checking"
+    },
+    {
+      "external_account_id": "acct-northline-sav",
+      "mask": "9911",
+      "name": "Tax reserve savings",
+      "opening_balance_minor": 1500000,
+      "opening_date": "2026-03-01",
+      "type": "savings"
+    }
+  ],
+  "assumptions": [
+    {
+      "amount_minor": 1450000,
+      "due_date": "2026-09-10",
+      "kind": "expected_receipt",
+      "origin": "owner_entered"
+    },
+    {
+      "amount_minor": 390000,
+      "due_date": "2026-09-01",
+      "kind": "rent",
+      "origin": "owner_entered"
+    }
+  ],
+  "balances": [
+    {
+      "account_id": "acct-northline-chk",
+      "amount_minor": 3546263,
+      "as_of": "2026-08-31T23:59:59Z",
+      "kind": "current"
+    },
+    {
+      "account_id": "acct-northline-chk",
+      "amount_minor": 3526663,
+      "as_of": "2026-08-31T23:59:59Z",
+      "kind": "available"
+    },
+    {
+      "account_id": "acct-northline-sav",
+      "amount_minor": 2000000,
+      "as_of": "2026-08-18T23:59:59Z",
+      "kind": "current"
+    }
+  ],
+  "business": {
+    "industry": "general contracting",
+    "name": "Northline Services",
+    "slug": "northline-services"
+  },
+  "demo_date": "2026-08-31",
+  "generator_version": "1",
+  "history_start": "2026-03-01",
+  "item": {
+    "external_item_id": "item-northline-services-001"
+  },
+  "pages": [
+    {
+      "added": [
+        {
+          "account_id": "acct-northline-chk",
+          "amount": "3900.00",
+          "date": "2026-03-01",
+          "iso_currency_code": "USD",
+          "name": "K STREET INDUSTRIAL RENT",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-274a5cc30de45da2"
+        },
+        {
+          "account_id": "acct-northline-chk",
+          "amount": "96.30",
+          "date": "2026-03-02",
+          "iso_currency_code": "USD",
+          "name": "CHEVRON",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-ee5aa8ef688f5a81"
+        },
+        {
+          "account_id": "acct-northline-chk",
+          "amount": "1341.65",
+          "date": "2026-03-03",
+          "iso_currency_code": "USD",
+          "name": "THE HOME DEPOT",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-d6c51c5e3a475454"
+        },
+        {
+          "account_id": "acct-northline-chk",
+          "amount": "-12392.96",
+          "date": "2026-03-04",
+          "iso_currency_code": "USD",
+          "name": "CHECK DEPOSIT",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-4e5020f1809955e7"
+        },
+        {
+          "account_id": "acct-northline-chk",
+          "amount": "143.97",
+          "date": "2026-03-04",
+          "iso_currency_code": "USD",
+          "name": "CHEVRON",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-c03f9ace0e91536c"
+        },
+        {
+          "account_id": "acct-northline-chk",
+          "amount": "90.81",
+          "date": "2026-03-06",
+          "iso_currency_code": "USD",
+          "name": "CHEVRON",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-b150cac23e9f564a"
+        },
+        {
+          "account_id": "acct-northline-chk",
+          "amount": "1580.73",
+          "date": "2026-03-06",
+          "iso_currency_code": "USD",
+          "name": "THE HOME DEPOT",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-c62589c2088e521b"
+        },
+        {
+          "account_id": "acct-northline-chk",
+          "amount": "1543.02",
+          "date": "2026-03-07",
+          "iso_currency_code": "USD",
+          "name": "FERGUSON ENTERPRISES",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-59425102482a54dd"
+        },
+        {
+          "account_id": "acct-northline-chk",
+          "amount": "143.18",
+          "date": "2026-03-09",
+          "iso_currency_code": "USD",
+          "name": "SHELL OIL",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-c6d026e85a5c572b"
+        },
+        {
+          "account_id": "acct-northline-chk",
+          "amount": "1009.47",
+          "date": "2026-03-10",
+          "iso_currency_code": "USD",
+          "name": "THE HOME DEPOT",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-0363e7be2860536b"
+        },
+        {
+          "account_id": "acct-northline-chk",
+          "amount": "1240.00",
+          "date": "2026-03-10",
+          "iso_currency_code": "USD",
+          "name": "TRAVELERS COMMERCIAL INSURANCE",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-2495f56aea1c50db"
+        },
+        {
+          "account_id": "acct-northline-chk",
+          "amount": "-14157.25",
+          "date": "2026-03-11",
+          "iso_currency_code": "USD",
+          "name": "ACH CREDIT WESTFIELD PROPERTY MGMT",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-26ddc468ac6f5ccb"
+        },
+        {
+          "account_id": "acct-northline-chk",
+          "amount": "101.77",
+          "date": "2026-03-11",
+          "iso_currency_code": "USD",
+          "name": "SHELL OIL",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-cbc483f595745b89"
+        },
+        {
+          "account_id": "acct-northline-chk",
+          "amount": "887.16",
+          "date": "2026-03-13",
+          "iso_currency_code": "USD",
+          "name": "THE HOME DEPOT",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-2c7920202beb5ac5"
+        },
+        {
+          "account_id": "acct-northline-chk",
+          "amount": "123.53",
+          "date": "2026-03-13",
+          "iso_currency_code": "USD",
+          "name": "SHELL OIL",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-4b2421f057985190"
+        },
+        {
+          "account_id": "acct-northline-chk",
+          "amount": "11721.04",
+          "date": "2026-03-13",
+          "iso_currency_code": "USD",
+          "name": "ADP PAYROLL",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-879bf38569965243"
+        },
+        {
+          "account_id": "acct-northline-chk",
+          "amount": "1180.00",
+          "date": "2026-03-15",
+          "iso_currency_code": "USD",
+          "name": "CAT FINANCIAL EQUIPMENT LEASE",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-c19112420d9f5860"
+        },
+        {
+          "account_id": "acct-northline-chk",
+          "amount": "154.43",
+          "date": "2026-03-16",
+          "iso_currency_code": "USD",
+          "name": "CHEVRON",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-bd5cffcd97c85b1c"
+        },
+        {
+          "account_id": "acct-northline-chk",
+          "amount": "450.96",
+          "date": "2026-03-17",
+          "iso_currency_code": "USD",
+          "name": "THE HOME DEPOT",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-3fedd78d3c8e50c5"
+        },
+        {
+          "account_id": "acct-northline-chk",
+          "amount": "158.10",
+          "date": "2026-03-18",
+          "iso_currency_code": "USD",
+          "name": "CHEVRON",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-f4836fa63fe854db"
+        },
+        {
+          "account_id": "acct-northline-chk",
+          "amount": "90.88",
+          "date": "2026-03-20",
+          "iso_currency_code": "USD",
+          "name": "CHEVRON",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-0f58f5304f8a5132"
+        },
+        {
+          "account_id": "acct-northline-chk",
+          "amount": "2082.01",
+          "date": "2026-03-20",
+          "iso_currency_code": "USD",
+          "name": "THE HOME DEPOT",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-1274229cee70511c"
+        },
+        {
+          "account_id": "acct-northline-chk",
+          "amount": "-8357.24",
+          "date": "2026-03-21",
+          "iso_currency_code": "USD",
+          "name": "ACH CREDIT CEDAR RIDGE LLC",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-59d51bbea492573e"
+        },
+        {
+          "account_id": "acct-northline-chk",
+          "amount": "4072.23",
+          "date": "2026-03-23",
+          "iso_currency_code": "USD",
+          "name": "FERGUSON ENTERPRISES",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-6724cb0d184a5002"
+        },
+        {
+          "account_id": "acct-northline-chk",
+          "amount": "151.66",
+          "date": "2026-03-23",
+          "iso_currency_code": "USD",
+          "name": "SHELL OIL",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-84aa3dcf3beb53b3"
+        },
+        {
+          "account_id": "acct-northline-chk",
+          "amount": "2094.69",
+          "date": "2026-03-24",
+          "iso_currency_code": "USD",
+          "name": "THE HOME DEPOT",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-5d0d1cc441ee5f99"
+        },
+        {
+          "account_id": "acct-northline-chk",
+          "amount": "84.38",
+          "date": "2026-03-25",
+          "iso_currency_code": "USD",
+          "name": "SHELL OIL",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-a2a28c6f2ad9502f"
+        },
+        {
+          "account_id": "acct-northline-chk",
+          "amount": "812.67",
+          "date": "2026-03-27",
+          "iso_currency_code": "USD",
+          "name": "THE HOME DEPOT",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-2f9fc9aa0ca85638"
+        },
+        {
+          "account_id": "acct-northline-chk",
+          "amount": "136.67",
+          "date": "2026-03-27",
+          "iso_currency_code": "USD",
+          "name": "SHELL OIL",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-5f08f5f3faef5399"
+        },
+        {
+          "account_id": "acct-northline-chk",
+          "amount": "13418.72",
+          "date": "2026-03-27",
+          "iso_currency_code": "USD",
+          "name": "ADP PAYROLL",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-d77c433c2e7d5eee"
+        },
+        {
+          "account_id": "acct-northline-chk",
+          "amount": "-15101.19",
+          "date": "2026-03-29",
+          "iso_currency_code": "USD",
+          "name": "ACH CREDIT CEDAR RIDGE LLC",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-e6d67965ce4e5617"
+        },
+        {
+          "account_id": "acct-northline-chk",
+          "amount": "94.62",
+          "date": "2026-03-30",
+          "iso_currency_code": "USD",
+          "name": "CHEVRON",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-7b82de04b8a655e5"
+        },
+        {
+          "account_id": "acct-northline-chk",
+          "amount": "1798.34",
+          "date": "2026-03-31",
+          "iso_currency_code": "USD",
+          "name": "THE HOME DEPOT",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-6f9970156250512a"
+        }
+      ],
+      "cursor": "cursor-northline-services-0",
+      "has_more": true,
+      "modified": [],
+      "next_cursor": "cursor-northline-services-1",
+      "removed": []
+    },
+    {
+      "added": [
+        {
+          "account_id": "acct-northline-chk",
+          "amount": "3900.00",
+          "date": "2026-04-01",
+          "iso_currency_code": "USD",
+          "name": "K STREET INDUSTRIAL RENT",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-47896659df4f5391"
+        },
+        {
+          "account_id": "acct-northline-chk",
+          "amount": "132.85",
+          "date": "2026-04-01",
+          "iso_currency_code": "USD",
+          "name": "SHELL OIL",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-ad782b5e90fb5b95"
+        },
+        {
+          "account_id": "acct-northline-chk",
+          "amount": "127.48",
+          "date": "2026-04-03",
+          "iso_currency_code": "USD",
+          "name": "SHELL OIL",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-46f3d143a4235a73"
+        },
+        {
+          "account_id": "acct-northline-chk",
+          "amount": "969.08",
+          "date": "2026-04-03",
+          "iso_currency_code": "USD",
+          "name": "THE HOME DEPOT",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-f7abf839f1c051c2"
+        },
+        {
+          "account_id": "acct-northline-chk",
+          "amount": "-16458.12",
+          "date": "2026-04-04",
+          "iso_currency_code": "USD",
+          "name": "ACH CREDIT CEDAR RIDGE LLC",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-7c93490a6fb457f6"
+        },
+        {
+          "account_id": "acct-northline-chk",
+          "amount": "90.00",
+          "date": "2026-04-06",
+          "iso_currency_code": "USD",
+          "name": "CHEVRON",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-5a89dbbd7d58559c"
+        },
+        {
+          "account_id": "acct-northline-chk",
+          "amount": "2270.08",
+          "date": "2026-04-07",
+          "iso_currency_code": "USD",
+          "name": "THE HOME DEPOT",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-753b853c77415e9e"
+        },
+        {
+          "account_id": "acct-northline-chk",
+          "amount": "3518.73",
+          "date": "2026-04-07",
+          "iso_currency_code": "USD",
+          "name": "FERGUSON ENTERPRISES",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-af5d3e33f9da5d4a"
+        },
+        {
+          "account_id": "acct-northline-sav",
+          "amount": "-5000.00",
+          "date": "2026-04-08",
+          "iso_currency_code": "USD",
+          "name": "ONLINE TRANSFER FROM CHECKING ...9902",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-1da0a13176605ecb"
+        },
+        {
+          "account_id": "acct-northline-chk",
+          "amount": "126.07",
+          "date": "2026-04-08",
+          "iso_currency_code": "USD",
+          "name": "CHEVRON",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-b751e9b0f23757b3"
+        },
+        {
+          "account_id": "acct-northline-chk",
+          "amount": "5000.00",
+          "date": "2026-04-08",
+          "iso_currency_code": "USD",
+          "name": "ONLINE TRANSFER TO SAVINGS ...9911",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-eb999ec0000852c6"
+        },
+        {
+          "account_id": "acct-northline-chk",
+          "amount": "115.39",
+          "date": "2026-04-10",
+          "iso_currency_code": "USD",
+          "name": "CHEVRON",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-1e6aba1ccc9e555d"
+        },
+        {
+          "account_id": "acct-northline-chk",
+          "amount": "1240.00",
+          "date": "2026-04-10",
+          "iso_currency_code": "USD",
+          "name": "TRAVELERS COMMERCIAL INSURANCE",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-415929f36c655f61"
+        },
+        {
+          "account_id": "acct-northline-chk",
+          "amount": "428.57",
+          "date": "2026-04-10",
+          "iso_currency_code": "USD",
+          "name": "THE HOME DEPOT",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-88e1cd3dc9de5aaa"
+        },
+        {
+          "account_id": "acct-northline-chk",
+          "amount": "13218.95",
+          "date": "2026-04-10",
+          "iso_currency_code": "USD",
+          "name": "ADP PAYROLL",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-a2a5aa9666065d64"
+        },
+        {
+          "account_id": "acct-northline-chk",
+          "amount": "-15724.20",
+          "date": "2026-04-10",
+          "iso_currency_code": "USD",
+          "name": "ACH CREDIT HARBOR POINT HOA",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-c06fb18e34325e55"
+        },
+        {
+          "account_id": "acct-northline-chk",
+          "amount": "123.86",
+          "date": "2026-04-13",
+          "iso_currency_code": "USD",
+          "name": "SHELL OIL",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-e4a3a0860073583b"
+        },
+        {
+          "account_id": "acct-northline-chk",
+          "amount": "1631.18",
+          "date": "2026-04-14",
+          "iso_currency_code": "USD",
+          "name": "THE HOME DEPOT",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-1d4bfad0c5f9547d"
+        },
+        {
+          "account_id": "acct-northline-chk",
+          "amount": "122.53",
+          "date": "2026-04-15",
+          "iso_currency_code": "USD",
+          "name": "SHELL OIL",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-1690ab3da0c658fc"
+        },
+        {
+          "account_id": "acct-northline-chk",
+          "amount": "1180.00",
+          "date": "2026-04-15",
+          "iso_currency_code": "USD",
+          "name": "CAT FINANCIAL EQUIPMENT LEASE",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-4284f0ec91e05046"
+        },
+        {
+          "account_id": "acct-northline-chk",
+          "amount": "1320.00",
+          "date": "2026-04-16",
+          "iso_currency_code": "USD",
+          "name": "CHECK 5067",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-59bd2bd45afb5b7e"
+        },
+        {
+          "account_id": "acct-northline-chk",
+          "amount": "145.65",
+          "date": "2026-04-17",
+          "iso_currency_code": "USD",
+          "name": "SHELL OIL",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-03fa10fc74ed5c65"
+        },
+        {
+          "account_id": "acct-northline-chk",
+          "amount": "770.96",
+          "date": "2026-04-17",
+          "iso_currency_code": "USD",
+          "name": "THE HOME DEPOT",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-b1316f35770657c3"
+        },
+        {
+          "account_id": "acct-northline-chk",
+          "amount": "-9284.51",
+          "date": "2026-04-18",
+          "iso_currency_code": "USD",
+          "name": "ACH CREDIT WESTFIELD PROPERTY MGMT",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-4d37f0a4be475579"
+        },
+        {
+          "account_id": "acct-northline-chk",
+          "amount": "100.56",
+          "date": "2026-04-20",
+          "iso_currency_code": "USD",
+          "name": "CHEVRON",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-1c403494bd395ed8"
+        },
+        {
+          "account_id": "acct-northline-chk",
+          "amount": "376.23",
+          "date": "2026-04-21",
+          "iso_currency_code": "USD",
+          "name": "THE HOME DEPOT",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-3de33aa4881a5ee3"
+        },
+        {
+          "account_id": "acct-northline-chk",
+          "amount": "102.62",
+          "date": "2026-04-22",
+          "iso_currency_code": "USD",
+          "name": "CHEVRON",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-a72924dbb1a05775"
+        },
+        {
+          "account_id": "acct-northline-chk",
+          "amount": "2176.15",
+          "date": "2026-04-23",
+          "iso_currency_code": "USD",
+          "name": "FERGUSON ENTERPRISES",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-1ec9522e154d5dce"
+        },
+        {
+          "account_id": "acct-northline-chk",
+          "amount": "11723.59",
+          "date": "2026-04-24",
+          "iso_currency_code": "USD",
+          "name": "ADP PAYROLL",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-811d5692e4595380"
+        },
+        {
+          "account_id": "acct-northline-chk",
+          "amount": "554.24",
+          "date": "2026-04-24",
+          "iso_currency_code": "USD",
+          "name": "THE HOME DEPOT",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-9a3595414f385179"
+        },
+        {
+          "account_id": "acct-northline-chk",
+          "amount": "117.46",
+          "date": "2026-04-24",
+          "iso_currency_code": "USD",
+          "name": "CHEVRON",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-a86f32e01dae500f"
+        },
+        {
+          "account_id": "acct-northline-chk",
+          "amount": "124.10",
+          "date": "2026-04-27",
+          "iso_currency_code": "USD",
+          "name": "SHELL OIL",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-3c425e9091c75b0d"
+        },
+        {
+          "account_id": "acct-northline-chk",
+          "amount": "-13604.63",
+          "date": "2026-04-27",
+          "iso_currency_code": "USD",
+          "name": "ACH CREDIT CEDAR RIDGE LLC",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-ac3250155ebd5a1f"
+        },
+        {
+          "account_id": "acct-northline-chk",
+          "amount": "1610.96",
+          "date": "2026-04-28",
+          "iso_currency_code": "USD",
+          "name": "THE HOME DEPOT",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-ac8dc97ba58d567b"
+        },
+        {
+          "account_id": "acct-northline-chk",
+          "amount": "85.09",
+          "date": "2026-04-29",
+          "iso_currency_code": "USD",
+          "name": "SHELL OIL",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-8bdfcdbba2975bbb"
+        }
+      ],
+      "cursor": "cursor-northline-services-1",
+      "has_more": true,
+      "modified": [],
+      "next_cursor": "cursor-northline-services-2",
+      "removed": []
+    },
+    {
+      "added": [
+        {
+          "account_id": "acct-northline-chk",
+          "amount": "3900.00",
+          "date": "2026-05-01",
+          "iso_currency_code": "USD",
+          "name": "K STREET INDUSTRIAL RENT",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-06a0476947a3544d"
+        },
+        {
+          "account_id": "acct-northline-chk",
+          "amount": "94.60",
+          "date": "2026-05-01",
+          "iso_currency_code": "USD",
+          "name": "SHELL OIL",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-5f4ac3339c795dad"
+        },
+        {
+          "account_id": "acct-northline-chk",
+          "amount": "1191.10",
+          "date": "2026-05-01",
+          "iso_currency_code": "USD",
+          "name": "THE HOME DEPOT",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-703a037943a95b5a"
+        },
+        {
+          "account_id": "acct-northline-chk",
+          "amount": "156.84",
+          "date": "2026-05-04",
+          "iso_currency_code": "USD",
+          "name": "CHEVRON",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-f65d4ecc1bf75cc4"
+        },
+        {
+          "account_id": "acct-northline-chk",
+          "amount": "867.53",
+          "date": "2026-05-05",
+          "iso_currency_code": "USD",
+          "name": "THE HOME DEPOT",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-e7eea2519fe354c8"
+        },
+        {
+          "account_id": "acct-northline-chk",
+          "amount": "129.46",
+          "date": "2026-05-06",
+          "iso_currency_code": "USD",
+          "name": "CHEVRON",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-4abf60bd15a45972"
+        },
+        {
+          "account_id": "acct-northline-chk",
+          "amount": "-15576.09",
+          "date": "2026-05-06",
+          "iso_currency_code": "USD",
+          "name": "ACH CREDIT WESTFIELD PROPERTY MGMT",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-fee50e8b01085a7d"
+        },
+        {
+          "account_id": "acct-northline-chk",
+          "amount": "2541.29",
+          "date": "2026-05-07",
+          "iso_currency_code": "USD",
+          "name": "FERGUSON ENTERPRISES",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-06e3bec375035971"
+        },
+        {
+          "account_id": "acct-northline-chk",
+          "amount": "125.50",
+          "date": "2026-05-08",
+          "iso_currency_code": "USD",
+          "name": "CHEVRON",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-44c27b7a7e6357ac"
+        },
+        {
+          "account_id": "acct-northline-chk",
+          "amount": "1054.31",
+          "date": "2026-05-08",
+          "iso_currency_code": "USD",
+          "name": "THE HOME DEPOT",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-87da4b4413a15dac"
+        },
+        {
+          "account_id": "acct-northline-chk",
+          "amount": "12956.75",
+          "date": "2026-05-08",
+          "iso_currency_code": "USD",
+          "name": "ADP PAYROLL",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-fabefe78ef965b73"
+        },
+        {
+          "account_id": "acct-northline-chk",
+          "amount": "1240.00",
+          "date": "2026-05-10",
+          "iso_currency_code": "USD",
+          "name": "TRAVELERS COMMERCIAL INSURANCE",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-bf4908d03b345ee2"
+        },
+        {
+          "account_id": "acct-northline-chk",
+          "amount": "99.91",
+          "date": "2026-05-11",
+          "iso_currency_code": "USD",
+          "name": "SHELL OIL",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-4c7cf806dbd055a3"
+        },
+        {
+          "account_id": "acct-northline-chk",
+          "amount": "1364.64",
+          "date": "2026-05-12",
+          "iso_currency_code": "USD",
+          "name": "THE HOME DEPOT",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-e2c8d676cd7d5c66"
+        },
+        {
+          "account_id": "acct-northline-chk",
+          "amount": "90.03",
+          "date": "2026-05-13",
+          "iso_currency_code": "USD",
+          "name": "SHELL OIL",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-7d43dc23ad54572e"
+        },
+        {
+          "account_id": "acct-northline-chk",
+          "amount": "-8028.97",
+          "date": "2026-05-14",
+          "iso_currency_code": "USD",
+          "name": "CHECK DEPOSIT",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-b74e44340fcf5449"
+        },
+        {
+          "account_id": "acct-northline-chk",
+          "amount": "1318.54",
+          "date": "2026-05-15",
+          "iso_currency_code": "USD",
+          "name": "THE HOME DEPOT",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-09ddad81bfee52a1"
+        },
+        {
+          "account_id": "acct-northline-chk",
+          "amount": "1180.00",
+          "date": "2026-05-15",
+          "iso_currency_code": "USD",
+          "name": "CAT FINANCIAL EQUIPMENT LEASE",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-0c7a1db634675621"
+        },
+        {
+          "account_id": "acct-northline-chk",
+          "amount": "117.21",
+          "date": "2026-05-15",
+          "iso_currency_code": "USD",
+          "name": "SHELL OIL",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-84fff788d57558ac"
+        },
+        {
+          "account_id": "acct-northline-chk",
+          "amount": "82.34",
+          "date": "2026-05-18",
+          "iso_currency_code": "USD",
+          "name": "CHEVRON",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-3fbdcf5478d35af2"
+        },
+        {
+          "account_id": "acct-northline-chk",
+          "amount": "853.22",
+          "date": "2026-05-19",
+          "iso_currency_code": "USD",
+          "name": "THE HOME DEPOT",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-f2c58d11250159c3"
+        },
+        {
+          "account_id": "acct-northline-chk",
+          "amount": "156.64",
+          "date": "2026-05-20",
+          "iso_currency_code": "USD",
+          "name": "CHEVRON",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-8962754a3b135250"
+        },
+        {
+          "account_id": "acct-northline-chk",
+          "amount": "-9389.35",
+          "date": "2026-05-22",
+          "iso_currency_code": "USD",
+          "name": "CHECK DEPOSIT",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-0b94524cc91b5e14"
+        },
+        {
+          "account_id": "acct-northline-chk",
+          "amount": "651.30",
+          "date": "2026-05-22",
+          "iso_currency_code": "USD",
+          "name": "THE HOME DEPOT",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-a7342892eb065f02"
+        },
+        {
+          "account_id": "acct-northline-chk",
+          "amount": "12239.94",
+          "date": "2026-05-22",
+          "iso_currency_code": "USD",
+          "name": "ADP PAYROLL",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-cd33773c3ba45df2"
+        },
+        {
+          "account_id": "acct-northline-chk",
+          "amount": "147.19",
+          "date": "2026-05-22",
+          "iso_currency_code": "USD",
+          "name": "CHEVRON",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-d0316ab6aba15870"
+        },
+        {
+          "account_id": "acct-northline-chk",
+          "amount": "3818.39",
+          "date": "2026-05-23",
+          "iso_currency_code": "USD",
+          "name": "FERGUSON ENTERPRISES",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-1fa6d916758352ff"
+        },
+        {
+          "account_id": "acct-northline-chk",
+          "amount": "133.82",
+          "date": "2026-05-25",
+          "iso_currency_code": "USD",
+          "name": "SHELL OIL",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-87245cbddeef5721"
+        },
+        {
+          "account_id": "acct-northline-chk",
+          "amount": "382.25",
+          "date": "2026-05-26",
+          "iso_currency_code": "USD",
+          "name": "THE HOME DEPOT",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-1b56e734935a5645"
+        },
+        {
+          "account_id": "acct-northline-chk",
+          "amount": "135.13",
+          "date": "2026-05-27",
+          "iso_currency_code": "USD",
+          "name": "SHELL OIL",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-b18e1ec4aa1d586b"
+        },
+        {
+          "account_id": "acct-northline-chk",
+          "amount": "-12795.24",
+          "date": "2026-05-29",
+          "iso_currency_code": "USD",
+          "name": "ACH CREDIT WESTFIELD PROPERTY MGMT",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-27c38e8987605adc"
+        },
+        {
+          "account_id": "acct-northline-chk",
+          "amount": "142.79",
+          "date": "2026-05-29",
+          "iso_currency_code": "USD",
+          "name": "SHELL OIL",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-6c83cc1b05005ac4"
+        },
+        {
+          "account_id": "acct-northline-chk",
+          "amount": "1234.64",
+          "date": "2026-05-29",
+          "iso_currency_code": "USD",
+          "name": "THE HOME DEPOT",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-b2f3794345e551e7"
+        }
+      ],
+      "cursor": "cursor-northline-services-2",
+      "has_more": true,
+      "modified": [],
+      "next_cursor": "cursor-northline-services-3",
+      "removed": []
+    },
+    {
+      "added": [
+        {
+          "account_id": "acct-northline-chk",
+          "amount": "1234.64",
+          "date": "2026-05-29",
+          "iso_currency_code": "USD",
+          "name": "THE HOME DEPOT",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-b2f3794345e551e7"
+        },
+        {
+          "account_id": "acct-northline-chk",
+          "amount": "3900.00",
+          "date": "2026-06-01",
+          "iso_currency_code": "USD",
+          "name": "K STREET INDUSTRIAL RENT",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-702134cda35a5aa6"
+        },
+        {
+          "account_id": "acct-northline-chk",
+          "amount": "140.53",
+          "date": "2026-06-01",
+          "iso_currency_code": "USD",
+          "name": "SHELL OIL",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-79ab81b2e1d25844"
+        },
+        {
+          "account_id": "acct-northline-chk",
+          "amount": "789.49",
+          "date": "2026-06-02",
+          "iso_currency_code": "USD",
+          "name": "THE HOME DEPOT",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-0c8608c0bc2a5e1e"
+        },
+        {
+          "account_id": "acct-northline-chk",
+          "amount": "-20000.00",
+          "date": "2026-06-03",
+          "iso_currency_code": "USD",
+          "name": "LINE OF CREDIT DRAW",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-12a75475875c5ef6"
+        },
+        {
+          "account_id": "acct-northline-chk",
+          "amount": "106.55",
+          "date": "2026-06-03",
+          "iso_currency_code": "USD",
+          "name": "SHELL OIL",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-c60c97683b635216"
+        },
+        {
+          "account_id": "acct-northline-chk",
+          "amount": "12210.34",
+          "date": "2026-06-05",
+          "iso_currency_code": "USD",
+          "name": "ADP PAYROLL",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-84dbbf9a56155ba1"
+        },
+        {
+          "account_id": "acct-northline-chk",
+          "amount": "1449.85",
+          "date": "2026-06-05",
+          "iso_currency_code": "USD",
+          "name": "THE HOME DEPOT",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-bf18382c9afb5981"
+        },
+        {
+          "account_id": "acct-northline-chk",
+          "amount": "86.84",
+          "date": "2026-06-05",
+          "iso_currency_code": "USD",
+          "name": "SHELL OIL",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-ff2bb23f6318594a"
+        },
+        {
+          "account_id": "acct-northline-chk",
+          "amount": "4697.29",
+          "date": "2026-06-07",
+          "iso_currency_code": "USD",
+          "name": "FERGUSON ENTERPRISES",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-45bc2032902652cb"
+        },
+        {
+          "account_id": "acct-northline-chk",
+          "amount": "-9970.76",
+          "date": "2026-06-08",
+          "iso_currency_code": "USD",
+          "name": "ACH CREDIT HARBOR POINT HOA",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-741cb74be6cc5e07"
+        },
+        {
+          "account_id": "acct-northline-chk",
+          "amount": "114.33",
+          "date": "2026-06-08",
+          "iso_currency_code": "USD",
+          "name": "CHEVRON",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-a85fa5fef12f5747"
+        },
+        {
+          "account_id": "acct-northline-chk",
+          "amount": "786.59",
+          "date": "2026-06-09",
+          "iso_currency_code": "USD",
+          "name": "THE HOME DEPOT",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-46cf36012a955b33"
+        },
+        {
+          "account_id": "acct-northline-chk",
+          "amount": "127.26",
+          "date": "2026-06-10",
+          "iso_currency_code": "USD",
+          "name": "CHEVRON",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-09f8a0e285605f60"
+        },
+        {
+          "account_id": "acct-northline-chk",
+          "amount": "1240.00",
+          "date": "2026-06-10",
+          "iso_currency_code": "USD",
+          "name": "TRAVELERS COMMERCIAL INSURANCE",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-894de91c01b35a87"
+        },
+        {
+          "account_id": "acct-northline-chk",
+          "amount": "135.18",
+          "date": "2026-06-12",
+          "iso_currency_code": "USD",
+          "name": "CHEVRON",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-75852c1741035a09"
+        },
+        {
+          "account_id": "acct-northline-chk",
+          "amount": "350.76",
+          "date": "2026-06-12",
+          "iso_currency_code": "USD",
+          "name": "THE HOME DEPOT",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-8075efc992425715"
+        },
+        {
+          "account_id": "acct-northline-chk",
+          "amount": "-11300.68",
+          "date": "2026-06-14",
+          "iso_currency_code": "USD",
+          "name": "CHECK DEPOSIT",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-5a8c3d105c8d5e10"
+        },
+        {
+          "account_id": "acct-northline-chk",
+          "amount": "125.85",
+          "date": "2026-06-15",
+          "iso_currency_code": "USD",
+          "name": "SHELL OIL",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-0c98458ce31a5b4b"
+        },
+        {
+          "account_id": "acct-northline-chk",
+          "amount": "1180.00",
+          "date": "2026-06-15",
+          "iso_currency_code": "USD",
+          "name": "CAT FINANCIAL EQUIPMENT LEASE",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-945964db0093549c"
+        },
+        {
+          "account_id": "acct-northline-chk",
+          "amount": "1632.37",
+          "date": "2026-06-16",
+          "iso_currency_code": "USD",
+          "name": "THE HOME DEPOT",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-4db00ad7f17351bc"
+        },
+        {
+          "account_id": "acct-northline-chk",
+          "amount": "112.35",
+          "date": "2026-06-17",
+          "iso_currency_code": "USD",
+          "name": "SHELL OIL",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-bd000ced0a3354a4"
+        },
+        {
+          "account_id": "acct-northline-chk",
+          "amount": "1250.94",
+          "date": "2026-06-19",
+          "iso_currency_code": "USD",
+          "name": "THE HOME DEPOT",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-3724db6704105294"
+        },
+        {
+          "account_id": "acct-northline-chk",
+          "amount": "149.04",
+          "date": "2026-06-19",
+          "iso_currency_code": "USD",
+          "name": "SHELL OIL",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-78d1c267245c57a1"
+        },
+        {
+          "account_id": "acct-northline-chk",
+          "amount": "11023.68",
+          "date": "2026-06-19",
+          "iso_currency_code": "USD",
+          "name": "ADP PAYROLL",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-8b8c66e4206b509a"
+        },
+        {
+          "account_id": "acct-northline-chk",
+          "amount": "-9172.06",
+          "date": "2026-06-20",
+          "iso_currency_code": "USD",
+          "name": "ACH CREDIT CEDAR RIDGE LLC",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-11492b0a660f52fc"
+        },
+        {
+          "account_id": "acct-northline-chk",
+          "amount": "92.45",
+          "date": "2026-06-22",
+          "iso_currency_code": "USD",
+          "name": "CHEVRON",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-d54c803eba915605"
+        },
+        {
+          "account_id": "acct-northline-chk",
+          "amount": "1246.33",
+          "date": "2026-06-23",
+          "iso_currency_code": "USD",
+          "name": "THE HOME DEPOT",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-0f72cc05836c55b5"
+        },
+        {
+          "account_id": "acct-northline-chk",
+          "amount": "2398.15",
+          "date": "2026-06-23",
+          "iso_currency_code": "USD",
+          "name": "FERGUSON ENTERPRISES",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-7cf61d08537f5144"
+        },
+        {
+          "account_id": "acct-northline-chk",
+          "amount": "90.08",
+          "date": "2026-06-24",
+          "iso_currency_code": "USD",
+          "name": "CHEVRON",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-821d36b132bb5954"
+        },
+        {
+          "account_id": "acct-northline-chk",
+          "amount": "2042.69",
+          "date": "2026-06-26",
+          "iso_currency_code": "USD",
+          "name": "THE HOME DEPOT",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-e41c6e4bdc22560d"
+        },
+        {
+          "account_id": "acct-northline-chk",
+          "amount": "131.30",
+          "date": "2026-06-26",
+          "iso_currency_code": "USD",
+          "name": "CHEVRON",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-fc54d1d3c7a65f08"
+        },
+        {
+          "account_id": "acct-northline-chk",
+          "amount": "-16842.38",
+          "date": "2026-06-27",
+          "iso_currency_code": "USD",
+          "name": "ACH CREDIT HARBOR POINT HOA",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-006965f6581f5ab1"
+        },
+        {
+          "account_id": "acct-northline-chk",
+          "amount": "120.54",
+          "date": "2026-06-29",
+          "iso_currency_code": "USD",
+          "name": "SHELL OIL",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-cd0477ad923553d5"
+        },
+        {
+          "account_id": "acct-northline-chk",
+          "amount": "854.62",
+          "date": "2026-06-30",
+          "iso_currency_code": "USD",
+          "name": "THE HOME DEPOT",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-2df749b8cdb8525b"
+        }
+      ],
+      "cursor": "cursor-northline-services-3",
+      "has_more": true,
+      "modified": [],
+      "next_cursor": "cursor-northline-services-4",
+      "removed": []
+    },
+    {
+      "added": [
+        {
+          "account_id": "acct-northline-chk",
+          "amount": "3900.00",
+          "date": "2026-07-01",
+          "iso_currency_code": "USD",
+          "name": "K STREET INDUSTRIAL RENT",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-83f8e4a5936e5d5e"
+        },
+        {
+          "account_id": "acct-northline-chk",
+          "amount": "82.88",
+          "date": "2026-07-01",
+          "iso_currency_code": "USD",
+          "name": "SHELL OIL",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-a48d960fc4355dda"
+        },
+        {
+          "account_id": "acct-northline-chk",
+          "amount": "1850.00",
+          "date": "2026-07-03",
+          "iso_currency_code": "USD",
+          "name": "LINE OF CREDIT PAYMENT",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-2c0035efc7fa51c7"
+        },
+        {
+          "account_id": "acct-northline-chk",
+          "amount": "108.48",
+          "date": "2026-07-03",
+          "iso_currency_code": "USD",
+          "name": "SHELL OIL",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-575b5c233b9352c8"
+        },
+        {
+          "account_id": "acct-northline-chk",
+          "amount": "1267.93",
+          "date": "2026-07-03",
+          "iso_currency_code": "USD",
+          "name": "THE HOME DEPOT",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-7d256ef45ca45c22"
+        },
+        {
+          "account_id": "acct-northline-chk",
+          "amount": "13493.52",
+          "date": "2026-07-03",
+          "iso_currency_code": "USD",
+          "name": "ADP PAYROLL",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-f43deecddafb538f"
+        },
+        {
+          "account_id": "acct-northline-chk",
+          "amount": "-10741.31",
+          "date": "2026-07-05",
+          "iso_currency_code": "USD",
+          "name": "ACH CREDIT CEDAR RIDGE LLC",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-80bd84d6b9825cc1"
+        },
+        {
+          "account_id": "acct-northline-chk",
+          "amount": "83.65",
+          "date": "2026-07-06",
+          "iso_currency_code": "USD",
+          "name": "CHEVRON",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-9354c4f30c3a5b1a"
+        },
+        {
+          "account_id": "acct-northline-chk",
+          "amount": "3437.50",
+          "date": "2026-07-07",
+          "iso_currency_code": "USD",
+          "name": "FERGUSON ENTERPRISES",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-78a353fe2cb65f65"
+        },
+        {
+          "account_id": "acct-northline-chk",
+          "amount": "2083.39",
+          "date": "2026-07-07",
+          "iso_currency_code": "USD",
+          "name": "THE HOME DEPOT",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-daf0cc44fe5a5bbf"
+        },
+        {
+          "account_id": "acct-northline-chk",
+          "amount": "121.89",
+          "date": "2026-07-08",
+          "iso_currency_code": "USD",
+          "name": "CHEVRON",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-c40bf9f2771350d2"
+        },
+        {
+          "account_id": "acct-northline-chk",
+          "amount": "1240.00",
+          "date": "2026-07-10",
+          "iso_currency_code": "USD",
+          "name": "TRAVELERS COMMERCIAL INSURANCE",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-50ef2d8456015401"
+        },
+        {
+          "account_id": "acct-northline-chk",
+          "amount": "81.07",
+          "date": "2026-07-10",
+          "iso_currency_code": "USD",
+          "name": "CHEVRON",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-a99fafdcbb235667"
+        },
+        {
+          "account_id": "acct-northline-chk",
+          "amount": "1556.61",
+          "date": "2026-07-10",
+          "iso_currency_code": "USD",
+          "name": "THE HOME DEPOT",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-f6643354ba425dd8"
+        },
+        {
+          "account_id": "acct-northline-chk",
+          "amount": "94.17",
+          "date": "2026-07-13",
+          "iso_currency_code": "USD",
+          "name": "SHELL OIL",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-05eba3048ae854e5"
+        },
+        {
+          "account_id": "acct-northline-chk",
+          "amount": "2306.96",
+          "date": "2026-07-14",
+          "iso_currency_code": "USD",
+          "name": "THE HOME DEPOT",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-c293cffc51cb5e81"
+        },
+        {
+          "account_id": "acct-northline-chk",
+          "amount": "1180.00",
+          "date": "2026-07-15",
+          "iso_currency_code": "USD",
+          "name": "CAT FINANCIAL EQUIPMENT LEASE",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-1c1f5395e372553c"
+        },
+        {
+          "account_id": "acct-northline-chk",
+          "amount": "113.96",
+          "date": "2026-07-15",
+          "iso_currency_code": "USD",
+          "name": "SHELL OIL",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-802a9efe425d5db6"
+        },
+        {
+          "account_id": "acct-northline-chk",
+          "amount": "-14015.76",
+          "date": "2026-07-15",
+          "iso_currency_code": "USD",
+          "name": "ACH CREDIT WESTFIELD PROPERTY MGMT",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-e18d4f3c90e353be"
+        },
+        {
+          "account_id": "acct-northline-chk",
+          "amount": "2070.29",
+          "date": "2026-07-17",
+          "iso_currency_code": "USD",
+          "name": "THE HOME DEPOT",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-1389d49099435890"
+        },
+        {
+          "account_id": "acct-northline-chk",
+          "amount": "111.20",
+          "date": "2026-07-17",
+          "iso_currency_code": "USD",
+          "name": "SHELL OIL",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-84535e9f4074535a"
+        },
+        {
+          "account_id": "acct-northline-chk",
+          "amount": "13308.57",
+          "date": "2026-07-17",
+          "iso_currency_code": "USD",
+          "name": "ADP PAYROLL",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-d749021b8ba556f2"
+        },
+        {
+          "account_id": "acct-northline-chk",
+          "amount": "91.31",
+          "date": "2026-07-20",
+          "iso_currency_code": "USD",
+          "name": "CHEVRON",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-62143c3112da561b"
+        },
+        {
+          "account_id": "acct-northline-chk",
+          "amount": "2126.41",
+          "date": "2026-07-21",
+          "iso_currency_code": "USD",
+          "name": "THE HOME DEPOT",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-3bb265b0f6bd51ba"
+        },
+        {
+          "account_id": "acct-northline-chk",
+          "amount": "-6800.00",
+          "date": "2026-07-22",
+          "iso_currency_code": "USD",
+          "name": "DEPOSIT 4471",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-1dd6b77710a65671"
+        },
+        {
+          "account_id": "acct-northline-chk",
+          "amount": "82.30",
+          "date": "2026-07-22",
+          "iso_currency_code": "USD",
+          "name": "CHEVRON",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-ea8c0bc820915815"
+        },
+        {
+          "account_id": "acct-northline-chk",
+          "amount": "3541.85",
+          "date": "2026-07-23",
+          "iso_currency_code": "USD",
+          "name": "FERGUSON ENTERPRISES",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-18cfc0fdd1ab50de"
+        },
+        {
+          "account_id": "acct-northline-chk",
+          "amount": "-11713.58",
+          "date": "2026-07-23",
+          "iso_currency_code": "USD",
+          "name": "ACH CREDIT HARBOR POINT HOA",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-cbcfbbb54c575b73"
+        },
+        {
+          "account_id": "acct-northline-chk",
+          "amount": "391.44",
+          "date": "2026-07-24",
+          "iso_currency_code": "USD",
+          "name": "THE HOME DEPOT",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-17c870b3bf00590c"
+        },
+        {
+          "account_id": "acct-northline-chk",
+          "amount": "142.63",
+          "date": "2026-07-24",
+          "iso_currency_code": "USD",
+          "name": "CHEVRON",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-6861d43c07855622"
+        },
+        {
+          "account_id": "acct-northline-chk",
+          "amount": "115.02",
+          "date": "2026-07-27",
+          "iso_currency_code": "USD",
+          "name": "SHELL OIL",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-e9d7dfd0c7fc5f28"
+        },
+        {
+          "account_id": "acct-northline-chk",
+          "amount": "347.69",
+          "date": "2026-07-28",
+          "iso_currency_code": "USD",
+          "name": "THE HOME DEPOT",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-09ed2c91687051e4"
+        },
+        {
+          "account_id": "acct-northline-chk",
+          "amount": "144.84",
+          "date": "2026-07-29",
+          "iso_currency_code": "USD",
+          "name": "SHELL OIL",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-d3dfcef8a95a511d"
+        },
+        {
+          "account_id": "acct-northline-chk",
+          "amount": "1813.37",
+          "date": "2026-07-31",
+          "iso_currency_code": "USD",
+          "name": "THE HOME DEPOT",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-0cf4002ffb78575b"
+        },
+        {
+          "account_id": "acct-northline-chk",
+          "amount": "90.93",
+          "date": "2026-07-31",
+          "iso_currency_code": "USD",
+          "name": "SHELL OIL",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-71ebb50cfa7354b3"
+        },
+        {
+          "account_id": "acct-northline-chk",
+          "amount": "12095.37",
+          "date": "2026-07-31",
+          "iso_currency_code": "USD",
+          "name": "ADP PAYROLL",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-c9312823446c5f6a"
+        },
+        {
+          "account_id": "acct-northline-chk",
+          "amount": "-9066.59",
+          "date": "2026-07-31",
+          "iso_currency_code": "USD",
+          "name": "ACH CREDIT HARBOR POINT HOA",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-e7b3adb94960507a"
+        }
+      ],
+      "cursor": "cursor-northline-services-4",
+      "has_more": true,
+      "modified": [],
+      "next_cursor": "cursor-northline-services-5",
+      "removed": []
+    },
+    {
+      "added": [
+        {
+          "account_id": "acct-northline-chk",
+          "amount": "3900.00",
+          "date": "2026-08-01",
+          "iso_currency_code": "USD",
+          "name": "K STREET INDUSTRIAL RENT",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-6000478d0ae8520d"
+        },
+        {
+          "account_id": "acct-northline-chk",
+          "amount": "1850.00",
+          "date": "2026-08-03",
+          "iso_currency_code": "USD",
+          "name": "LINE OF CREDIT PAYMENT",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-070cd1ae227856ec"
+        },
+        {
+          "account_id": "acct-northline-chk",
+          "amount": "137.46",
+          "date": "2026-08-03",
+          "iso_currency_code": "USD",
+          "name": "SHELL OIL",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-7107dab5dc565452"
+        },
+        {
+          "account_id": "acct-northline-chk",
+          "amount": "585.57",
+          "date": "2026-08-04",
+          "iso_currency_code": "USD",
+          "name": "THE HOME DEPOT",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-9aff5f828a155510"
+        },
+        {
+          "account_id": "acct-northline-chk",
+          "amount": "115.82",
+          "date": "2026-08-05",
+          "iso_currency_code": "USD",
+          "name": "SHELL OIL",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-2210671c16a85043"
+        },
+        {
+          "account_id": "acct-northline-chk",
+          "amount": "1586.42",
+          "date": "2026-08-07",
+          "iso_currency_code": "USD",
+          "name": "THE HOME DEPOT",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-158b7f7f2ffc5ed5"
+        },
+        {
+          "account_id": "acct-northline-chk",
+          "amount": "4374.73",
+          "date": "2026-08-07",
+          "iso_currency_code": "USD",
+          "name": "FERGUSON ENTERPRISES",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-3307704b6833550c"
+        },
+        {
+          "account_id": "acct-northline-chk",
+          "amount": "92.85",
+          "date": "2026-08-07",
+          "iso_currency_code": "USD",
+          "name": "SHELL OIL",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-a0c922eded995e24"
+        },
+        {
+          "account_id": "acct-northline-chk",
+          "amount": "-16006.32",
+          "date": "2026-08-08",
+          "iso_currency_code": "USD",
+          "name": "ACH CREDIT WESTFIELD PROPERTY MGMT",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-d2f5d723d07a5a4f"
+        },
+        {
+          "account_id": "acct-northline-chk",
+          "amount": "1240.00",
+          "date": "2026-08-10",
+          "iso_currency_code": "USD",
+          "name": "TRAVELERS COMMERCIAL INSURANCE",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-a3fe927873bf5c87"
+        },
+        {
+          "account_id": "acct-northline-chk",
+          "amount": "113.07",
+          "date": "2026-08-10",
+          "iso_currency_code": "USD",
+          "name": "CHEVRON",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-c5e050ad4ce75d6c"
+        },
+        {
+          "account_id": "acct-northline-chk",
+          "amount": "779.11",
+          "date": "2026-08-11",
+          "iso_currency_code": "USD",
+          "name": "THE HOME DEPOT",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-b6994a18f99854c4"
+        },
+        {
+          "account_id": "acct-northline-chk",
+          "amount": "-9500.00",
+          "date": "2026-08-12",
+          "iso_currency_code": "USD",
+          "name": "WIRE IN 000348",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-0a1b8272d55152db"
+        },
+        {
+          "account_id": "acct-northline-chk",
+          "amount": "114.25",
+          "date": "2026-08-12",
+          "iso_currency_code": "USD",
+          "name": "CHEVRON",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-d589fa08c5785bbd"
+        },
+        {
+          "account_id": "acct-northline-chk",
+          "amount": "13003.61",
+          "date": "2026-08-14",
+          "iso_currency_code": "USD",
+          "name": "ADP PAYROLL",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-209e810d89435203"
+        },
+        {
+          "account_id": "acct-northline-chk",
+          "amount": "1293.33",
+          "date": "2026-08-14",
+          "iso_currency_code": "USD",
+          "name": "THE HOME DEPOT",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-c1a85ab5c05a5a05"
+        },
+        {
+          "account_id": "acct-northline-chk",
+          "amount": "128.75",
+          "date": "2026-08-14",
+          "iso_currency_code": "USD",
+          "name": "CHEVRON",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-f8c12b7dceaa5b53"
+        },
+        {
+          "account_id": "acct-northline-chk",
+          "amount": "1180.00",
+          "date": "2026-08-15",
+          "iso_currency_code": "USD",
+          "name": "CAT FINANCIAL EQUIPMENT LEASE",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-10250e4a61e5573d"
+        },
+        {
+          "account_id": "acct-northline-chk",
+          "amount": "146.71",
+          "date": "2026-08-17",
+          "iso_currency_code": "USD",
+          "name": "SHELL OIL",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-e422e6cd3ce65683"
+        },
+        {
+          "account_id": "acct-northline-chk",
+          "amount": "1950.88",
+          "date": "2026-08-18",
+          "iso_currency_code": "USD",
+          "name": "THE HOME DEPOT",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-64dd4b46a5a85f54"
+        },
+        {
+          "account_id": "acct-northline-chk",
+          "amount": "-14392.59",
+          "date": "2026-08-18",
+          "iso_currency_code": "USD",
+          "name": "ACH CREDIT HARBOR POINT HOA",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-81403f6b8aa35cda"
+        },
+        {
+          "account_id": "acct-northline-chk",
+          "amount": "150.78",
+          "date": "2026-08-19",
+          "iso_currency_code": "USD",
+          "name": "SHELL OIL",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-0b643ed0f2ad5723"
+        },
+        {
+          "account_id": "acct-northline-chk",
+          "amount": "91.85",
+          "date": "2026-08-21",
+          "iso_currency_code": "USD",
+          "name": "SHELL OIL",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-8c2d51a6f57f518f"
+        },
+        {
+          "account_id": "acct-northline-chk",
+          "amount": "1291.95",
+          "date": "2026-08-21",
+          "iso_currency_code": "USD",
+          "name": "THE HOME DEPOT",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-def3dec23c975ec1"
+        },
+        {
+          "account_id": "acct-northline-chk",
+          "amount": "3052.96",
+          "date": "2026-08-23",
+          "iso_currency_code": "USD",
+          "name": "FERGUSON ENTERPRISES",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-04fd319a16985739"
+        },
+        {
+          "account_id": "acct-northline-chk",
+          "amount": "81.29",
+          "date": "2026-08-24",
+          "iso_currency_code": "USD",
+          "name": "CHEVRON",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-4ddf024d9c24507b"
+        },
+        {
+          "account_id": "acct-northline-chk",
+          "amount": "676.32",
+          "date": "2026-08-25",
+          "iso_currency_code": "USD",
+          "name": "THE HOME DEPOT",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-0fd57a8f5beb521c"
+        },
+        {
+          "account_id": "acct-northline-chk",
+          "amount": "127.34",
+          "date": "2026-08-26",
+          "iso_currency_code": "USD",
+          "name": "CHEVRON",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-753d7e566adb58ff"
+        },
+        {
+          "account_id": "acct-northline-chk",
+          "amount": "-7400.00",
+          "date": "2026-08-27",
+          "iso_currency_code": "USD",
+          "name": "ACH CREDIT CEDAR RIDGE LLC",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-22b6a36df6315c0d"
+        },
+        {
+          "account_id": "acct-northline-chk",
+          "amount": "-8147.81",
+          "date": "2026-08-27",
+          "iso_currency_code": "USD",
+          "name": "ACH CREDIT WESTFIELD PROPERTY MGMT",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-4b5d78deb91b5eda"
+        },
+        {
+          "account_id": "acct-northline-chk",
+          "amount": "12312.03",
+          "date": "2026-08-28",
+          "iso_currency_code": "USD",
+          "name": "ADP PAYROLL",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-1a6d83d238065325"
+        },
+        {
+          "account_id": "acct-northline-chk",
+          "amount": "1525.00",
+          "date": "2026-08-28",
+          "iso_currency_code": "USD",
+          "name": "THE HOME DEPOT",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-96df50a918ca540c"
+        },
+        {
+          "account_id": "acct-northline-chk",
+          "amount": "110.27",
+          "date": "2026-08-28",
+          "iso_currency_code": "USD",
+          "name": "CHEVRON",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-b270187d5d795e85"
+        },
+        {
+          "account_id": "acct-northline-chk",
+          "amount": "3120.00",
+          "date": "2026-08-29",
+          "iso_currency_code": "USD",
+          "name": "FERGUSON ENTERPRISES",
+          "pending": true,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-bb66e2ab82885adf"
+        },
+        {
+          "account_id": "acct-northline-chk",
+          "amount": "196.00",
+          "date": "2026-08-31",
+          "iso_currency_code": "USD",
+          "name": "CARD AUTHORIZATION FASTENAL",
+          "pending": true,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-2b02d3ca5c2f55ff"
+        },
+        {
+          "account_id": "acct-northline-chk",
+          "amount": "109.25",
+          "date": "2026-08-31",
+          "iso_currency_code": "USD",
+          "name": "SHELL OIL",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-b56c7a25fbc75cd7"
+        },
+        {
+          "account_id": "acct-northline-sav",
+          "amount": "-18.60",
+          "date": "2026-08-31",
+          "iso_currency_code": "USD",
+          "name": "INTEREST PAYMENT",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-bd0f825bf2a854d8"
+        }
+      ],
+      "cursor": "cursor-northline-services-5",
+      "has_more": true,
+      "modified": [],
+      "next_cursor": "cursor-northline-services-6",
+      "removed": []
+    },
+    {
+      "added": [
+        {
+          "account_id": "acct-northline-chk",
+          "amount": "3184.00",
+          "date": "2026-08-30",
+          "iso_currency_code": "USD",
+          "name": "FERGUSON ENTERPRISES",
+          "pending": false,
+          "pending_transaction_id": "tx-bb66e2ab82885adf",
+          "transaction_id": "tx-f36f89c89a7d56af"
+        }
+      ],
+      "cursor": "cursor-northline-services-6",
+      "has_more": false,
+      "modified": [
+        {
+          "account_id": "acct-northline-chk",
+          "amount": "3900.00",
+          "date": "2026-07-01",
+          "iso_currency_code": "USD",
+          "name": "K STREET INDUSTRIAL RENT - MERCHANT VERIFIED",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-83f8e4a5936e5d5e"
+        }
+      ],
+      "next_cursor": "cursor-northline-services-7",
+      "removed": [
+        {
+          "transaction_id": "tx-22b6a36df6315c0d"
+        },
+        {
+          "transaction_id": "tx-bb66e2ab82885adf"
+        }
+      ]
+    }
+  ],
+  "provider": "synthetic",
+  "seed": 20260904,
+  "sign_convention": "positive amount = money leaving the account (Plaid style)"
+}

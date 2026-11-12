@@ -1,0 +1,10 @@
+flowchart TD
+    A["Private GitHub repository"] --> B["Vercel build: Next.js"]
+    A --> C["Vercel build: FastAPI"]
+    U["Visitor browser"] --> B
+    B -->|API proxy| C
+    C -->|Scoped database queries| D["Supabase Postgres"]
+    C -->|Server-side model requests| E["OpenAI API"]
+    F["Server secrets"] --> C
+    D --> G["Stored metrics and evidence"]
+    G --> C

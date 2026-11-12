@@ -1,0 +1,3391 @@
+{
+  "accounts": [
+    {
+      "external_account_id": "acct-juniper-chk",
+      "mask": "4021",
+      "name": "Operating checking",
+      "opening_balance_minor": 1834500,
+      "opening_date": "2026-03-01",
+      "type": "checking"
+    },
+    {
+      "external_account_id": "acct-juniper-sav",
+      "mask": "4477",
+      "name": "Reserve savings",
+      "opening_balance_minor": 1200000,
+      "opening_date": "2026-03-01",
+      "type": "savings"
+    }
+  ],
+  "assumptions": [
+    {
+      "amount_minor": 420000,
+      "due_date": "2026-09-01",
+      "kind": "rent",
+      "origin": "owner_entered"
+    },
+    {
+      "amount_minor": 690000,
+      "due_date": "2026-09-04",
+      "kind": "payroll",
+      "origin": "owner_entered"
+    }
+  ],
+  "balances": [
+    {
+      "account_id": "acct-juniper-chk",
+      "amount_minor": 2656159,
+      "as_of": "2026-08-31T23:59:59Z",
+      "kind": "current"
+    },
+    {
+      "account_id": "acct-juniper-chk",
+      "amount_minor": 2647659,
+      "as_of": "2026-08-31T23:59:59Z",
+      "kind": "available"
+    },
+    {
+      "account_id": "acct-juniper-sav",
+      "amount_minor": 1400000,
+      "as_of": "2026-08-15T23:59:59Z",
+      "kind": "current"
+    }
+  ],
+  "business": {
+    "industry": "restaurant",
+    "name": "Juniper Kitchen",
+    "slug": "juniper-kitchen"
+  },
+  "demo_date": "2026-08-31",
+  "generator_version": "1",
+  "history_start": "2026-03-01",
+  "item": {
+    "external_item_id": "item-juniper-kitchen-001"
+  },
+  "pages": [
+    {
+      "added": [
+        {
+          "account_id": "acct-juniper-chk",
+          "amount": "4200.00",
+          "date": "2026-03-01",
+          "iso_currency_code": "USD",
+          "name": "RIVERSIDE PROPERTIES RENT",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-33bb3a4d1e2e5e70"
+        },
+        {
+          "account_id": "acct-juniper-chk",
+          "amount": "-1838.70",
+          "date": "2026-03-01",
+          "iso_currency_code": "USD",
+          "name": "SQUARE INC SETTLEMENT",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-71e5f21fd07b5c4f"
+        },
+        {
+          "account_id": "acct-juniper-chk",
+          "amount": "1699.01",
+          "date": "2026-03-02",
+          "iso_currency_code": "USD",
+          "name": "SYSCO CORP ACH DEBIT",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-07493ca0c4065b58"
+        },
+        {
+          "account_id": "acct-juniper-chk",
+          "amount": "165.00",
+          "date": "2026-03-03",
+          "iso_currency_code": "USD",
+          "name": "TOAST POS SUBSCRIPTION",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-6dd91ead809e5a84"
+        },
+        {
+          "account_id": "acct-juniper-chk",
+          "amount": "-1474.57",
+          "date": "2026-03-03",
+          "iso_currency_code": "USD",
+          "name": "SQUARE INC SETTLEMENT",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-c8bf3f32b2415adf"
+        },
+        {
+          "account_id": "acct-juniper-chk",
+          "amount": "-1026.74",
+          "date": "2026-03-04",
+          "iso_currency_code": "USD",
+          "name": "TOAST PAYOUT",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-809af55a4dad5071"
+        },
+        {
+          "account_id": "acct-juniper-chk",
+          "amount": "1016.05",
+          "date": "2026-03-05",
+          "iso_currency_code": "USD",
+          "name": "SYSCO CORP ACH DEBIT",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-4ed6cf180b68531b"
+        },
+        {
+          "account_id": "acct-juniper-chk",
+          "amount": "1061.57",
+          "date": "2026-03-05",
+          "iso_currency_code": "USD",
+          "name": "US FOODS INC",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-76b04bde586b55de"
+        },
+        {
+          "account_id": "acct-juniper-chk",
+          "amount": "-1737.51",
+          "date": "2026-03-05",
+          "iso_currency_code": "USD",
+          "name": "SQUARE INC SETTLEMENT",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-992eeff453c65bd5"
+        },
+        {
+          "account_id": "acct-juniper-chk",
+          "amount": "543.32",
+          "date": "2026-03-06",
+          "iso_currency_code": "USD",
+          "name": "GREEN VALLEY PRODUCE",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-37b26311c6e457ac"
+        },
+        {
+          "account_id": "acct-juniper-chk",
+          "amount": "-1379.59",
+          "date": "2026-03-06",
+          "iso_currency_code": "USD",
+          "name": "TOAST PAYOUT",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-d0ddb47626355940"
+        },
+        {
+          "account_id": "acct-juniper-chk",
+          "amount": "9039.29",
+          "date": "2026-03-06",
+          "iso_currency_code": "USD",
+          "name": "GUSTO PAYROLL",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-ef73d947788a5e3d"
+        },
+        {
+          "account_id": "acct-juniper-chk",
+          "amount": "-2158.96",
+          "date": "2026-03-07",
+          "iso_currency_code": "USD",
+          "name": "SQUARE INC SETTLEMENT",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-0ab73958540153f8"
+        },
+        {
+          "account_id": "acct-juniper-chk",
+          "amount": "410.00",
+          "date": "2026-03-08",
+          "iso_currency_code": "USD",
+          "name": "HARTFORD INSURANCE",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-78d38b0fe5de566a"
+        },
+        {
+          "account_id": "acct-juniper-chk",
+          "amount": "-2153.89",
+          "date": "2026-03-08",
+          "iso_currency_code": "USD",
+          "name": "TOAST PAYOUT",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-cd82b892759c510f"
+        },
+        {
+          "account_id": "acct-juniper-chk",
+          "amount": "1309.42",
+          "date": "2026-03-09",
+          "iso_currency_code": "USD",
+          "name": "SYSCO CORP ACH DEBIT",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-a429e0ad402d5ddd"
+        },
+        {
+          "account_id": "acct-juniper-chk",
+          "amount": "-1716.66",
+          "date": "2026-03-10",
+          "iso_currency_code": "USD",
+          "name": "TOAST PAYOUT",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-032d36410b505ead"
+        },
+        {
+          "account_id": "acct-juniper-chk",
+          "amount": "-1258.83",
+          "date": "2026-03-11",
+          "iso_currency_code": "USD",
+          "name": "SQUARE INC SETTLEMENT",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-b0abc7195b435988"
+        },
+        {
+          "account_id": "acct-juniper-chk",
+          "amount": "825.15",
+          "date": "2026-03-12",
+          "iso_currency_code": "USD",
+          "name": "US FOODS INC",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-3655c0da5bfe503e"
+        },
+        {
+          "account_id": "acct-juniper-chk",
+          "amount": "552.53",
+          "date": "2026-03-12",
+          "iso_currency_code": "USD",
+          "name": "PACIFIC GAS AND ELECTRIC",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-3dbbea6c40335700"
+        },
+        {
+          "account_id": "acct-juniper-chk",
+          "amount": "1728.32",
+          "date": "2026-03-12",
+          "iso_currency_code": "USD",
+          "name": "SYSCO CORP ACH DEBIT",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-6a9dfae6417459bc"
+        },
+        {
+          "account_id": "acct-juniper-chk",
+          "amount": "-1615.63",
+          "date": "2026-03-12",
+          "iso_currency_code": "USD",
+          "name": "TOAST PAYOUT",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-f521ccf611d95b89"
+        },
+        {
+          "account_id": "acct-juniper-chk",
+          "amount": "292.50",
+          "date": "2026-03-13",
+          "iso_currency_code": "USD",
+          "name": "GREEN VALLEY PRODUCE",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-4cc75a86cd165ae8"
+        },
+        {
+          "account_id": "acct-juniper-chk",
+          "amount": "-1539.75",
+          "date": "2026-03-13",
+          "iso_currency_code": "USD",
+          "name": "SQUARE INC SETTLEMENT",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-53273b61432d5a85"
+        },
+        {
+          "account_id": "acct-juniper-chk",
+          "amount": "-1407.98",
+          "date": "2026-03-14",
+          "iso_currency_code": "USD",
+          "name": "TOAST PAYOUT",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-9e8c99d808ed57f8"
+        },
+        {
+          "account_id": "acct-juniper-chk",
+          "amount": "120.81",
+          "date": "2026-03-15",
+          "iso_currency_code": "USD",
+          "name": "CITY WATER UTILITY",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-b172dc2592da574d"
+        },
+        {
+          "account_id": "acct-juniper-chk",
+          "amount": "-1696.04",
+          "date": "2026-03-15",
+          "iso_currency_code": "USD",
+          "name": "SQUARE INC SETTLEMENT",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-f8f27e957ebe5c45"
+        },
+        {
+          "account_id": "acct-juniper-chk",
+          "amount": "1349.74",
+          "date": "2026-03-16",
+          "iso_currency_code": "USD",
+          "name": "SYSCO CORP ACH DEBIT",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-554437a35bb4540f"
+        },
+        {
+          "account_id": "acct-juniper-chk",
+          "amount": "-1504.02",
+          "date": "2026-03-17",
+          "iso_currency_code": "USD",
+          "name": "SQUARE INC SETTLEMENT",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-1ae5830e78ae5e64"
+        },
+        {
+          "account_id": "acct-juniper-chk",
+          "amount": "-1495.32",
+          "date": "2026-03-18",
+          "iso_currency_code": "USD",
+          "name": "TOAST PAYOUT",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-8fd82cba551d5893"
+        },
+        {
+          "account_id": "acct-juniper-chk",
+          "amount": "1733.37",
+          "date": "2026-03-19",
+          "iso_currency_code": "USD",
+          "name": "SYSCO CORP ACH DEBIT",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-197a15f3e63656f7"
+        },
+        {
+          "account_id": "acct-juniper-chk",
+          "amount": "895.12",
+          "date": "2026-03-19",
+          "iso_currency_code": "USD",
+          "name": "US FOODS INC",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-857d83b7c72e55ae"
+        },
+        {
+          "account_id": "acct-juniper-chk",
+          "amount": "-1623.58",
+          "date": "2026-03-19",
+          "iso_currency_code": "USD",
+          "name": "SQUARE INC SETTLEMENT",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-fe5d4170e2695fb5"
+        },
+        {
+          "account_id": "acct-juniper-chk",
+          "amount": "8616.41",
+          "date": "2026-03-20",
+          "iso_currency_code": "USD",
+          "name": "GUSTO PAYROLL",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-1c272f867627596e"
+        },
+        {
+          "account_id": "acct-juniper-chk",
+          "amount": "-1909.50",
+          "date": "2026-03-20",
+          "iso_currency_code": "USD",
+          "name": "TOAST PAYOUT",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-ab3b76196ea25a2e"
+        },
+        {
+          "account_id": "acct-juniper-chk",
+          "amount": "516.42",
+          "date": "2026-03-20",
+          "iso_currency_code": "USD",
+          "name": "GREEN VALLEY PRODUCE",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-c164caba8de75d61"
+        },
+        {
+          "account_id": "acct-juniper-chk",
+          "amount": "-1777.49",
+          "date": "2026-03-21",
+          "iso_currency_code": "USD",
+          "name": "SQUARE INC SETTLEMENT",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-8422c11e42ec5e24"
+        },
+        {
+          "account_id": "acct-juniper-chk",
+          "amount": "-1909.03",
+          "date": "2026-03-22",
+          "iso_currency_code": "USD",
+          "name": "TOAST PAYOUT",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-5a59e1e417a45888"
+        },
+        {
+          "account_id": "acct-juniper-chk",
+          "amount": "1451.03",
+          "date": "2026-03-23",
+          "iso_currency_code": "USD",
+          "name": "SYSCO CORP ACH DEBIT",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-194fa473733d5d3d"
+        },
+        {
+          "account_id": "acct-juniper-chk",
+          "amount": "-1132.19",
+          "date": "2026-03-24",
+          "iso_currency_code": "USD",
+          "name": "TOAST PAYOUT",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-4a3adf71e40654c8"
+        },
+        {
+          "account_id": "acct-juniper-chk",
+          "amount": "-1474.57",
+          "date": "2026-03-25",
+          "iso_currency_code": "USD",
+          "name": "SQUARE INC SETTLEMENT",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-4219e6910544521c"
+        },
+        {
+          "account_id": "acct-juniper-chk",
+          "amount": "943.48",
+          "date": "2026-03-26",
+          "iso_currency_code": "USD",
+          "name": "SYSCO CORP ACH DEBIT",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-27d4e094efea58c3"
+        },
+        {
+          "account_id": "acct-juniper-chk",
+          "amount": "-1820.18",
+          "date": "2026-03-26",
+          "iso_currency_code": "USD",
+          "name": "TOAST PAYOUT",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-6336cf1ef7f954e0"
+        },
+        {
+          "account_id": "acct-juniper-chk",
+          "amount": "1246.84",
+          "date": "2026-03-26",
+          "iso_currency_code": "USD",
+          "name": "US FOODS INC",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-a27d66e5db7850de"
+        },
+        {
+          "account_id": "acct-juniper-chk",
+          "amount": "527.98",
+          "date": "2026-03-27",
+          "iso_currency_code": "USD",
+          "name": "GREEN VALLEY PRODUCE",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-1c21cacddab55a98"
+        },
+        {
+          "account_id": "acct-juniper-chk",
+          "amount": "-1661.10",
+          "date": "2026-03-27",
+          "iso_currency_code": "USD",
+          "name": "SQUARE INC SETTLEMENT",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-95a20ea3cabd583d"
+        },
+        {
+          "account_id": "acct-juniper-chk",
+          "amount": "-2367.91",
+          "date": "2026-03-28",
+          "iso_currency_code": "USD",
+          "name": "TOAST PAYOUT",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-f52c08645ffc56c5"
+        },
+        {
+          "account_id": "acct-juniper-chk",
+          "amount": "-1637.46",
+          "date": "2026-03-29",
+          "iso_currency_code": "USD",
+          "name": "SQUARE INC SETTLEMENT",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-e46c26c0438f54da"
+        },
+        {
+          "account_id": "acct-juniper-chk",
+          "amount": "1718.79",
+          "date": "2026-03-30",
+          "iso_currency_code": "USD",
+          "name": "SYSCO CORP ACH DEBIT",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-20c46e70440e56a6"
+        },
+        {
+          "account_id": "acct-juniper-chk",
+          "amount": "-1269.69",
+          "date": "2026-03-31",
+          "iso_currency_code": "USD",
+          "name": "SQUARE INC SETTLEMENT",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-684971c5ac4558e2"
+        }
+      ],
+      "cursor": "cursor-juniper-kitchen-0",
+      "has_more": true,
+      "modified": [],
+      "next_cursor": "cursor-juniper-kitchen-1",
+      "removed": []
+    },
+    {
+      "added": [
+        {
+          "account_id": "acct-juniper-chk",
+          "amount": "4200.00",
+          "date": "2026-04-01",
+          "iso_currency_code": "USD",
+          "name": "RIVERSIDE PROPERTIES RENT",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-34be28351907546c"
+        },
+        {
+          "account_id": "acct-juniper-chk",
+          "amount": "-1514.58",
+          "date": "2026-04-01",
+          "iso_currency_code": "USD",
+          "name": "SQUARE INC SETTLEMENT",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-8c7e230645ab5b6c"
+        },
+        {
+          "account_id": "acct-juniper-chk",
+          "amount": "1794.76",
+          "date": "2026-04-02",
+          "iso_currency_code": "USD",
+          "name": "SYSCO CORP ACH DEBIT",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-abee74cc0eab5208"
+        },
+        {
+          "account_id": "acct-juniper-chk",
+          "amount": "604.67",
+          "date": "2026-04-02",
+          "iso_currency_code": "USD",
+          "name": "US FOODS INC",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-c0d29c002b875565"
+        },
+        {
+          "account_id": "acct-juniper-chk",
+          "amount": "-1389.68",
+          "date": "2026-04-02",
+          "iso_currency_code": "USD",
+          "name": "TOAST PAYOUT",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-d787e22499fb535a"
+        },
+        {
+          "account_id": "acct-juniper-chk",
+          "amount": "-1723.84",
+          "date": "2026-04-03",
+          "iso_currency_code": "USD",
+          "name": "SQUARE INC SETTLEMENT",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-37f75ae855cd57fb"
+        },
+        {
+          "account_id": "acct-juniper-chk",
+          "amount": "368.35",
+          "date": "2026-04-03",
+          "iso_currency_code": "USD",
+          "name": "GREEN VALLEY PRODUCE",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-76a25cdd875753ea"
+        },
+        {
+          "account_id": "acct-juniper-chk",
+          "amount": "165.00",
+          "date": "2026-04-03",
+          "iso_currency_code": "USD",
+          "name": "TOAST POS SUBSCRIPTION",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-ca2891fb26685eb4"
+        },
+        {
+          "account_id": "acct-juniper-chk",
+          "amount": "7898.14",
+          "date": "2026-04-03",
+          "iso_currency_code": "USD",
+          "name": "GUSTO PAYROLL",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-f954baec954a55f2"
+        },
+        {
+          "account_id": "acct-juniper-chk",
+          "amount": "-2062.71",
+          "date": "2026-04-04",
+          "iso_currency_code": "USD",
+          "name": "TOAST PAYOUT",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-729a293d833a5843"
+        },
+        {
+          "account_id": "acct-juniper-chk",
+          "amount": "-1732.49",
+          "date": "2026-04-05",
+          "iso_currency_code": "USD",
+          "name": "SQUARE INC SETTLEMENT",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-a084b9a9cba85119"
+        },
+        {
+          "account_id": "acct-juniper-chk",
+          "amount": "972.12",
+          "date": "2026-04-06",
+          "iso_currency_code": "USD",
+          "name": "SYSCO CORP ACH DEBIT",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-af9aed24f3aa5590"
+        },
+        {
+          "account_id": "acct-juniper-chk",
+          "amount": "-1214.96",
+          "date": "2026-04-07",
+          "iso_currency_code": "USD",
+          "name": "SQUARE INC SETTLEMENT",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-a94af0ff698b522a"
+        },
+        {
+          "account_id": "acct-juniper-chk",
+          "amount": "-1798.69",
+          "date": "2026-04-08",
+          "iso_currency_code": "USD",
+          "name": "TOAST PAYOUT",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-1a3d31ae066a533b"
+        },
+        {
+          "account_id": "acct-juniper-chk",
+          "amount": "410.00",
+          "date": "2026-04-08",
+          "iso_currency_code": "USD",
+          "name": "HARTFORD INSURANCE",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-a7adcb8ee0d55896"
+        },
+        {
+          "account_id": "acct-juniper-chk",
+          "amount": "1289.41",
+          "date": "2026-04-09",
+          "iso_currency_code": "USD",
+          "name": "US FOODS INC",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-0150e2ad48ed5551"
+        },
+        {
+          "account_id": "acct-juniper-chk",
+          "amount": "1003.55",
+          "date": "2026-04-09",
+          "iso_currency_code": "USD",
+          "name": "SYSCO CORP ACH DEBIT",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-36218f85352c57e5"
+        },
+        {
+          "account_id": "acct-juniper-chk",
+          "amount": "-1268.09",
+          "date": "2026-04-09",
+          "iso_currency_code": "USD",
+          "name": "SQUARE INC SETTLEMENT",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-84c7232fd7135e5b"
+        },
+        {
+          "account_id": "acct-juniper-chk",
+          "amount": "-2356.33",
+          "date": "2026-04-10",
+          "iso_currency_code": "USD",
+          "name": "TOAST PAYOUT",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-6fba4a7f010d5989"
+        },
+        {
+          "account_id": "acct-juniper-chk",
+          "amount": "559.42",
+          "date": "2026-04-10",
+          "iso_currency_code": "USD",
+          "name": "GREEN VALLEY PRODUCE",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-e5b95ba2eaeb52d6"
+        },
+        {
+          "account_id": "acct-juniper-chk",
+          "amount": "-1798.61",
+          "date": "2026-04-11",
+          "iso_currency_code": "USD",
+          "name": "SQUARE INC SETTLEMENT",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-4d47aad531c050db"
+        },
+        {
+          "account_id": "acct-juniper-chk",
+          "amount": "-2366.50",
+          "date": "2026-04-12",
+          "iso_currency_code": "USD",
+          "name": "TOAST PAYOUT",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-546f5be71b9d5de8"
+        },
+        {
+          "account_id": "acct-juniper-chk",
+          "amount": "593.75",
+          "date": "2026-04-12",
+          "iso_currency_code": "USD",
+          "name": "PACIFIC GAS AND ELECTRIC",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-6ca5f8cbebb3516e"
+        },
+        {
+          "account_id": "acct-juniper-chk",
+          "amount": "1555.79",
+          "date": "2026-04-13",
+          "iso_currency_code": "USD",
+          "name": "SYSCO CORP ACH DEBIT",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-2d1fb1acadae5640"
+        },
+        {
+          "account_id": "acct-juniper-chk",
+          "amount": "-1221.75",
+          "date": "2026-04-14",
+          "iso_currency_code": "USD",
+          "name": "TOAST PAYOUT",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-6b3c9a3f2b0d51fb"
+        },
+        {
+          "account_id": "acct-juniper-chk",
+          "amount": "-1214.52",
+          "date": "2026-04-15",
+          "iso_currency_code": "USD",
+          "name": "SQUARE INC SETTLEMENT",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-28487e660cf85159"
+        },
+        {
+          "account_id": "acct-juniper-chk",
+          "amount": "103.56",
+          "date": "2026-04-15",
+          "iso_currency_code": "USD",
+          "name": "CITY WATER UTILITY",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-5ab96a37a42c5f5a"
+        },
+        {
+          "account_id": "acct-juniper-chk",
+          "amount": "1190.54",
+          "date": "2026-04-16",
+          "iso_currency_code": "USD",
+          "name": "US FOODS INC",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-03af5c05196a50b7"
+        },
+        {
+          "account_id": "acct-juniper-chk",
+          "amount": "1277.86",
+          "date": "2026-04-16",
+          "iso_currency_code": "USD",
+          "name": "SYSCO CORP ACH DEBIT",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-66a6e164dae25e01"
+        },
+        {
+          "account_id": "acct-juniper-chk",
+          "amount": "-1865.72",
+          "date": "2026-04-16",
+          "iso_currency_code": "USD",
+          "name": "TOAST PAYOUT",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-6fc88de3a8a45533"
+        },
+        {
+          "account_id": "acct-juniper-chk",
+          "amount": "-1579.98",
+          "date": "2026-04-17",
+          "iso_currency_code": "USD",
+          "name": "SQUARE INC SETTLEMENT",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-4f5a89a1e01c53f6"
+        },
+        {
+          "account_id": "acct-juniper-chk",
+          "amount": "8138.61",
+          "date": "2026-04-17",
+          "iso_currency_code": "USD",
+          "name": "GUSTO PAYROLL",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-64a2443fcc61526f"
+        },
+        {
+          "account_id": "acct-juniper-chk",
+          "amount": "519.22",
+          "date": "2026-04-17",
+          "iso_currency_code": "USD",
+          "name": "GREEN VALLEY PRODUCE",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-6c0a9a81ff595408"
+        },
+        {
+          "account_id": "acct-juniper-chk",
+          "amount": "-2116.70",
+          "date": "2026-04-18",
+          "iso_currency_code": "USD",
+          "name": "TOAST PAYOUT",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-deb08bf4a2975755"
+        },
+        {
+          "account_id": "acct-juniper-chk",
+          "amount": "-1492.91",
+          "date": "2026-04-19",
+          "iso_currency_code": "USD",
+          "name": "SQUARE INC SETTLEMENT",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-14102577ecdc5a8a"
+        },
+        {
+          "account_id": "acct-juniper-chk",
+          "amount": "1755.36",
+          "date": "2026-04-20",
+          "iso_currency_code": "USD",
+          "name": "SYSCO CORP ACH DEBIT",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-93f7a7eefcb755c3"
+        },
+        {
+          "account_id": "acct-juniper-chk",
+          "amount": "8900.00",
+          "date": "2026-04-20",
+          "iso_currency_code": "USD",
+          "name": "STATE DEPT OF REVENUE SALES TAX",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-a5a93fa670ef5aeb"
+        },
+        {
+          "account_id": "acct-juniper-chk",
+          "amount": "-1289.36",
+          "date": "2026-04-21",
+          "iso_currency_code": "USD",
+          "name": "SQUARE INC SETTLEMENT",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-388cb52685635a54"
+        },
+        {
+          "account_id": "acct-juniper-chk",
+          "amount": "-25000.00",
+          "date": "2026-04-21",
+          "iso_currency_code": "USD",
+          "name": "SBA EIDL LOAN PROCEEDS",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-99c93936bb5f59ba"
+        },
+        {
+          "account_id": "acct-juniper-chk",
+          "amount": "-1392.25",
+          "date": "2026-04-22",
+          "iso_currency_code": "USD",
+          "name": "TOAST PAYOUT",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-13eb65c431975d9e"
+        },
+        {
+          "account_id": "acct-juniper-chk",
+          "amount": "690.31",
+          "date": "2026-04-23",
+          "iso_currency_code": "USD",
+          "name": "US FOODS INC",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-87784eb20f5f58c6"
+        },
+        {
+          "account_id": "acct-juniper-chk",
+          "amount": "-1002.35",
+          "date": "2026-04-23",
+          "iso_currency_code": "USD",
+          "name": "SQUARE INC SETTLEMENT",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-b0d788537e925b6a"
+        },
+        {
+          "account_id": "acct-juniper-chk",
+          "amount": "1879.52",
+          "date": "2026-04-23",
+          "iso_currency_code": "USD",
+          "name": "SYSCO CORP ACH DEBIT",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-ce817fd058f4525f"
+        },
+        {
+          "account_id": "acct-juniper-chk",
+          "amount": "567.54",
+          "date": "2026-04-24",
+          "iso_currency_code": "USD",
+          "name": "GREEN VALLEY PRODUCE",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-66f701ad3d195e78"
+        },
+        {
+          "account_id": "acct-juniper-chk",
+          "amount": "-1829.49",
+          "date": "2026-04-24",
+          "iso_currency_code": "USD",
+          "name": "TOAST PAYOUT",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-a3e278c3c13b54c6"
+        },
+        {
+          "account_id": "acct-juniper-chk",
+          "amount": "-2272.21",
+          "date": "2026-04-25",
+          "iso_currency_code": "USD",
+          "name": "SQUARE INC SETTLEMENT",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-502017c71277504c"
+        },
+        {
+          "account_id": "acct-juniper-chk",
+          "amount": "-1999.26",
+          "date": "2026-04-26",
+          "iso_currency_code": "USD",
+          "name": "TOAST PAYOUT",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-4b5cf696ea045382"
+        },
+        {
+          "account_id": "acct-juniper-chk",
+          "amount": "1634.29",
+          "date": "2026-04-27",
+          "iso_currency_code": "USD",
+          "name": "SYSCO CORP ACH DEBIT",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-9feb48db83f65129"
+        },
+        {
+          "account_id": "acct-juniper-chk",
+          "amount": "-1662.51",
+          "date": "2026-04-28",
+          "iso_currency_code": "USD",
+          "name": "TOAST PAYOUT",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-eab8ad2aad055a19"
+        },
+        {
+          "account_id": "acct-juniper-chk",
+          "amount": "-1606.35",
+          "date": "2026-04-29",
+          "iso_currency_code": "USD",
+          "name": "SQUARE INC SETTLEMENT",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-0fb8c10e2d7850ac"
+        },
+        {
+          "account_id": "acct-juniper-chk",
+          "amount": "-1410.25",
+          "date": "2026-04-30",
+          "iso_currency_code": "USD",
+          "name": "TOAST PAYOUT",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-34428b47c97c5657"
+        },
+        {
+          "account_id": "acct-juniper-chk",
+          "amount": "1512.05",
+          "date": "2026-04-30",
+          "iso_currency_code": "USD",
+          "name": "SYSCO CORP ACH DEBIT",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-695fb93785885fe8"
+        },
+        {
+          "account_id": "acct-juniper-chk",
+          "amount": "906.02",
+          "date": "2026-04-30",
+          "iso_currency_code": "USD",
+          "name": "US FOODS INC",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-c9191c0bb2b35342"
+        }
+      ],
+      "cursor": "cursor-juniper-kitchen-1",
+      "has_more": true,
+      "modified": [],
+      "next_cursor": "cursor-juniper-kitchen-2",
+      "removed": []
+    },
+    {
+      "added": [
+        {
+          "account_id": "acct-juniper-chk",
+          "amount": "4200.00",
+          "date": "2026-05-01",
+          "iso_currency_code": "USD",
+          "name": "RIVERSIDE PROPERTIES RENT",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-18c8fd5a56535402"
+        },
+        {
+          "account_id": "acct-juniper-chk",
+          "amount": "-2438.15",
+          "date": "2026-05-01",
+          "iso_currency_code": "USD",
+          "name": "SQUARE INC SETTLEMENT",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-21077ac6d74c5727"
+        },
+        {
+          "account_id": "acct-juniper-chk",
+          "amount": "8372.75",
+          "date": "2026-05-01",
+          "iso_currency_code": "USD",
+          "name": "GUSTO PAYROLL",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-50637c18cd205d87"
+        },
+        {
+          "account_id": "acct-juniper-chk",
+          "amount": "258.20",
+          "date": "2026-05-01",
+          "iso_currency_code": "USD",
+          "name": "GREEN VALLEY PRODUCE",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-c3a83c7cf74e5a9b"
+        },
+        {
+          "account_id": "acct-juniper-chk",
+          "amount": "-2381.98",
+          "date": "2026-05-02",
+          "iso_currency_code": "USD",
+          "name": "TOAST PAYOUT",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-8b6f8f7e908654af"
+        },
+        {
+          "account_id": "acct-juniper-chk",
+          "amount": "165.00",
+          "date": "2026-05-03",
+          "iso_currency_code": "USD",
+          "name": "TOAST POS SUBSCRIPTION",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-3f8944573cfc5eb4"
+        },
+        {
+          "account_id": "acct-juniper-chk",
+          "amount": "-1351.26",
+          "date": "2026-05-03",
+          "iso_currency_code": "USD",
+          "name": "SQUARE INC SETTLEMENT",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-9929133a55f45b87"
+        },
+        {
+          "account_id": "acct-juniper-chk",
+          "amount": "1650.98",
+          "date": "2026-05-04",
+          "iso_currency_code": "USD",
+          "name": "SYSCO CORP ACH DEBIT",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-30036202e2515fd9"
+        },
+        {
+          "account_id": "acct-juniper-chk",
+          "amount": "-1758.57",
+          "date": "2026-05-05",
+          "iso_currency_code": "USD",
+          "name": "SQUARE INC SETTLEMENT",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-4293df00f47153c0"
+        },
+        {
+          "account_id": "acct-juniper-chk",
+          "amount": "-1691.41",
+          "date": "2026-05-06",
+          "iso_currency_code": "USD",
+          "name": "TOAST PAYOUT",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-918aaed5bc5854dc"
+        },
+        {
+          "account_id": "acct-juniper-chk",
+          "amount": "1138.43",
+          "date": "2026-05-07",
+          "iso_currency_code": "USD",
+          "name": "US FOODS INC",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-34129991b71d50f0"
+        },
+        {
+          "account_id": "acct-juniper-chk",
+          "amount": "-1637.27",
+          "date": "2026-05-07",
+          "iso_currency_code": "USD",
+          "name": "SQUARE INC SETTLEMENT",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-456750bea8f355fb"
+        },
+        {
+          "account_id": "acct-juniper-chk",
+          "amount": "1419.02",
+          "date": "2026-05-07",
+          "iso_currency_code": "USD",
+          "name": "SYSCO CORP ACH DEBIT",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-af667a0a13795601"
+        },
+        {
+          "account_id": "acct-juniper-chk",
+          "amount": "410.00",
+          "date": "2026-05-08",
+          "iso_currency_code": "USD",
+          "name": "HARTFORD INSURANCE",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-2bc21ec8b2f55be3"
+        },
+        {
+          "account_id": "acct-juniper-chk",
+          "amount": "256.06",
+          "date": "2026-05-08",
+          "iso_currency_code": "USD",
+          "name": "GREEN VALLEY PRODUCE",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-6390582f6ce25c66"
+        },
+        {
+          "account_id": "acct-juniper-chk",
+          "amount": "-1763.07",
+          "date": "2026-05-08",
+          "iso_currency_code": "USD",
+          "name": "TOAST PAYOUT",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-9840bea0af53502e"
+        },
+        {
+          "account_id": "acct-juniper-chk",
+          "amount": "-1764.84",
+          "date": "2026-05-09",
+          "iso_currency_code": "USD",
+          "name": "SQUARE INC SETTLEMENT",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-9bbc7bf9549c58dc"
+        },
+        {
+          "account_id": "acct-juniper-chk",
+          "amount": "-1931.12",
+          "date": "2026-05-10",
+          "iso_currency_code": "USD",
+          "name": "TOAST PAYOUT",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-0e22947e9a825fc2"
+        },
+        {
+          "account_id": "acct-juniper-chk",
+          "amount": "1564.90",
+          "date": "2026-05-11",
+          "iso_currency_code": "USD",
+          "name": "SYSCO CORP ACH DEBIT",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-e5f70ee674a55199"
+        },
+        {
+          "account_id": "acct-juniper-chk",
+          "amount": "-1481.47",
+          "date": "2026-05-12",
+          "iso_currency_code": "USD",
+          "name": "TOAST PAYOUT",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-4120821b478954b2"
+        },
+        {
+          "account_id": "acct-juniper-chk",
+          "amount": "563.34",
+          "date": "2026-05-12",
+          "iso_currency_code": "USD",
+          "name": "PACIFIC GAS AND ELECTRIC",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-69fbeedceac25a03"
+        },
+        {
+          "account_id": "acct-juniper-chk",
+          "amount": "2000.00",
+          "date": "2026-05-12",
+          "iso_currency_code": "USD",
+          "name": "ONLINE TRANSFER TO SAVINGS ...4477",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-75ee7b47ff525927"
+        },
+        {
+          "account_id": "acct-juniper-sav",
+          "amount": "-2000.00",
+          "date": "2026-05-12",
+          "iso_currency_code": "USD",
+          "name": "ONLINE TRANSFER FROM CHECKING ...4021",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-fae87c7e1cc0555e"
+        },
+        {
+          "account_id": "acct-juniper-chk",
+          "amount": "-1163.35",
+          "date": "2026-05-13",
+          "iso_currency_code": "USD",
+          "name": "SQUARE INC SETTLEMENT",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-792abc2d914458f8"
+        },
+        {
+          "account_id": "acct-juniper-chk",
+          "amount": "645.78",
+          "date": "2026-05-14",
+          "iso_currency_code": "USD",
+          "name": "US FOODS INC",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-171245d9b0625507"
+        },
+        {
+          "account_id": "acct-juniper-chk",
+          "amount": "1828.50",
+          "date": "2026-05-14",
+          "iso_currency_code": "USD",
+          "name": "SYSCO CORP ACH DEBIT",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-4aa77f364e545a73"
+        },
+        {
+          "account_id": "acct-juniper-chk",
+          "amount": "-1464.25",
+          "date": "2026-05-14",
+          "iso_currency_code": "USD",
+          "name": "TOAST PAYOUT",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-aed24df868a7505c"
+        },
+        {
+          "account_id": "acct-juniper-chk",
+          "amount": "575.09",
+          "date": "2026-05-15",
+          "iso_currency_code": "USD",
+          "name": "GREEN VALLEY PRODUCE",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-1472e9b8f7e15b0c"
+        },
+        {
+          "account_id": "acct-juniper-chk",
+          "amount": "-1567.56",
+          "date": "2026-05-15",
+          "iso_currency_code": "USD",
+          "name": "SQUARE INC SETTLEMENT",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-3731465004d95c8f"
+        },
+        {
+          "account_id": "acct-juniper-chk",
+          "amount": "8324.72",
+          "date": "2026-05-15",
+          "iso_currency_code": "USD",
+          "name": "GUSTO PAYROLL",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-45690014e70c51b3"
+        },
+        {
+          "account_id": "acct-juniper-chk",
+          "amount": "125.14",
+          "date": "2026-05-15",
+          "iso_currency_code": "USD",
+          "name": "CITY WATER UTILITY",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-c54680c5b79a51b4"
+        },
+        {
+          "account_id": "acct-juniper-chk",
+          "amount": "-1495.44",
+          "date": "2026-05-16",
+          "iso_currency_code": "USD",
+          "name": "TOAST PAYOUT",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-af08089011555792"
+        },
+        {
+          "account_id": "acct-juniper-chk",
+          "amount": "-2276.51",
+          "date": "2026-05-17",
+          "iso_currency_code": "USD",
+          "name": "SQUARE INC SETTLEMENT",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-efa3c79433f75432"
+        },
+        {
+          "account_id": "acct-juniper-chk",
+          "amount": "1063.04",
+          "date": "2026-05-18",
+          "iso_currency_code": "USD",
+          "name": "SYSCO CORP ACH DEBIT",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-cc3dbdc2b32f59b8"
+        },
+        {
+          "account_id": "acct-juniper-chk",
+          "amount": "-1152.99",
+          "date": "2026-05-19",
+          "iso_currency_code": "USD",
+          "name": "SQUARE INC SETTLEMENT",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-99291bfdc1b950e7"
+        },
+        {
+          "account_id": "acct-juniper-chk",
+          "amount": "-1330.18",
+          "date": "2026-05-20",
+          "iso_currency_code": "USD",
+          "name": "TOAST PAYOUT",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-c21dcd39f950575f"
+        },
+        {
+          "account_id": "acct-juniper-chk",
+          "amount": "-1020.10",
+          "date": "2026-05-21",
+          "iso_currency_code": "USD",
+          "name": "SQUARE INC SETTLEMENT",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-a342df4ec84954fd"
+        },
+        {
+          "account_id": "acct-juniper-chk",
+          "amount": "731.00",
+          "date": "2026-05-21",
+          "iso_currency_code": "USD",
+          "name": "SBA LOAN PAYMENT",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-b35acb89a0895832"
+        },
+        {
+          "account_id": "acct-juniper-chk",
+          "amount": "1264.25",
+          "date": "2026-05-21",
+          "iso_currency_code": "USD",
+          "name": "US FOODS INC",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-bc9d6d2c65185448"
+        },
+        {
+          "account_id": "acct-juniper-chk",
+          "amount": "1674.09",
+          "date": "2026-05-21",
+          "iso_currency_code": "USD",
+          "name": "SYSCO CORP ACH DEBIT",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-da56a0f251865933"
+        },
+        {
+          "account_id": "acct-juniper-chk",
+          "amount": "376.84",
+          "date": "2026-05-22",
+          "iso_currency_code": "USD",
+          "name": "GREEN VALLEY PRODUCE",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-1cb3ed63cf3a56e9"
+        },
+        {
+          "account_id": "acct-juniper-chk",
+          "amount": "-1932.90",
+          "date": "2026-05-22",
+          "iso_currency_code": "USD",
+          "name": "TOAST PAYOUT",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-1f488b7715515574"
+        },
+        {
+          "account_id": "acct-juniper-chk",
+          "amount": "-1929.09",
+          "date": "2026-05-23",
+          "iso_currency_code": "USD",
+          "name": "SQUARE INC SETTLEMENT",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-9a3cbe9d42dc5903"
+        },
+        {
+          "account_id": "acct-juniper-chk",
+          "amount": "-2281.12",
+          "date": "2026-05-24",
+          "iso_currency_code": "USD",
+          "name": "TOAST PAYOUT",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-4c7bb2c5d5f156b4"
+        },
+        {
+          "account_id": "acct-juniper-chk",
+          "amount": "936.15",
+          "date": "2026-05-25",
+          "iso_currency_code": "USD",
+          "name": "SYSCO CORP ACH DEBIT",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-cd451a11ea125dbc"
+        },
+        {
+          "account_id": "acct-juniper-chk",
+          "amount": "-1854.21",
+          "date": "2026-05-26",
+          "iso_currency_code": "USD",
+          "name": "TOAST PAYOUT",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-70fd41b907425ab1"
+        },
+        {
+          "account_id": "acct-juniper-chk",
+          "amount": "-1755.90",
+          "date": "2026-05-27",
+          "iso_currency_code": "USD",
+          "name": "SQUARE INC SETTLEMENT",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-12736c359902550e"
+        },
+        {
+          "account_id": "acct-juniper-chk",
+          "amount": "-1523.51",
+          "date": "2026-05-28",
+          "iso_currency_code": "USD",
+          "name": "TOAST PAYOUT",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-27544e9cbd095a23"
+        },
+        {
+          "account_id": "acct-juniper-chk",
+          "amount": "1481.10",
+          "date": "2026-05-28",
+          "iso_currency_code": "USD",
+          "name": "SYSCO CORP ACH DEBIT",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-9d479d7fe97658a3"
+        },
+        {
+          "account_id": "acct-juniper-chk",
+          "amount": "1225.16",
+          "date": "2026-05-28",
+          "iso_currency_code": "USD",
+          "name": "US FOODS INC",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-e209f238edfd5a44"
+        },
+        {
+          "account_id": "acct-juniper-chk",
+          "amount": "640.00",
+          "date": "2026-05-28",
+          "iso_currency_code": "USD",
+          "name": "CHECK 1044",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-faee9a49dfc65658"
+        },
+        {
+          "account_id": "acct-juniper-chk",
+          "amount": "8134.30",
+          "date": "2026-05-29",
+          "iso_currency_code": "USD",
+          "name": "GUSTO PAYROLL",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-20e14f93fc515478"
+        },
+        {
+          "account_id": "acct-juniper-chk",
+          "amount": "573.09",
+          "date": "2026-05-29",
+          "iso_currency_code": "USD",
+          "name": "GREEN VALLEY PRODUCE",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-450cc7f1aad85f0f"
+        },
+        {
+          "account_id": "acct-juniper-chk",
+          "amount": "-2187.33",
+          "date": "2026-05-29",
+          "iso_currency_code": "USD",
+          "name": "SQUARE INC SETTLEMENT",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-ac40c199342e5fff"
+        },
+        {
+          "account_id": "acct-juniper-chk",
+          "amount": "-1399.41",
+          "date": "2026-05-30",
+          "iso_currency_code": "USD",
+          "name": "TOAST PAYOUT",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-04c6eccdafef56c7"
+        },
+        {
+          "account_id": "acct-juniper-chk",
+          "amount": "-2541.28",
+          "date": "2026-05-31",
+          "iso_currency_code": "USD",
+          "name": "SQUARE INC SETTLEMENT",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-2a9a8ada32fa5717"
+        }
+      ],
+      "cursor": "cursor-juniper-kitchen-2",
+      "has_more": true,
+      "modified": [],
+      "next_cursor": "cursor-juniper-kitchen-3",
+      "removed": []
+    },
+    {
+      "added": [
+        {
+          "account_id": "acct-juniper-chk",
+          "amount": "-2541.28",
+          "date": "2026-05-31",
+          "iso_currency_code": "USD",
+          "name": "SQUARE INC SETTLEMENT",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-2a9a8ada32fa5717"
+        },
+        {
+          "account_id": "acct-juniper-chk",
+          "amount": "1490.80",
+          "date": "2026-06-01",
+          "iso_currency_code": "USD",
+          "name": "SYSCO CORP ACH DEBIT",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-9a3f3093a9f35afc"
+        },
+        {
+          "account_id": "acct-juniper-chk",
+          "amount": "4200.00",
+          "date": "2026-06-01",
+          "iso_currency_code": "USD",
+          "name": "RIVERSIDE PROPERTIES RENT",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-f1c765355eeb511a"
+        },
+        {
+          "account_id": "acct-juniper-chk",
+          "amount": "-1515.28",
+          "date": "2026-06-02",
+          "iso_currency_code": "USD",
+          "name": "TOAST PAYOUT",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-26d5518b3c54565f"
+        },
+        {
+          "account_id": "acct-juniper-chk",
+          "amount": "-1509.17",
+          "date": "2026-06-03",
+          "iso_currency_code": "USD",
+          "name": "SQUARE INC SETTLEMENT",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-42b57c7c58f954e6"
+        },
+        {
+          "account_id": "acct-juniper-chk",
+          "amount": "165.00",
+          "date": "2026-06-03",
+          "iso_currency_code": "USD",
+          "name": "TOAST POS SUBSCRIPTION",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-e8ee1f5128075a62"
+        },
+        {
+          "account_id": "acct-juniper-chk",
+          "amount": "1009.08",
+          "date": "2026-06-04",
+          "iso_currency_code": "USD",
+          "name": "US FOODS INC",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-0d784939d28b5a4d"
+        },
+        {
+          "account_id": "acct-juniper-chk",
+          "amount": "-1616.03",
+          "date": "2026-06-04",
+          "iso_currency_code": "USD",
+          "name": "TOAST PAYOUT",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-4b7998f25c1d5507"
+        },
+        {
+          "account_id": "acct-juniper-chk",
+          "amount": "1828.33",
+          "date": "2026-06-04",
+          "iso_currency_code": "USD",
+          "name": "SYSCO CORP ACH DEBIT",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-fb2b0c926dea53b0"
+        },
+        {
+          "account_id": "acct-juniper-chk",
+          "amount": "-2033.97",
+          "date": "2026-06-05",
+          "iso_currency_code": "USD",
+          "name": "SQUARE INC SETTLEMENT",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-409ef2d5a12f53c0"
+        },
+        {
+          "account_id": "acct-juniper-chk",
+          "amount": "333.56",
+          "date": "2026-06-05",
+          "iso_currency_code": "USD",
+          "name": "GREEN VALLEY PRODUCE",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-4d32591a56d453ba"
+        },
+        {
+          "account_id": "acct-juniper-chk",
+          "amount": "-2000.94",
+          "date": "2026-06-06",
+          "iso_currency_code": "USD",
+          "name": "TOAST PAYOUT",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-4705867ba36c57c3"
+        },
+        {
+          "account_id": "acct-juniper-chk",
+          "amount": "-1373.36",
+          "date": "2026-06-07",
+          "iso_currency_code": "USD",
+          "name": "SQUARE INC SETTLEMENT",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-5ff514e6a5ce5b05"
+        },
+        {
+          "account_id": "acct-juniper-chk",
+          "amount": "410.00",
+          "date": "2026-06-08",
+          "iso_currency_code": "USD",
+          "name": "HARTFORD INSURANCE",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-1f16fdd90dfa5c8c"
+        },
+        {
+          "account_id": "acct-juniper-chk",
+          "amount": "1313.99",
+          "date": "2026-06-08",
+          "iso_currency_code": "USD",
+          "name": "SYSCO CORP ACH DEBIT",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-dcefdfa1ebbd5a91"
+        },
+        {
+          "account_id": "acct-juniper-chk",
+          "amount": "-1362.70",
+          "date": "2026-06-09",
+          "iso_currency_code": "USD",
+          "name": "SQUARE INC SETTLEMENT",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-97c5dc109e125f2c"
+        },
+        {
+          "account_id": "acct-juniper-chk",
+          "amount": "6400.00",
+          "date": "2026-06-10",
+          "iso_currency_code": "USD",
+          "name": "HOBART SERVICE EQUIPMENT REPAIR",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-b1a7cb4ea7ec5c39"
+        },
+        {
+          "account_id": "acct-juniper-chk",
+          "amount": "-1170.13",
+          "date": "2026-06-10",
+          "iso_currency_code": "USD",
+          "name": "TOAST PAYOUT",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-ee0137a778ae5880"
+        },
+        {
+          "account_id": "acct-juniper-chk",
+          "amount": "1066.35",
+          "date": "2026-06-11",
+          "iso_currency_code": "USD",
+          "name": "US FOODS INC",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-213231d410195702"
+        },
+        {
+          "account_id": "acct-juniper-chk",
+          "amount": "1281.39",
+          "date": "2026-06-11",
+          "iso_currency_code": "USD",
+          "name": "SYSCO CORP ACH DEBIT",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-7915c01bf5395f4f"
+        },
+        {
+          "account_id": "acct-juniper-chk",
+          "amount": "-1334.59",
+          "date": "2026-06-11",
+          "iso_currency_code": "USD",
+          "name": "SQUARE INC SETTLEMENT",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-e6042ae820c958da"
+        },
+        {
+          "account_id": "acct-juniper-chk",
+          "amount": "557.05",
+          "date": "2026-06-12",
+          "iso_currency_code": "USD",
+          "name": "PACIFIC GAS AND ELECTRIC",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-103e21c6a9415b9f"
+        },
+        {
+          "account_id": "acct-juniper-chk",
+          "amount": "-1482.36",
+          "date": "2026-06-12",
+          "iso_currency_code": "USD",
+          "name": "TOAST PAYOUT",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-bd31c85fed6c5109"
+        },
+        {
+          "account_id": "acct-juniper-chk",
+          "amount": "387.02",
+          "date": "2026-06-12",
+          "iso_currency_code": "USD",
+          "name": "GREEN VALLEY PRODUCE",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-c77ec887cdc95885"
+        },
+        {
+          "account_id": "acct-juniper-chk",
+          "amount": "8257.62",
+          "date": "2026-06-12",
+          "iso_currency_code": "USD",
+          "name": "GUSTO PAYROLL",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-e6c4c45df1ae57d5"
+        },
+        {
+          "account_id": "acct-juniper-chk",
+          "amount": "-2327.62",
+          "date": "2026-06-13",
+          "iso_currency_code": "USD",
+          "name": "SQUARE INC SETTLEMENT",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-cc1499e7c8c050f5"
+        },
+        {
+          "account_id": "acct-juniper-chk",
+          "amount": "-2405.21",
+          "date": "2026-06-14",
+          "iso_currency_code": "USD",
+          "name": "TOAST PAYOUT",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-2315724443be5bf5"
+        },
+        {
+          "account_id": "acct-juniper-chk",
+          "amount": "1853.69",
+          "date": "2026-06-15",
+          "iso_currency_code": "USD",
+          "name": "SYSCO CORP ACH DEBIT",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-b9765744111d51cf"
+        },
+        {
+          "account_id": "acct-juniper-chk",
+          "amount": "136.82",
+          "date": "2026-06-15",
+          "iso_currency_code": "USD",
+          "name": "CITY WATER UTILITY",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-f420d1e9d27f5500"
+        },
+        {
+          "account_id": "acct-juniper-chk",
+          "amount": "-1501.94",
+          "date": "2026-06-16",
+          "iso_currency_code": "USD",
+          "name": "TOAST PAYOUT",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-a3ced62b90e35fce"
+        },
+        {
+          "account_id": "acct-juniper-chk",
+          "amount": "-1421.91",
+          "date": "2026-06-17",
+          "iso_currency_code": "USD",
+          "name": "SQUARE INC SETTLEMENT",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-e3a9c48dc2db5fde"
+        },
+        {
+          "account_id": "acct-juniper-chk",
+          "amount": "-1114.00",
+          "date": "2026-06-18",
+          "iso_currency_code": "USD",
+          "name": "TOAST PAYOUT",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-9597b182478655a8"
+        },
+        {
+          "account_id": "acct-juniper-chk",
+          "amount": "1511.08",
+          "date": "2026-06-18",
+          "iso_currency_code": "USD",
+          "name": "SYSCO CORP ACH DEBIT",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-ad58ee1a3f48593b"
+        },
+        {
+          "account_id": "acct-juniper-chk",
+          "amount": "1106.78",
+          "date": "2026-06-18",
+          "iso_currency_code": "USD",
+          "name": "US FOODS INC",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-b82b1d60cfaa526f"
+        },
+        {
+          "account_id": "acct-juniper-chk",
+          "amount": "-3500.00",
+          "date": "2026-06-18",
+          "iso_currency_code": "USD",
+          "name": "DEPOSIT 8842",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-f37d66667c865d88"
+        },
+        {
+          "account_id": "acct-juniper-chk",
+          "amount": "458.20",
+          "date": "2026-06-19",
+          "iso_currency_code": "USD",
+          "name": "GREEN VALLEY PRODUCE",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-349a631338a650d2"
+        },
+        {
+          "account_id": "acct-juniper-chk",
+          "amount": "-1438.60",
+          "date": "2026-06-19",
+          "iso_currency_code": "USD",
+          "name": "SQUARE INC SETTLEMENT",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-bdd2b645a4d650e4"
+        },
+        {
+          "account_id": "acct-juniper-chk",
+          "amount": "-2434.23",
+          "date": "2026-06-20",
+          "iso_currency_code": "USD",
+          "name": "TOAST PAYOUT",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-b7d2da3d3d4f5617"
+        },
+        {
+          "account_id": "acct-juniper-chk",
+          "amount": "-1932.02",
+          "date": "2026-06-21",
+          "iso_currency_code": "USD",
+          "name": "SQUARE INC SETTLEMENT",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-817a53117edf5249"
+        },
+        {
+          "account_id": "acct-juniper-chk",
+          "amount": "731.00",
+          "date": "2026-06-21",
+          "iso_currency_code": "USD",
+          "name": "SBA LOAN PAYMENT",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-90ec348173845ac6"
+        },
+        {
+          "account_id": "acct-juniper-chk",
+          "amount": "1189.08",
+          "date": "2026-06-22",
+          "iso_currency_code": "USD",
+          "name": "SYSCO CORP ACH DEBIT",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-8e514f0f41475f22"
+        },
+        {
+          "account_id": "acct-juniper-chk",
+          "amount": "-1107.18",
+          "date": "2026-06-23",
+          "iso_currency_code": "USD",
+          "name": "SQUARE INC SETTLEMENT",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-d9918f41d9af5104"
+        },
+        {
+          "account_id": "acct-juniper-chk",
+          "amount": "-1489.31",
+          "date": "2026-06-24",
+          "iso_currency_code": "USD",
+          "name": "TOAST PAYOUT",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-7ccc4561793d5076"
+        },
+        {
+          "account_id": "acct-juniper-chk",
+          "amount": "-1604.08",
+          "date": "2026-06-25",
+          "iso_currency_code": "USD",
+          "name": "SQUARE INC SETTLEMENT",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-90d7b45183085298"
+        },
+        {
+          "account_id": "acct-juniper-chk",
+          "amount": "1101.36",
+          "date": "2026-06-25",
+          "iso_currency_code": "USD",
+          "name": "US FOODS INC",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-ecff0abc7c665fae"
+        },
+        {
+          "account_id": "acct-juniper-chk",
+          "amount": "1200.79",
+          "date": "2026-06-25",
+          "iso_currency_code": "USD",
+          "name": "SYSCO CORP ACH DEBIT",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-fd95facaf8015696"
+        },
+        {
+          "account_id": "acct-juniper-chk",
+          "amount": "567.01",
+          "date": "2026-06-26",
+          "iso_currency_code": "USD",
+          "name": "GREEN VALLEY PRODUCE",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-4ba121f463df5d80"
+        },
+        {
+          "account_id": "acct-juniper-chk",
+          "amount": "8490.09",
+          "date": "2026-06-26",
+          "iso_currency_code": "USD",
+          "name": "GUSTO PAYROLL",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-810b1b3e30d4528f"
+        },
+        {
+          "account_id": "acct-juniper-chk",
+          "amount": "-2422.89",
+          "date": "2026-06-26",
+          "iso_currency_code": "USD",
+          "name": "TOAST PAYOUT",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-cc4ee3afcdf35c48"
+        },
+        {
+          "account_id": "acct-juniper-chk",
+          "amount": "-2222.80",
+          "date": "2026-06-27",
+          "iso_currency_code": "USD",
+          "name": "SQUARE INC SETTLEMENT",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-2780cea04c3a53ae"
+        },
+        {
+          "account_id": "acct-juniper-chk",
+          "amount": "-1957.27",
+          "date": "2026-06-28",
+          "iso_currency_code": "USD",
+          "name": "TOAST PAYOUT",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-c750c67b5000531e"
+        },
+        {
+          "account_id": "acct-juniper-chk",
+          "amount": "1837.41",
+          "date": "2026-06-29",
+          "iso_currency_code": "USD",
+          "name": "SYSCO CORP ACH DEBIT",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-c41ef0f5ba575389"
+        },
+        {
+          "account_id": "acct-juniper-chk",
+          "amount": "-1870.02",
+          "date": "2026-06-30",
+          "iso_currency_code": "USD",
+          "name": "TOAST PAYOUT",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-2c0a51977356585e"
+        }
+      ],
+      "cursor": "cursor-juniper-kitchen-3",
+      "has_more": true,
+      "modified": [],
+      "next_cursor": "cursor-juniper-kitchen-4",
+      "removed": []
+    },
+    {
+      "added": [
+        {
+          "account_id": "acct-juniper-chk",
+          "amount": "-1480.58",
+          "date": "2026-07-01",
+          "iso_currency_code": "USD",
+          "name": "SQUARE INC SETTLEMENT",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-2a8da3fe525b55e1"
+        },
+        {
+          "account_id": "acct-juniper-chk",
+          "amount": "4200.00",
+          "date": "2026-07-01",
+          "iso_currency_code": "USD",
+          "name": "RIVERSIDE PROPERTIES RENT",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-7861d56d2b4f5faa"
+        },
+        {
+          "account_id": "acct-juniper-chk",
+          "amount": "-1558.86",
+          "date": "2026-07-02",
+          "iso_currency_code": "USD",
+          "name": "TOAST PAYOUT",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-588766ddcc2c5acb"
+        },
+        {
+          "account_id": "acct-juniper-chk",
+          "amount": "607.37",
+          "date": "2026-07-02",
+          "iso_currency_code": "USD",
+          "name": "US FOODS INC",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-a014a12bd8bf51d0"
+        },
+        {
+          "account_id": "acct-juniper-chk",
+          "amount": "1566.94",
+          "date": "2026-07-02",
+          "iso_currency_code": "USD",
+          "name": "SYSCO CORP ACH DEBIT",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-d7375ec3354e5417"
+        },
+        {
+          "account_id": "acct-juniper-chk",
+          "amount": "516.94",
+          "date": "2026-07-03",
+          "iso_currency_code": "USD",
+          "name": "GREEN VALLEY PRODUCE",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-7ab82c5298025530"
+        },
+        {
+          "account_id": "acct-juniper-chk",
+          "amount": "-1440.78",
+          "date": "2026-07-03",
+          "iso_currency_code": "USD",
+          "name": "SQUARE INC SETTLEMENT",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-b7c300ce9ba05715"
+        },
+        {
+          "account_id": "acct-juniper-chk",
+          "amount": "165.00",
+          "date": "2026-07-03",
+          "iso_currency_code": "USD",
+          "name": "TOAST POS SUBSCRIPTION",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-d6e81299aec95a2f"
+        },
+        {
+          "account_id": "acct-juniper-chk",
+          "amount": "-2189.05",
+          "date": "2026-07-04",
+          "iso_currency_code": "USD",
+          "name": "TOAST PAYOUT",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-9d8fb8d21a51557c"
+        },
+        {
+          "account_id": "acct-juniper-chk",
+          "amount": "-1635.53",
+          "date": "2026-07-05",
+          "iso_currency_code": "USD",
+          "name": "SQUARE INC SETTLEMENT",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-580d449dee93517c"
+        },
+        {
+          "account_id": "acct-juniper-chk",
+          "amount": "1099.91",
+          "date": "2026-07-06",
+          "iso_currency_code": "USD",
+          "name": "SYSCO CORP ACH DEBIT",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-1ad9e578a5805a77"
+        },
+        {
+          "account_id": "acct-juniper-chk",
+          "amount": "-1061.16",
+          "date": "2026-07-07",
+          "iso_currency_code": "USD",
+          "name": "SQUARE INC SETTLEMENT",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-04bd562b49865b50"
+        },
+        {
+          "account_id": "acct-juniper-chk",
+          "amount": "-275.00",
+          "date": "2026-07-07",
+          "iso_currency_code": "USD",
+          "name": "ACH CREDIT 0192",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-df7793c97660519d"
+        },
+        {
+          "account_id": "acct-juniper-chk",
+          "amount": "410.00",
+          "date": "2026-07-08",
+          "iso_currency_code": "USD",
+          "name": "HARTFORD INSURANCE",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-a561026fc5945cec"
+        },
+        {
+          "account_id": "acct-juniper-chk",
+          "amount": "-1185.25",
+          "date": "2026-07-08",
+          "iso_currency_code": "USD",
+          "name": "TOAST PAYOUT",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-cecb0e52a7755266"
+        },
+        {
+          "account_id": "acct-juniper-chk",
+          "amount": "-1315.31",
+          "date": "2026-07-09",
+          "iso_currency_code": "USD",
+          "name": "SQUARE INC SETTLEMENT",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-06389fa6c6bf5fa3"
+        },
+        {
+          "account_id": "acct-juniper-chk",
+          "amount": "1296.14",
+          "date": "2026-07-09",
+          "iso_currency_code": "USD",
+          "name": "US FOODS INC",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-355cc60fb52e516d"
+        },
+        {
+          "account_id": "acct-juniper-chk",
+          "amount": "1107.12",
+          "date": "2026-07-09",
+          "iso_currency_code": "USD",
+          "name": "SYSCO CORP ACH DEBIT",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-78fe269137165fd2"
+        },
+        {
+          "account_id": "acct-juniper-chk",
+          "amount": "390.22",
+          "date": "2026-07-10",
+          "iso_currency_code": "USD",
+          "name": "GREEN VALLEY PRODUCE",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-4acabd9a08a05d3a"
+        },
+        {
+          "account_id": "acct-juniper-chk",
+          "amount": "-2175.26",
+          "date": "2026-07-10",
+          "iso_currency_code": "USD",
+          "name": "TOAST PAYOUT",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-5cb65e6aeae755a0"
+        },
+        {
+          "account_id": "acct-juniper-chk",
+          "amount": "9001.28",
+          "date": "2026-07-10",
+          "iso_currency_code": "USD",
+          "name": "GUSTO PAYROLL",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-da14bfbda747520d"
+        },
+        {
+          "account_id": "acct-juniper-chk",
+          "amount": "-1469.35",
+          "date": "2026-07-11",
+          "iso_currency_code": "USD",
+          "name": "SQUARE INC SETTLEMENT",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-e890727be94b5d67"
+        },
+        {
+          "account_id": "acct-juniper-chk",
+          "amount": "507.69",
+          "date": "2026-07-12",
+          "iso_currency_code": "USD",
+          "name": "PACIFIC GAS AND ELECTRIC",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-5715e34ba34e524f"
+        },
+        {
+          "account_id": "acct-juniper-chk",
+          "amount": "-2052.04",
+          "date": "2026-07-12",
+          "iso_currency_code": "USD",
+          "name": "TOAST PAYOUT",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-a747685792c451ea"
+        },
+        {
+          "account_id": "acct-juniper-chk",
+          "amount": "1162.90",
+          "date": "2026-07-13",
+          "iso_currency_code": "USD",
+          "name": "SYSCO CORP ACH DEBIT",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-2d8955ee94545f2f"
+        },
+        {
+          "account_id": "acct-juniper-chk",
+          "amount": "-1166.78",
+          "date": "2026-07-14",
+          "iso_currency_code": "USD",
+          "name": "TOAST PAYOUT",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-3f948b7e812f5a63"
+        },
+        {
+          "account_id": "acct-juniper-chk",
+          "amount": "-1535.83",
+          "date": "2026-07-15",
+          "iso_currency_code": "USD",
+          "name": "SQUARE INC SETTLEMENT",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-27ce5197f6a25988"
+        },
+        {
+          "account_id": "acct-juniper-chk",
+          "amount": "99.71",
+          "date": "2026-07-15",
+          "iso_currency_code": "USD",
+          "name": "CITY WATER UTILITY",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-73d55990e7155607"
+        },
+        {
+          "account_id": "acct-juniper-chk",
+          "amount": "-1675.19",
+          "date": "2026-07-16",
+          "iso_currency_code": "USD",
+          "name": "TOAST PAYOUT",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-19bd529604cc5405"
+        },
+        {
+          "account_id": "acct-juniper-chk",
+          "amount": "1153.58",
+          "date": "2026-07-16",
+          "iso_currency_code": "USD",
+          "name": "US FOODS INC",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-1ce15cfc245251e2"
+        },
+        {
+          "account_id": "acct-juniper-chk",
+          "amount": "1067.57",
+          "date": "2026-07-16",
+          "iso_currency_code": "USD",
+          "name": "SYSCO CORP ACH DEBIT",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-d29ff86df9455877"
+        },
+        {
+          "account_id": "acct-juniper-chk",
+          "amount": "258.64",
+          "date": "2026-07-17",
+          "iso_currency_code": "USD",
+          "name": "GREEN VALLEY PRODUCE",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-90943cdab9f55dad"
+        },
+        {
+          "account_id": "acct-juniper-chk",
+          "amount": "-1455.47",
+          "date": "2026-07-17",
+          "iso_currency_code": "USD",
+          "name": "SQUARE INC SETTLEMENT",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-c12f3c70ab095331"
+        },
+        {
+          "account_id": "acct-juniper-chk",
+          "amount": "-2267.01",
+          "date": "2026-07-18",
+          "iso_currency_code": "USD",
+          "name": "TOAST PAYOUT",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-59ebe4625434501e"
+        },
+        {
+          "account_id": "acct-juniper-chk",
+          "amount": "-2533.22",
+          "date": "2026-07-19",
+          "iso_currency_code": "USD",
+          "name": "SQUARE INC SETTLEMENT",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-0b3feb4a2bfa5a94"
+        },
+        {
+          "account_id": "acct-juniper-chk",
+          "amount": "8900.00",
+          "date": "2026-07-20",
+          "iso_currency_code": "USD",
+          "name": "STATE DEPT OF REVENUE SALES TAX",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-20688b03b8765c01"
+        },
+        {
+          "account_id": "acct-juniper-chk",
+          "amount": "1124.66",
+          "date": "2026-07-20",
+          "iso_currency_code": "USD",
+          "name": "SYSCO CORP ACH DEBIT",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-7e9d5f97235c5c06"
+        },
+        {
+          "account_id": "acct-juniper-chk",
+          "amount": "-1651.72",
+          "date": "2026-07-21",
+          "iso_currency_code": "USD",
+          "name": "SQUARE INC SETTLEMENT",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-60aba19c153a5fdc"
+        },
+        {
+          "account_id": "acct-juniper-chk",
+          "amount": "731.00",
+          "date": "2026-07-21",
+          "iso_currency_code": "USD",
+          "name": "SBA LOAN PAYMENT",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-630c0481d40650a9"
+        },
+        {
+          "account_id": "acct-juniper-chk",
+          "amount": "-1628.67",
+          "date": "2026-07-22",
+          "iso_currency_code": "USD",
+          "name": "TOAST PAYOUT",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-cbd4a3f4b53b50d5"
+        },
+        {
+          "account_id": "acct-juniper-chk",
+          "amount": "-1659.46",
+          "date": "2026-07-23",
+          "iso_currency_code": "USD",
+          "name": "SQUARE INC SETTLEMENT",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-8ac5250d6bd35fbf"
+        },
+        {
+          "account_id": "acct-juniper-chk",
+          "amount": "1822.49",
+          "date": "2026-07-23",
+          "iso_currency_code": "USD",
+          "name": "SYSCO CORP ACH DEBIT",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-b42f28565e195fb1"
+        },
+        {
+          "account_id": "acct-juniper-chk",
+          "amount": "661.17",
+          "date": "2026-07-23",
+          "iso_currency_code": "USD",
+          "name": "US FOODS INC",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-f04fba54ad8555b7"
+        },
+        {
+          "account_id": "acct-juniper-chk",
+          "amount": "435.23",
+          "date": "2026-07-24",
+          "iso_currency_code": "USD",
+          "name": "GREEN VALLEY PRODUCE",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-2eb1decfd03153a3"
+        },
+        {
+          "account_id": "acct-juniper-chk",
+          "amount": "-1602.20",
+          "date": "2026-07-24",
+          "iso_currency_code": "USD",
+          "name": "TOAST PAYOUT",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-fa6960a3344655ef"
+        },
+        {
+          "account_id": "acct-juniper-chk",
+          "amount": "8868.24",
+          "date": "2026-07-24",
+          "iso_currency_code": "USD",
+          "name": "GUSTO PAYROLL",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-fc7ac05e140a571d"
+        },
+        {
+          "account_id": "acct-juniper-chk",
+          "amount": "-2014.17",
+          "date": "2026-07-25",
+          "iso_currency_code": "USD",
+          "name": "SQUARE INC SETTLEMENT",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-8992819b0ad75f64"
+        },
+        {
+          "account_id": "acct-juniper-chk",
+          "amount": "-1675.39",
+          "date": "2026-07-26",
+          "iso_currency_code": "USD",
+          "name": "TOAST PAYOUT",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-cb2fe210e2775ce4"
+        },
+        {
+          "account_id": "acct-juniper-chk",
+          "amount": "1708.38",
+          "date": "2026-07-27",
+          "iso_currency_code": "USD",
+          "name": "SYSCO CORP ACH DEBIT",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-8aae565153205235"
+        },
+        {
+          "account_id": "acct-juniper-chk",
+          "amount": "-1042.33",
+          "date": "2026-07-28",
+          "iso_currency_code": "USD",
+          "name": "TOAST PAYOUT",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-04d09b94e5ff58d9"
+        },
+        {
+          "account_id": "acct-juniper-chk",
+          "amount": "-1349.28",
+          "date": "2026-07-29",
+          "iso_currency_code": "USD",
+          "name": "SQUARE INC SETTLEMENT",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-171876c6d7c75480"
+        },
+        {
+          "account_id": "acct-juniper-chk",
+          "amount": "1093.73",
+          "date": "2026-07-30",
+          "iso_currency_code": "USD",
+          "name": "SYSCO CORP ACH DEBIT",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-b6b649e0da225366"
+        },
+        {
+          "account_id": "acct-juniper-chk",
+          "amount": "1258.30",
+          "date": "2026-07-30",
+          "iso_currency_code": "USD",
+          "name": "US FOODS INC",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-c93593aeea0a59dc"
+        },
+        {
+          "account_id": "acct-juniper-chk",
+          "amount": "-1288.36",
+          "date": "2026-07-30",
+          "iso_currency_code": "USD",
+          "name": "TOAST PAYOUT",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-d7b4f43b86d353f6"
+        },
+        {
+          "account_id": "acct-juniper-chk",
+          "amount": "-1919.79",
+          "date": "2026-07-31",
+          "iso_currency_code": "USD",
+          "name": "SQUARE INC SETTLEMENT",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-5c54f6a088db555c"
+        },
+        {
+          "account_id": "acct-juniper-chk",
+          "amount": "519.25",
+          "date": "2026-07-31",
+          "iso_currency_code": "USD",
+          "name": "GREEN VALLEY PRODUCE",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-7efb9a3eaa485baf"
+        }
+      ],
+      "cursor": "cursor-juniper-kitchen-4",
+      "has_more": true,
+      "modified": [],
+      "next_cursor": "cursor-juniper-kitchen-5",
+      "removed": []
+    },
+    {
+      "added": [
+        {
+          "account_id": "acct-juniper-chk",
+          "amount": "4200.00",
+          "date": "2026-08-01",
+          "iso_currency_code": "USD",
+          "name": "RIVERSIDE PROPERTIES RENT",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-53c8a87504085fed"
+        },
+        {
+          "account_id": "acct-juniper-chk",
+          "amount": "-1989.17",
+          "date": "2026-08-01",
+          "iso_currency_code": "USD",
+          "name": "SQUARE INC SETTLEMENT",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-ab99746f6c455a94"
+        },
+        {
+          "account_id": "acct-juniper-chk",
+          "amount": "-2484.83",
+          "date": "2026-08-02",
+          "iso_currency_code": "USD",
+          "name": "TOAST PAYOUT",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-4ccaf2576724543a"
+        },
+        {
+          "account_id": "acct-juniper-chk",
+          "amount": "165.00",
+          "date": "2026-08-03",
+          "iso_currency_code": "USD",
+          "name": "TOAST POS SUBSCRIPTION",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-242dc85e7ca356cf"
+        },
+        {
+          "account_id": "acct-juniper-chk",
+          "amount": "1363.32",
+          "date": "2026-08-03",
+          "iso_currency_code": "USD",
+          "name": "SYSCO CORP ACH DEBIT",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-9cdde64753ff5b23"
+        },
+        {
+          "account_id": "acct-juniper-chk",
+          "amount": "-1656.95",
+          "date": "2026-08-04",
+          "iso_currency_code": "USD",
+          "name": "TOAST PAYOUT",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-48fa17dce7e3573a"
+        },
+        {
+          "account_id": "acct-juniper-chk",
+          "amount": "-1271.96",
+          "date": "2026-08-05",
+          "iso_currency_code": "USD",
+          "name": "SQUARE INC SETTLEMENT",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-19b5e4c2461f5c5a"
+        },
+        {
+          "account_id": "acct-juniper-chk",
+          "amount": "1670.44",
+          "date": "2026-08-06",
+          "iso_currency_code": "USD",
+          "name": "SYSCO CORP ACH DEBIT",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-0a9dec4f093f5e4c"
+        },
+        {
+          "account_id": "acct-juniper-chk",
+          "amount": "885.08",
+          "date": "2026-08-06",
+          "iso_currency_code": "USD",
+          "name": "US FOODS INC",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-82d5b18c27b154ab"
+        },
+        {
+          "account_id": "acct-juniper-chk",
+          "amount": "-1663.71",
+          "date": "2026-08-06",
+          "iso_currency_code": "USD",
+          "name": "TOAST PAYOUT",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-e36c1a7472775fd6"
+        },
+        {
+          "account_id": "acct-juniper-chk",
+          "amount": "-2168.96",
+          "date": "2026-08-07",
+          "iso_currency_code": "USD",
+          "name": "SQUARE INC SETTLEMENT",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-663b83fea6075609"
+        },
+        {
+          "account_id": "acct-juniper-chk",
+          "amount": "377.38",
+          "date": "2026-08-07",
+          "iso_currency_code": "USD",
+          "name": "GREEN VALLEY PRODUCE",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-9d1811c6ee955be3"
+        },
+        {
+          "account_id": "acct-juniper-chk",
+          "amount": "8996.42",
+          "date": "2026-08-07",
+          "iso_currency_code": "USD",
+          "name": "GUSTO PAYROLL",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-9d83df38328b580b"
+        },
+        {
+          "account_id": "acct-juniper-chk",
+          "amount": "410.00",
+          "date": "2026-08-08",
+          "iso_currency_code": "USD",
+          "name": "HARTFORD INSURANCE",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-4599222dc56d5b1f"
+        },
+        {
+          "account_id": "acct-juniper-chk",
+          "amount": "-2482.19",
+          "date": "2026-08-08",
+          "iso_currency_code": "USD",
+          "name": "TOAST PAYOUT",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-7bc13b4a339b5e37"
+        },
+        {
+          "account_id": "acct-juniper-chk",
+          "amount": "-2285.79",
+          "date": "2026-08-09",
+          "iso_currency_code": "USD",
+          "name": "SQUARE INC SETTLEMENT",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-0f0d65aa906a50ea"
+        },
+        {
+          "account_id": "acct-juniper-chk",
+          "amount": "1292.70",
+          "date": "2026-08-10",
+          "iso_currency_code": "USD",
+          "name": "SYSCO CORP ACH DEBIT",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-76c35a3884d05bfc"
+        },
+        {
+          "account_id": "acct-juniper-chk",
+          "amount": "-1319.39",
+          "date": "2026-08-11",
+          "iso_currency_code": "USD",
+          "name": "SQUARE INC SETTLEMENT",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-600f3ed5acef58e3"
+        },
+        {
+          "account_id": "acct-juniper-chk",
+          "amount": "520.78",
+          "date": "2026-08-12",
+          "iso_currency_code": "USD",
+          "name": "PACIFIC GAS AND ELECTRIC",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-3c81fb78c84b5aea"
+        },
+        {
+          "account_id": "acct-juniper-chk",
+          "amount": "-1872.99",
+          "date": "2026-08-12",
+          "iso_currency_code": "USD",
+          "name": "TOAST PAYOUT",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-a8ad2bb626d554c4"
+        },
+        {
+          "account_id": "acct-juniper-chk",
+          "amount": "-1649.40",
+          "date": "2026-08-13",
+          "iso_currency_code": "USD",
+          "name": "SQUARE INC SETTLEMENT",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-40640d8952bd5539"
+        },
+        {
+          "account_id": "acct-juniper-chk",
+          "amount": "684.21",
+          "date": "2026-08-13",
+          "iso_currency_code": "USD",
+          "name": "US FOODS INC",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-86a3da75765952ac"
+        },
+        {
+          "account_id": "acct-juniper-chk",
+          "amount": "1515.78",
+          "date": "2026-08-13",
+          "iso_currency_code": "USD",
+          "name": "SYSCO CORP ACH DEBIT",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-db5f4ea136665a20"
+        },
+        {
+          "account_id": "acct-juniper-chk",
+          "amount": "-1740.59",
+          "date": "2026-08-14",
+          "iso_currency_code": "USD",
+          "name": "TOAST PAYOUT",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-233cfdfb567c5f14"
+        },
+        {
+          "account_id": "acct-juniper-chk",
+          "amount": "280.06",
+          "date": "2026-08-14",
+          "iso_currency_code": "USD",
+          "name": "GREEN VALLEY PRODUCE",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-eda79d865a685f27"
+        },
+        {
+          "account_id": "acct-juniper-chk",
+          "amount": "97.84",
+          "date": "2026-08-15",
+          "iso_currency_code": "USD",
+          "name": "CITY WATER UTILITY",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-0de5aeac8a785575"
+        },
+        {
+          "account_id": "acct-juniper-chk",
+          "amount": "-1664.33",
+          "date": "2026-08-15",
+          "iso_currency_code": "USD",
+          "name": "SQUARE INC SETTLEMENT",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-214fb00f0d775da7"
+        },
+        {
+          "account_id": "acct-juniper-chk",
+          "amount": "-2553.97",
+          "date": "2026-08-16",
+          "iso_currency_code": "USD",
+          "name": "TOAST PAYOUT",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-9121169ecc93553b"
+        },
+        {
+          "account_id": "acct-juniper-chk",
+          "amount": "1851.14",
+          "date": "2026-08-17",
+          "iso_currency_code": "USD",
+          "name": "SYSCO CORP ACH DEBIT",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-ff758875ae665cea"
+        },
+        {
+          "account_id": "acct-juniper-chk",
+          "amount": "-1148.35",
+          "date": "2026-08-18",
+          "iso_currency_code": "USD",
+          "name": "TOAST PAYOUT",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-5889a9c418d956a3"
+        },
+        {
+          "account_id": "acct-juniper-chk",
+          "amount": "-1215.68",
+          "date": "2026-08-19",
+          "iso_currency_code": "USD",
+          "name": "SQUARE INC SETTLEMENT",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-8803274147f250f7"
+        },
+        {
+          "account_id": "acct-juniper-chk",
+          "amount": "1232.12",
+          "date": "2026-08-20",
+          "iso_currency_code": "USD",
+          "name": "SYSCO CORP ACH DEBIT",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-1ef213f5bc3555a2"
+        },
+        {
+          "account_id": "acct-juniper-chk",
+          "amount": "748.66",
+          "date": "2026-08-20",
+          "iso_currency_code": "USD",
+          "name": "US FOODS INC",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-6d9dbc9e609d59be"
+        },
+        {
+          "account_id": "acct-juniper-chk",
+          "amount": "-1878.91",
+          "date": "2026-08-20",
+          "iso_currency_code": "USD",
+          "name": "TOAST PAYOUT",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-b436e531856c5b21"
+        },
+        {
+          "account_id": "acct-juniper-chk",
+          "amount": "731.00",
+          "date": "2026-08-21",
+          "iso_currency_code": "USD",
+          "name": "SBA LOAN PAYMENT",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-3a698e2d5aa75106"
+        },
+        {
+          "account_id": "acct-juniper-chk",
+          "amount": "502.69",
+          "date": "2026-08-21",
+          "iso_currency_code": "USD",
+          "name": "GREEN VALLEY PRODUCE",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-ce72d01284e5561e"
+        },
+        {
+          "account_id": "acct-juniper-chk",
+          "amount": "-1772.77",
+          "date": "2026-08-21",
+          "iso_currency_code": "USD",
+          "name": "SQUARE INC SETTLEMENT",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-d19c0782e0ca5ab0"
+        },
+        {
+          "account_id": "acct-juniper-chk",
+          "amount": "8194.73",
+          "date": "2026-08-21",
+          "iso_currency_code": "USD",
+          "name": "GUSTO PAYROLL",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-fb260f6fcea45da0"
+        },
+        {
+          "account_id": "acct-juniper-chk",
+          "amount": "-2300.46",
+          "date": "2026-08-22",
+          "iso_currency_code": "USD",
+          "name": "TOAST PAYOUT",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-a439baca62ec5932"
+        },
+        {
+          "account_id": "acct-juniper-chk",
+          "amount": "-1433.91",
+          "date": "2026-08-23",
+          "iso_currency_code": "USD",
+          "name": "SQUARE INC SETTLEMENT",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-88daaa9ee312573a"
+        },
+        {
+          "account_id": "acct-juniper-chk",
+          "amount": "909.78",
+          "date": "2026-08-24",
+          "iso_currency_code": "USD",
+          "name": "SYSCO CORP ACH DEBIT",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-e3254d837dd4512c"
+        },
+        {
+          "account_id": "acct-juniper-chk",
+          "amount": "-1888.77",
+          "date": "2026-08-25",
+          "iso_currency_code": "USD",
+          "name": "SQUARE INC SETTLEMENT",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-056965b03fc25d73"
+        },
+        {
+          "account_id": "acct-juniper-chk",
+          "amount": "-1712.23",
+          "date": "2026-08-26",
+          "iso_currency_code": "USD",
+          "name": "TOAST PAYOUT",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-9a8ebdd3542c5030"
+        },
+        {
+          "account_id": "acct-juniper-chk",
+          "amount": "1157.42",
+          "date": "2026-08-27",
+          "iso_currency_code": "USD",
+          "name": "US FOODS INC",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-4e56b257631b52b4"
+        },
+        {
+          "account_id": "acct-juniper-chk",
+          "amount": "-410.00",
+          "date": "2026-08-27",
+          "iso_currency_code": "USD",
+          "name": "DOORDASH PAYOUT",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-779dba1930e35124"
+        },
+        {
+          "account_id": "acct-juniper-chk",
+          "amount": "-1329.50",
+          "date": "2026-08-27",
+          "iso_currency_code": "USD",
+          "name": "SQUARE INC SETTLEMENT",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-84a53f65f79955e6"
+        },
+        {
+          "account_id": "acct-juniper-chk",
+          "amount": "1521.38",
+          "date": "2026-08-27",
+          "iso_currency_code": "USD",
+          "name": "SYSCO CORP ACH DEBIT",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-f4d2712c5f0f51b2"
+        },
+        {
+          "account_id": "acct-juniper-chk",
+          "amount": "583.31",
+          "date": "2026-08-28",
+          "iso_currency_code": "USD",
+          "name": "GREEN VALLEY PRODUCE",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-3d3f6469992b54c3"
+        },
+        {
+          "account_id": "acct-juniper-chk",
+          "amount": "-1690.37",
+          "date": "2026-08-28",
+          "iso_currency_code": "USD",
+          "name": "TOAST PAYOUT",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-ee11d3ef768c5cf1"
+        },
+        {
+          "account_id": "acct-juniper-chk",
+          "amount": "-1504.12",
+          "date": "2026-08-29",
+          "iso_currency_code": "USD",
+          "name": "SQUARE INC SETTLEMENT",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-2dd40b456ac15a24"
+        },
+        {
+          "account_id": "acct-juniper-chk",
+          "amount": "1420.00",
+          "date": "2026-08-29",
+          "iso_currency_code": "USD",
+          "name": "SYSCO CORP ACH DEBIT",
+          "pending": true,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-63cdb4419fab53ce"
+        },
+        {
+          "account_id": "acct-juniper-chk",
+          "amount": "-2282.28",
+          "date": "2026-08-30",
+          "iso_currency_code": "USD",
+          "name": "TOAST PAYOUT",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-97a6895f64505cce"
+        },
+        {
+          "account_id": "acct-juniper-chk",
+          "amount": "85.00",
+          "date": "2026-08-31",
+          "iso_currency_code": "USD",
+          "name": "CARD AUTHORIZATION RESTAURANT DEPOT",
+          "pending": true,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-02de26f1915851a6"
+        },
+        {
+          "account_id": "acct-juniper-sav",
+          "amount": "-12.50",
+          "date": "2026-08-31",
+          "iso_currency_code": "USD",
+          "name": "INTEREST PAYMENT",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-31f548e017915268"
+        },
+        {
+          "account_id": "acct-juniper-chk",
+          "amount": "1045.27",
+          "date": "2026-08-31",
+          "iso_currency_code": "USD",
+          "name": "SYSCO CORP ACH DEBIT",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-e19d274c8d8e5f8a"
+        }
+      ],
+      "cursor": "cursor-juniper-kitchen-5",
+      "has_more": true,
+      "modified": [],
+      "next_cursor": "cursor-juniper-kitchen-6",
+      "removed": []
+    },
+    {
+      "added": [
+        {
+          "account_id": "acct-juniper-chk",
+          "amount": "1436.50",
+          "date": "2026-08-30",
+          "iso_currency_code": "USD",
+          "name": "SYSCO CORP ACH DEBIT",
+          "pending": false,
+          "pending_transaction_id": "tx-63cdb4419fab53ce",
+          "transaction_id": "tx-655712af81055b28"
+        }
+      ],
+      "cursor": "cursor-juniper-kitchen-6",
+      "has_more": false,
+      "modified": [
+        {
+          "account_id": "acct-juniper-chk",
+          "amount": "-1480.58",
+          "date": "2026-07-01",
+          "iso_currency_code": "USD",
+          "name": "SQUARE INC SETTLEMENT - MERCHANT VERIFIED",
+          "pending": false,
+          "pending_transaction_id": null,
+          "transaction_id": "tx-2a8da3fe525b55e1"
+        }
+      ],
+      "next_cursor": "cursor-juniper-kitchen-7",
+      "removed": [
+        {
+          "transaction_id": "tx-779dba1930e35124"
+        },
+        {
+          "transaction_id": "tx-63cdb4419fab53ce"
+        }
+      ]
+    }
+  ],
+  "provider": "synthetic",
+  "seed": 20260902,
+  "sign_convention": "positive amount = money leaving the account (Plaid style)"
+}

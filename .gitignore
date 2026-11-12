@@ -1,0 +1,133 @@
+# CashLens .gitignore
+# Patterns without a leading slash apply at any depth.
+# Secrets, real financial material, private AI payloads and local-only state
+# must never be tracked. Lockfiles and portable editor settings are tracked.
+
+# ---- Environment secret files (any depth); sanitized examples stay tracked ----
+.env
+.env.*
+!.env.example
+*.env
+
+# ---- Node dependencies ----
+node_modules/
+.pnp
+.pnp.js
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/versions
+
+# ---- Python environments and caches ----
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.hypothesis/
+.tox/
+.nox/
+.ipynb_checkpoints/
+
+# ---- Builds and generated output ----
+.next/
+out/
+dist/
+build/
+.turbo/
+*.tsbuildinfo
+.eslintcache
+storybook-static/
+
+# ---- Test coverage and reports ----
+coverage/
+.coverage
+.coverage.*
+htmlcov/
+.nyc_output/
+test-results/
+playwright-report/
+blob-report/
+
+# ---- Logs ----
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# ---- Local deployment and provider metadata ----
+.vercel/
+.serverless/
+.supabase/
+supabase/.temp/
+supabase/.branches/
+
+# ---- Real uploads, extracted financial records, private AI payloads ----
+# Convention: everything private for local development lives under /local-data.
+# The remaining names are defense in depth at any depth of the tree.
+/local-data/
+uploads/
+local-uploads/
+private-uploads/
+private-data/
+statements-private/
+ai-payloads/
+ai_payloads/
+model-payloads/
+private-traces/
+*.private.*
+*-private.*
+*.payload.json
+*.payload.jsonl
+
+# ---- Temporary extraction and scratch files ----
+tmp/
+.tmp/
+/temp/
+/extract/
+/extracted/
+/scratch/
+*.tmp
+*.bak
+*.orig
+*.rej
+
+# ---- Editor and OS files ----
+.DS_Store
+.AppleDouble
+Thumbs.db
+Desktop.ini
+*.swp
+*.swo
+*~
+.idea/
+*.iml
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+!.vscode/launch.json
+!.vscode/tasks.json
+
+# ---- Claude Code personal settings (shared .claude/settings.json may be tracked) ----
+.claude/*
+!.claude/settings.json
+CLAUDE.local.md
+CLAUDE.md
+/SETUP-PROMPT.txt
+
+# ---- Lockfiles are tracked on purpose (nothing above ignores them) ----
+!package-lock.json
+!pnpm-lock.yaml
+!yarn.lock
+!uv.lock
+!poetry.lock
+!Pipfile.lock
+/.mcp.json

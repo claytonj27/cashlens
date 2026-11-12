@@ -1,0 +1,19 @@
+sequenceDiagram
+    participant U as Owner UI
+    participant A as FastAPI
+    participant M as OpenAI
+    participant D as Postgres
+    participant C as Calculator
+    U->>A: What if receipts arrive three days late?
+    A->>D: Load authorized workspace and snapshot
+    D-->>A: Facts and labeled assumptions
+    A->>M: Question and allowed tool schemas
+    M-->>A: Proposed scenario parameters
+    A->>A: Validate dates, scope and limits
+    A->>C: Execute scenario
+    C-->>A: Daily balances and evidence IDs
+    A->>D: Persist scenario and tool trace
+    A->>M: Explain computed results
+    M-->>A: Structured explanation
+    A->>A: Validate claims and evidence
+    A-->>U: Comparison, assumptions and sources

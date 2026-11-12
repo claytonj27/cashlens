@@ -1,0 +1,8 @@
+erDiagram
+    VISITORS ||--o{ ASSIGNMENTS : receives
+    EXPERIMENTS ||--o{ ASSIGNMENTS : allocates
+    ASSIGNMENTS ||--o{ ANALYTICS_EVENTS : attributes
+    BUSINESSES ||--o{ ANALYTICS_EVENTS : contextualizes
+    VISITORS ||--o{ WORKSPACES : owns
+    WORKSPACES ||--o{ AI_RUNS : scopes
+    AI_RUNS ||--o{ TOOL_CALLS : records

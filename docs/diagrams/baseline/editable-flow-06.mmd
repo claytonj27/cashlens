@@ -1,0 +1,12 @@
+erDiagram
+    BUSINESSES ||--o{ ACCOUNTS : owns
+    ACCOUNTS ||--o{ TRANSACTIONS : contains
+    ACCOUNTS ||--o{ BALANCE_SNAPSHOTS : records
+    TRANSACTIONS ||--o{ CLASSIFICATIONS : versions
+    BUSINESSES ||--o{ WORKSPACES : seeds
+    WORKSPACES ||--o{ OVERRIDES : stores
+    TRANSACTIONS ||--o{ OVERRIDES : receives
+    WORKSPACES ||--o{ ASSUMPTIONS : owns
+    WORKSPACES ||--o{ FINANCIAL_SNAPSHOTS : produces
+    FINANCIAL_SNAPSHOTS ||--o{ SCENARIOS : anchors
+    FINANCIAL_SNAPSHOTS ||--o{ INSIGHTS : supports

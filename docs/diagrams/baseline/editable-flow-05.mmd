@@ -1,0 +1,12 @@
+flowchart TD
+    A["Visitor and experiment version"] --> B["Persist random assignment"]
+    B --> C["A: Cash outlook first"]
+    B --> D["B: Business insights first"]
+    C --> E["Record overview exposure"]
+    D --> E
+    E --> F["Track visibility and interactions"]
+    F --> G["Validate and deduplicate events"]
+    G --> H{"Real eligible activity?"}
+    H -->|Yes| I["Aggregate mature observation windows"]
+    H -->|No| J["Separate preview and simulation records"]
+    I --> K["Report engagement and uncertainty"]
